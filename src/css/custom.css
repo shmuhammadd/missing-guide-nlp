@@ -1,0 +1,66 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Customize variables to taste; the
+ * goal is calm, readable typography that befits a writing guide.
+ */
+
+:root {
+  --ifm-color-primary: #2e4a7d;
+  --ifm-color-primary-dark: #29447180;
+  --ifm-color-primary-darker: #273f6a;
+  --ifm-color-primary-darkest: #203358;
+  --ifm-color-primary-light: #335289;
+  --ifm-color-primary-lighter: #365690;
+  --ifm-color-primary-lightest: #3d619e;
+
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --ifm-font-family-monospace: "JetBrains Mono", "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --ifm-heading-font-weight: 600;
+  --ifm-line-height-base: 1.7;
+  --ifm-code-font-size: 90%;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+}
+
+/* Dark mode tuning */
+[data-theme='dark'] {
+  --ifm-color-primary: #8aa9d4;
+  --ifm-color-primary-dark: #6b91c5;
+  --ifm-color-primary-darker: #5c85bf;
+  --ifm-color-primary-darkest: #426cab;
+  --ifm-color-primary-light: #a9c1de;
+  --ifm-color-primary-lighter: #b7cce4;
+  --ifm-color-primary-lightest: #d8e3f0;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+/* Slightly tighter line length for readability on wide screens */
+article {
+  max-width: 720px;
+}
+
+/* Make blockquotes feel like the editorial asides they are */
+blockquote {
+  border-left: 3px solid var(--ifm-color-primary);
+  font-style: italic;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Better table spacing */
+table {
+  display: table;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+table th {
+  font-weight: 600;
+  background: var(--ifm-color-emphasis-100);
+}
+
+/* Tighten the "Further reading" lists at the bottom of chapters */
+h2 + ul {
+  margin-top: 0.5rem;
+}

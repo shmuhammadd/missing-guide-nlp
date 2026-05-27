@@ -1,0 +1,192 @@
+# Structured examples database for The Missing Guide.
+#
+# Each entry is a real paper cited as an example in a chapter. This file is
+# the single source of truth — the per-chapter markdown files reference it,
+# and tools (like the MkDocs site) can render example cards from it.
+#
+# Schema:
+#   chapter: short slug of the chapter (e.g. "abstract", "title")
+#   paper: full paper title
+#   authors: comma-separated authors (use "et al." for >3)
+#   venue: short venue + year (e.g. "NAACL 2019", "EMNLP 2020")
+#   anthology_url: ACL Anthology URL if available, else other stable URL, else null
+#   exemplifies: one-sentence statement of what this paper does well
+#   notes: optional longer commentary
+#
+# When adding entries, keep alphabetical by chapter, then by year. Verify
+# the URL resolves and the authors are correct against the Anthology.
+
+- chapter: title
+  paper: "Attention Is All You Need"
+  authors: "Vaswani et al."
+  venue: "NeurIPS 2017"
+  anthology_url: null
+  exemplifies: "Claim as title — the canonical example of an assertive title the paper actually delivers on."
+
+- chapter: title
+  paper: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+  authors: "Devlin, Chang, Lee, Toutanova"
+  venue: "NAACL 2019"
+  anthology_url: "https://aclanthology.org/N19-1423/"
+  exemplifies: "Acronym + precise scope. The colon-separated structure has become a genre convention partly because of this paper."
+
+- chapter: title
+  paper: "GloVe: Global Vectors for Word Representation"
+  authors: "Pennington, Socher, Manning"
+  venue: "EMNLP 2014"
+  anthology_url: "https://aclanthology.org/D14-1162/"
+  exemplifies: "Short name, precise expansion. ACL Test-of-Time 2024."
+
+- chapter: title
+  paper: "Mission: Impossible Language Models"
+  authors: "Kallini, Papadimitriou, Futrell, Mahowald, Potts"
+  venue: "ACL 2024"
+  anthology_url: null
+  exemplifies: "Hook that pays off in the abstract. ACL 2024 Best Paper."
+
+- chapter: title
+  paper: "With Little Power Comes Great Responsibility"
+  authors: "Card et al."
+  venue: "EMNLP 2020"
+  anthology_url: "https://aclanthology.org/2020.emnlp-main.745/"
+  exemplifies: "Playful, but the title actually tells you the topic (statistical power)."
+
+- chapter: abstract
+  paper: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+  authors: "Devlin et al."
+  venue: "NAACL 2019"
+  anthology_url: "https://aclanthology.org/N19-1423/"
+  exemplifies: "Five-move abstract: context, move, method, result, implication. Specific numbers throughout."
+
+- chapter: abstract
+  paper: "Attention Is All You Need"
+  authors: "Vaswani et al."
+  venue: "NeurIPS 2017"
+  anthology_url: null
+  exemplifies: "Two sentences of context, one sentence of move, then concrete BLEU numbers. No filler."
+
+- chapter: abstract
+  paper: "With Little Power Comes Great Responsibility"
+  authors: "Card et al."
+  venue: "EMNLP 2020"
+  anthology_url: "https://aclanthology.org/2020.emnlp-main.745/"
+  exemplifies: "Opens with the gap, not the field. First sentence does the work of three."
+
+- chapter: abstract
+  paper: "GloVe: Global Vectors for Word Representation"
+  authors: "Pennington et al."
+  venue: "EMNLP 2014"
+  anthology_url: "https://aclanthology.org/D14-1162/"
+  exemplifies: "Positions itself against two prior families of methods, then states what it captures that they miss."
+
+- chapter: abstract
+  paper: "Mission: Impossible Language Models"
+  authors: "Kallini et al."
+  venue: "ACL 2024"
+  anthology_url: null
+  exemplifies: "Abstract reads like the puzzle it solves: setup, hypothesis, experiment, finding."
+
+- chapter: introduction
+  paper: "BERT"
+  authors: "Devlin et al."
+  venue: "NAACL 2019"
+  anthology_url: "https://aclanthology.org/N19-1423/"
+  exemplifies: "Contributions list at the end of §1 is a textbook example — each bullet is precise and verifiable."
+
+- chapter: introduction
+  paper: "Don't Stop Pretraining"
+  authors: "Gururangan et al."
+  venue: "ACL 2020"
+  anthology_url: "https://aclanthology.org/2020.acl-main.740/"
+  exemplifies: "The intro tells you exactly what experiment you are about to read and what it found."
+
+- chapter: introduction
+  paper: "Linguistic Knowledge and Transferability of Contextual Representations"
+  authors: "Liu et al."
+  venue: "NAACL 2019"
+  anthology_url: "https://aclanthology.org/N19-1112/"
+  exemplifies: "Clean five-paragraph structure with a sharp research question."
+
+- chapter: introduction
+  paper: "On the Dangers of Stochastic Parrots"
+  authors: "Bender, Gebru, McMillan-Major, Mitchell"
+  venue: "FAccT 2021"
+  anthology_url: null
+  exemplifies: "Field-defining problem framing. Studied in graduate seminars."
+
+- chapter: introduction
+  paper: "Stanza: A Python NLP Toolkit for Many Human Languages"
+  authors: "Qi et al."
+  venue: "ACL 2020 Demo"
+  anthology_url: "https://aclanthology.org/2020.acl-demos.14/"
+  exemplifies: "A resource paper that motivates itself in two paragraphs without overclaiming."
+
+- chapter: methods
+  paper: "Attention Is All You Need"
+  authors: "Vaswani et al."
+  venue: "NeurIPS 2017"
+  anthology_url: null
+  exemplifies: "Section 3 is a masterclass: high-level architecture, then encoder, decoder, attention, position. Every subsection has a clear purpose."
+
+- chapter: methods
+  paper: "BERT"
+  authors: "Devlin et al."
+  venue: "NAACL 2019"
+  anthology_url: "https://aclanthology.org/N19-1423/"
+  exemplifies: "Two pretraining objectives, each with a small figure and a clear why-this-matters paragraph."
+
+- chapter: methods
+  paper: "Get To The Point: Summarization with Pointer-Generator Networks"
+  authors: "See, Liu, Manning"
+  venue: "ACL 2017"
+  anthology_url: "https://aclanthology.org/P17-1099/"
+  exemplifies: "Builds the model layer by layer; the diagram does enormous work."
+
+- chapter: methods
+  paper: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+  authors: "Wei et al."
+  venue: "NeurIPS 2022"
+  anthology_url: null
+  exemplifies: "The method is conceptually simple, and the paper has the discipline to present it simply rather than dressing it up."
+
+- chapter: limitations
+  paper: "Mission: Impossible Language Models"
+  authors: "Kallini et al."
+  venue: "ACL 2024"
+  anthology_url: null
+  exemplifies: "Names exactly what the experimental design cannot tell us. ACL 2024 Best Paper."
+
+- chapter: limitations
+  paper: "OLMo: Accelerating the Science of Language Models"
+  authors: "Groeneveld et al."
+  venue: "ACL 2024"
+  anthology_url: null
+  exemplifies: "Limitations on data and resources stated clearly for a large-scale resource paper."
+
+- chapter: limitations
+  paper: "Reading Subtext: Evaluating LLMs on Short Story Summarization with Writers"
+  authors: "Subbiah, Zhang, Chilton, McKeown"
+  venue: "TACL 2024 / ACL 2025"
+  anthology_url: null
+  exemplifies: "Names limitations of human evaluation honestly. ACL 2025 Best Paper."
+
+- chapter: analysis
+  paper: "Probing Neural Network Comprehension of Natural Language Arguments"
+  authors: "Niven, Kao"
+  venue: "ACL 2019"
+  anthology_url: "https://aclanthology.org/P19-1459/"
+  exemplifies: "A whole paper that is essentially analysis — and it changed how the field interpreted a prior result."
+
+- chapter: analysis
+  paper: "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList"
+  authors: "Ribeiro et al."
+  venue: "ACL 2020"
+  anthology_url: "https://aclanthology.org/2020.acl-main.442/"
+  exemplifies: "Analysis as the contribution itself. ACL 2020 Best Paper."
+
+- chapter: analysis
+  paper: "What Does BERT Look At?"
+  authors: "Clark, Khandelwal, Levy, Manning"
+  venue: "BlackBoxNLP 2019"
+  anthology_url: null
+  exemplifies: "Analysis through attention visualization done carefully."

@@ -1,0 +1,23 @@
+name: Link check
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+      - '**.yaml'
+      - '**.yml'
+  schedule:
+    # Weekly link check to catch link rot — ACL Anthology and conference sites
+    # do occasionally restructure.
+    - cron: '0 9 * * 1'
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --max-concurrency 4 './**/*.md'
+          fail: true
