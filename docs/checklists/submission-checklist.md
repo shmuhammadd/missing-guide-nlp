@@ -62,4 +62,4 @@ That is where you have more work to do.
 
 ---
 
-*Part of [The Missing Guide for *ACL First Authors](/).*
+*Part of [The Missing NLP Paper Guide](/).*

@@ -5,7 +5,7 @@ sidebar_position: 0
 hide_title: true
 ---
 
-# The Missing Guide for \*ACL First Authors
+# The Missing NLP Paper Guide
 
 **The class nobody teaches you: how to actually write your first paper for ACL, EMNLP, NAACL, EACL, and the rest of the \*ACL family.**
 

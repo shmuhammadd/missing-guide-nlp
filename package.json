@@ -2,7 +2,7 @@
   "name": "missing-guide-nlp",
   "version": "2026.0.0",
   "private": true,
-  "description": "The Missing Guide for *ACL First Authors — the class nobody teaches you about writing your first paper for ACL, EMNLP, NAACL.",
+  "description": "The Missing NLP Paper Guide — the class nobody teaches you about writing your first paper for ACL, EMNLP, NAACL.",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

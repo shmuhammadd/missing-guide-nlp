@@ -1,6 +1,6 @@
 <div align="center">
 
-# The Missing Guide for *ACL First Authors
+# The Missing NLP Paper Guide
 
 **The class nobody teaches you: how to actually write your first paper for ACL, EMNLP, NAACL, EACL, and the rest of the \*ACL family.**
 
@@ -97,8 +97,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [STYLE.md](STYLE.md). We particularly
 
 ```bibtex
 @misc{missing_guide_acl_2026,
-  title  = {The Missing Guide for *ACL First Authors},
-  author = {{Contributors to The Missing Guide}},
+  title  = {The Missing NLP Paper Guide},
+  author = {{Contributors to The Missing NLP Paper Guide}},
   year   = {2026},
   url    = {https://github.com/shmuhammadd/missing-guide-nlp},
   note   = {Version 2026.1}

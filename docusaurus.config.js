@@ -7,8 +7,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'The Missing Guide for *ACL First Authors',
-  tagline: 'The class nobody teaches you about writing your first paper for ACL, EMNLP, NAACL.',
+  title: 'The Missing NLP Paper Guide',
+  tagline: 'The class nobody teaches you about writing your first *ACL paper — ACL, EMNLP, and NAACL.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,9 +68,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'The Missing Guide',
+        title: 'The Missing NLP Paper Guide',
         logo: {
-          alt: 'The Missing Guide logo',
+          alt: 'The Missing NLP Paper Guide logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -143,7 +143,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} The Missing Guide Contributors. CC BY 4.0. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The Missing NLP Paper Guide Contributors. CC BY 4.0. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

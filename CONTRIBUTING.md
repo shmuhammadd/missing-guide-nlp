@@ -1,4 +1,4 @@
-# Contributing to The Missing Guide
+# Contributing to The Missing NLP Paper Guide
 
 Thanks for considering a contribution. This guide is better when more experienced authors share what they have learned. Below are the rules — they exist because a community resource only stays useful if it stays principled.
 

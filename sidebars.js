@@ -1,7 +1,7 @@
 // @ts-check
 
 /**
- * Sidebar for The Missing Guide for *ACL First Authors.
+ * Sidebar for The Missing NLP Paper Guide.
  *
  * Docusaurus strips numeric prefixes (e.g. "01-") from document IDs by default,
  * so the chapter at chapters/01-framing.md has the doc ID "chapters/framing".
