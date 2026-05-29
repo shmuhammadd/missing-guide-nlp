@@ -3,7 +3,7 @@ sidebar_position: 4
 title: "4. The Abstract"
 ---
 
-The abstract is read by ten times more people than the paper. It is also the first thing reviewers see, and many reviewers form a preliminary judgment from it before reading anything else. Spend disproportionate effort here.
+The abstract is read by far more people than the rest of the paper — most of the field will read it and nothing else. It is also the first thing reviewers see, and many form a preliminary judgment from it before reading anything else. Spend disproportionate effort here.
 
 ## The five-move abstract
 
