@@ -25,13 +25,16 @@ The five subsections below mirror the five paragraphs above. Each lists verbatim
 
 **These are patterns to internalise, not templates to fill in word-for-word.** Lifting a phrase verbatim is plagiarism; absorbing the rhetorical move — "the human-vs-model contrast opener," "the *however*-plus-enumerated-failures gap," "the contributions list framed as deliverables" — and writing your own version is craft. Read a subsection, name the underlying move, close the page, then write. The italic glosses describe the move; the quotes are evidence that it works in real published papers. Inline citations have been elided from the quotes for readability.
 
-### Paragraph 1 — Opening the paper (setting the scene)
+Under each paragraph below, two examples sit in the open so you can skim the move at a glance; expand **Show more** for the rest.
 
-<details>
-<summary>**Show 18 examples**</summary>
+### Paragraph 1 — Opening the paper (setting the scene)
 
 - "Language model pre-training has been shown to be effective for improving many natural language processing tasks." — Flat, factual opener: states what the field already has, no hype. *[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)* (Devlin et al., NAACL 2019)
 - "Recurrent neural networks, long short-term memory and gated recurrent neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as language modeling and machine translation." — Opens by naming the incumbent paradigm it intends to displace. *[Attention Is All You Need](https://arxiv.org/abs/1706.03762)* (Vaswani et al., NeurIPS 2017)
+
+<details>
+<summary>**Show 16 more**</summary>
+
 - "The human ability to understand language is general, flexible, and robust. In contrast, most NLU models above the word level are designed for a specific task and struggle with out-of-domain data." — Human-vs-model contrast in the first two sentences sets up the entire motivation. *[GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://aclanthology.org/W18-5446/)* (Wang et al., EMNLP Workshop 2018)
 - "A unique feature of human intelligence is the ability to seamlessly combine task-oriented actions with verbal reasoning." — Opens from cognitive science to motivate a machine-learning method. *[ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)* (Yao et al., ICLR 2023)
 - "The semantic concepts of entailment and contradiction are central to all aspects of natural language meaning, from the lexicon to the content of entire texts." — Asserts the importance of the phenomenon before introducing the dataset. *[A large annotated corpus for learning natural language inference](https://aclanthology.org/D15-1075/)* (Bowman et al., EMNLP 2015)
@@ -53,11 +56,12 @@ The five subsections below mirror the five paragraphs above. Each lists verbatim
 
 ### Paragraph 2 — The gap (and the research question)
 
-<details>
-<summary>**Show 19 examples**</summary>
-
 - "The fundamental constraint of sequential computation, however, remains." — Names the single core limitation in one short sentence. *[Attention Is All You Need](https://arxiv.org/abs/1706.03762)* (Vaswani et al., NeurIPS 2017)
 - "Training is computationally expensive, limiting the amount of tuning that can be done, and is often done with private training data of varying sizes, limiting our ability to measure the effects of the modeling advances." — Gap framed as a measurement problem, not a quality complaint. *[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)* (Liu et al., 2019)
+
+<details>
+<summary>**Show 17 more**</summary>
+
 - "While more effective than conventional language-model pre-training due to learning bidirectional representations, these masked language modeling (MLM) approaches incur a substantial compute cost because the network only learns from 15% of the tokens per example." — "While X, Y" concession-pivot that quantifies the inefficiency. *[ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555)* (Clark et al., ICLR 2020)
 - "However, a major limitation to this approach is that while the architecture is task-agnostic, there is still a need for task-specific datasets and task-specific fine-tuning." — Classic "However, a major limitation…" naming the precise dependency. *[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)* (Brown et al., NeurIPS 2020)
 - "The rapid rate of progress and diversity of techniques in this burgeoning field can make it difficult to compare different algorithms, tease apart the effects of new contributions, and understand the space of existing methods for transfer learning." — Gap as field-level confusion, motivating a systematic survey-experiment. *[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)* (Raffel et al., JMLR 2020)
@@ -80,11 +84,12 @@ The five subsections below mirror the five paragraphs above. Each lists verbatim
 
 ### Paragraph 3 — What we do ("In this paper, we…")
 
-<details>
-<summary>**Show 21 examples**</summary>
-
 - "In this paper, we improve the fine-tuning based approaches by proposing BERT: Bidirectional Encoder Representations from Transformers." — Names the artefact and expands the acronym in the move sentence. *[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)* (Devlin et al., NAACL 2019)
 - "In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output." — "Propose + name + what it removes + what it relies on." *[Attention Is All You Need](https://arxiv.org/abs/1706.03762)* (Vaswani et al., NeurIPS 2017)
+
+<details>
+<summary>**Show 19 more**</summary>
+
 - "We present a replication study of BERT pretraining, which includes a careful evaluation of the effects of hyperparmeter tuning and training set size." — Frames the contribution as a replication study rather than a new model (the misspelling of "hyperparameter" is in the original). *[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)* (Liu et al., 2019)
 - "As an alternative, we propose replaced token detection, a pre-training task in which the model learns to distinguish real input tokens from plausible but synthetically generated replacements." — "As an alternative, we propose" positions the move against the gap just stated. *[ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555)* (Clark et al., ICLR 2020)
 - "To address these problems, we present two parameter-reduction techniques to lower memory consumption and increase the training speed of BERT." — "To address these problems, we present…" ties the move directly to the gap. *[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)* (Lan et al., ICLR 2020)
@@ -109,11 +114,12 @@ The five subsections below mirror the five paragraphs above. Each lists verbatim
 
 ### Paragraph 4 — Previewing the results
 
-<details>
-<summary>**Show 21 examples**</summary>
-
 - "BERT advances the state of the art for eleven NLP tasks." — One-sentence headline; the number does the work. *[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)* (Devlin et al., NAACL 2019)
 - "The Transformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs." — Result preview pairs quality with a concrete training-cost figure. *[Attention Is All You Need](https://arxiv.org/abs/1706.03762)* (Vaswani et al., NeurIPS 2017)
+
+<details>
+<summary>**Show 19 more**</summary>
+
 - "We find that BERT was significantly undertrained and propose an improved recipe for training BERT models, which we call RoBERTa, that can match or exceed the performance of all of the post-BERT methods." — Preview leads with the diagnostic finding ("undertrained"), then the consequence. *[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)* (Liu et al., 2019)
 - "As a result, our best model establishes new state-of-the-art results on the GLUE, RACE, and SQuAD benchmarks while having fewer parameters compared to BERT-large." — Headline result balanced against the efficiency win ("fewer parameters"). *[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)* (Lan et al., ICLR 2020)
 - "Broadly, on NLP tasks GPT-3 achieves promising results in the zero-shot and one-shot settings, and in the few-shot setting is sometimes competitive with or even occasionally surpasses state-of-the-art." — Honestly hedged preview ("sometimes," "occasionally"). *[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)* (Brown et al., NeurIPS 2020)
@@ -140,11 +146,12 @@ The five subsections below mirror the five paragraphs above. Each lists verbatim
 
 Not every great paper has one — *Attention Is All You Need*, GPT-3, T5, and many model papers state their contribution in prose instead. But when the work is a benchmark, dataset, or multi-part system, an enumerated list is the genre-standard close, and reviewers skim it to decide what you are claiming. The examples below show the common framings; the last two show variants where the slot is filled by *design desiderata* or *empirical findings* rather than a literal "contributions" list.
 
-<details>
-<summary>**Show 16 examples**</summary>
-
 - **The concept / consequence / result triad.** "We demonstrate the importance of bidirectional pre-training for language representations." / "We show that pre-trained representations reduce the need for many heavily-engineered task-specific architectures." / "BERT advances the state of the art for eleven NLP tasks." — Three parallel bullets: an idea, its practical consequence, the headline number. *[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)* (Devlin et al., NAACL 2019)
 - **"In summary, we offer" + deliverables.** "(i) A suite of nine sentence or sentence-pair NLU tasks…; (ii) An online evaluation platform and leaderboard…; (iii) An expert-constructed diagnostic evaluation dataset; (iv) Baseline results for several major existing approaches to sentence representation learning." — Each item is a concrete artefact the reader can use. *[GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://aclanthology.org/W18-5446/)* (Wang et al., EMNLP Workshop 2018)
+
+<details>
+<summary>**Show 14 more**</summary>
+
 - **Bolded-lead "improves in several ways."** "More challenging tasks…", "More diverse task formats…", "Comprehensive human baselines…", "Improved code support…", "Refined usage rules…" — Each bullet opens with a bolded noun phrase naming the axis of improvement. *[SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems](https://arxiv.org/abs/1905.00537)* (Wang et al., NeurIPS 2019)
 - **"In sum, our contributions are the following."** "(i) We release a suite of 9 cross-lingual benchmark tasks covering 40 typologically diverse languages." / "(ii) We provide an online platform and leaderboard for the evaluation of multilingual models." / "(iii) We provide a set of strong baselines… and release code to facilitate adoption." / "(iv) We provide an extensive analysis of limitations of state-of-the-art cross-lingual models." — Release / platform / baselines / analysis — a complete resource-paper template. *[XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization](https://arxiv.org/abs/2003.11080)* (Hu et al., ICML 2020)
 - **"Our contributions are twofold."** "First, we demonstrate that with the proper training setup, simply fine-tuning the question and passage encoders on existing question-passage pairs is sufficient to greatly outperform BM25." — Counts the contributions up front, then enumerates. *[Dense Passage Retrieval for Open-Domain Question Answering](https://aclanthology.org/2020.emnlp-main.550/)* (Karpukhin et al., EMNLP 2020)

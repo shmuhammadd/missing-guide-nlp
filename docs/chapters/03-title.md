@@ -33,17 +33,18 @@ The phrasebook below fills each of these in with real, highly-cited titles so yo
 
 The subsections below collect real \*ACL (and a few field-defining adjacent) titles, grouped by surface shape. Each entry names *what the title does* — the move — so you can copy the move, not the words.
 
-**These are patterns to internalise, not templates to fill in.** Unlike the abstract and introduction phrasebooks ([Chapter 4](./04-abstract.md), [Chapter 5](./05-introduction.md)), there is no plagiarism worry here: a title *is* its citation, so quoting one in full is just naming the paper. The risk runs the other way. These shapes are so well-worn that copying one mindlessly produces a cliché — the ten-thousandth *X: A Novel Framework for Y*. Read a subsection, name the move ("name-and-expand," "hook that still tells the topic," "the honest question"), then write your own. A paper can fit several patterns; each title is filed under the shape it shows most clearly.
+**These are patterns to internalise, not templates to fill in.** Unlike the abstract and introduction phrasebooks ([Chapter 4](./04-abstract.md), [Chapter 5](./05-introduction.md)), there is no plagiarism worry here: a title *is* its citation, so quoting one in full is just naming the paper. The risk runs the other way. These shapes are so well-worn that copying one mindlessly produces a cliché — the ten-thousandth *X: A Novel Framework for Y*. Read a subsection, name the move ("name-and-expand," "hook that still tells the topic," "the honest question"), then write your own. A paper can fit several patterns; each title is filed under the shape it shows most clearly. The larger patterns lead with two titles and fold the rest behind **Show more**; the shorter ones are listed in full.
 
 ### Name + colon expansion (the workhorse)
 
 The single most common shape in modern \*ACL: a short, pronounceable name, a colon, then a precise expansion. Use it when you are shipping a system, model, or method others will cite by name. The name has to be sayable and the expansion has to be honest about scope.
 
-<details>
-<summary>**Show 13 examples**</summary>
-
 - *[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)* — Acronym plus exact scope. The colon structure became a genre convention partly because this paper made it look so clean. (Devlin et al., NAACL 2019)
 - *[GloVe: Global Vectors for Word Representation](https://aclanthology.org/D14-1162/)* — Short name, precise expansion, and the acronym actually decodes ("Global Vectors"). ACL Test-of-Time, 2024. (Pennington, Socher & Manning, EMNLP 2014)
+
+<details>
+<summary>**Show 11 more**</summary>
+
 - *[ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555)* — The expansion states the one idea that distinguishes it ("discriminators rather than generators"). (Clark et al., ICLR 2020)
 - *[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)* — The expansion does double duty: "A Lite BERT" is both what the acronym stands for and the whole pitch. (Lan et al., ICLR 2020)
 - *[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)* — Names itself as a recipe ("approach"), not a new architecture — honest about what changed. (Liu et al., 2019)
@@ -62,11 +63,12 @@ The single most common shape in modern \*ACL: a short, pronounceable name, a col
 
 A close cousin of the pattern above, specialised for datasets, benchmarks, and shared-task resources. Here the expansion sells the *scope*: how many examples, how many languages, what task. Put the number in the title — it is the most reused fact about the resource.
 
-<details>
-<summary>**Show 7 examples**</summary>
-
 - *[SQuAD: 100,000+ Questions for Machine Comprehension of Text](https://aclanthology.org/D16-1264/)* — The size ("100,000+") is in the title because for a dataset the scale *is* the contribution. (Rajpurkar et al., EMNLP 2016)
 - *[GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://aclanthology.org/W18-5446/)* — Names the two deliverables — a benchmark and a platform — not just "a benchmark." (Wang et al., EMNLP Workshop 2018)
+
+<details>
+<summary>**Show 5 more**</summary>
+
 - *[SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems](https://arxiv.org/abs/1905.00537)* — The name signals "harder successor to GLUE"; "stickier" is a wink that still communicates "harder." (Wang et al., NeurIPS 2019)
 - *[RACE: Large-scale ReAding Comprehension Dataset From Examinations](https://aclanthology.org/D17-1082/)* — The acronym is forced ("ReAding Comprehension Examinations") but the expansion names the unusual source (exams), which is the point. (Lai et al., EMNLP 2017)
 - *[XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization](https://arxiv.org/abs/2003.11080)* — Every adjective is load-bearing: massively multilingual, multi-task, cross-lingual. (Hu et al., ICML 2020)
@@ -79,26 +81,22 @@ A close cousin of the pattern above, specialised for datasets, benchmarks, and s
 
 A title that is a full sentence asserting something. High-risk, high-reward: it is memorable and quotable, but the paper has to actually earn the claim or reviewers will use the title against you. Reserve it for one clean, defensible result.
 
-<details>
-<summary>**Show 5 examples**</summary>
-
 - *Attention Is All You Need* (Vaswani et al., NeurIPS 2017) — The canonical assertive title. It is an overstatement the paper very nearly justifies, which is exactly why it works — and why imitating its bravado without the results behind it backfires.
 - *[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)* — A flat declarative that doubles as the paper's thesis; no colon, no hedge. (Brown et al., NeurIPS 2020)
 - *[BERT Rediscovers the Classical NLP Pipeline](https://aclanthology.org/P19-1452/)* — The verb ("Rediscovers") tells you the finding before you open the PDF. (Tenney, Das & Pavlick, ACL 2019)
 - *[Making Pre-trained Language Models Better Few-shot Learners](https://aclanthology.org/2021.acl-long.295/)* — A gerund-claim: states what the paper accomplishes rather than what system it ships. (Gao, Fisch & Chen, ACL 2021)
 - *[Universal Language Model Fine-tuning for Text Classification](https://aclanthology.org/P18-1031/)* — Names the method (ULMFiT) by its claim; "Universal" is a promise the paper sets out to keep. (Howard & Ruder, ACL 2018)
 
-</details>
-
 ### The descriptive workhorse
 
 The plain title that says exactly what was done. Most \*ACL papers are — and should be — here. It is never wrong, always searchable, and the right default when your contribution is solid but not a single quotable claim. The craft is in choosing the *right nouns and verbs*: precise, keyword-rich, no filler.
 
-<details>
-<summary>**Show 14 examples**</summary>
-
 - *[Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)* — Six words that defined a paradigm; no hook needed when the description itself is new. (Sutskever, Vinyals & Le, NeurIPS 2014)
 - *[Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)* — The "by …-ing" construction states the method ("jointly learning to align") inside the description. (Bahdanau, Cho & Bengio, ICLR 2015)
+
+<details>
+<summary>**Show 12 more**</summary>
+
 - *[Neural Machine Translation of Rare Words with Subword Units](https://aclanthology.org/P16-1162/)* — Names the problem (rare words) and the solution (subword units) in one breath. (Sennrich, Haddow & Birch, ACL 2016)
 - *[Effective Approaches to Attention-based Neural Machine Translation](https://aclanthology.org/D15-1166/)* — "Effective Approaches" is mildly weak, but the keywords (attention, NMT) make it findable. (Luong, Pham & Manning, EMNLP 2015)
 - *[Deep Contextualized Word Representations](https://aclanthology.org/N18-1202/)* — Four words, each a keyword; the contribution (ELMo) became famous despite the title never naming it. (Peters et al., NAACL 2018)
@@ -118,25 +116,21 @@ The plain title that says exactly what was done. Most \*ACL papers are — and s
 
 A title phrased as a question. It works only when the paper genuinely investigates and answers it — and when the question is one the reader also wants answered. A question with an obvious answer reads as filler; an unanswered one reads as a blog post.
 
-<details>
-<summary>**Show 4 examples**</summary>
-
 - *[Why are Sensitive Functions Hard for Transformers?](https://aclanthology.org/2024.acl-long.800/)* — A real open question the paper answers with theory; the "why" promises a mechanism, not just a benchmark. ACL 2024 Best Paper. (Hahn & Rofin, ACL 2024)
 - *[How Multilingual is Multilingual BERT?](https://aclanthology.org/P19-1493/)* — Turns a model everyone was using into an honest empirical question. (Pires, Schlinger & Garrette, ACL 2019)
 - *[What Does BERT Look At? An Analysis of BERT's Attention](https://aclanthology.org/W19-4828/)* — Question plus a colon-clause that says, plainly, how the question gets answered. (Clark et al., BlackboxNLP 2019)
 - *[Are Emergent Abilities of Large Language Models a Mirage?](https://arxiv.org/abs/2304.15004)* — A question that challenges a popular claim; the loaded word ("Mirage") signals the paper's answer is "largely yes." NeurIPS 2023 Outstanding Paper. (Schaeffer, Miranda & Koyejo, NeurIPS 2023)
 
-</details>
-
 ### Hook + payoff (two-part, colon-joined)
 
 A memorable first half, a colon, then the half that says the actual topic. The most-loved and most-abused shape. The rule: **the part after the colon must let a stranger find and understand the paper without the hook.** If you deleted the cute half, the title should still work. If deleting the *informative* half leaves the title meaningless, the hook is doing too much.
 
-<details>
-<summary>**Show 8 examples**</summary>
-
 - *[With Little Power Comes Great Responsibility](https://aclanthology.org/2020.emnlp-main.745/)* — Pure wordplay, yet "Power" is the literal topic (statistical power); the joke and the keyword are the same word. (Card et al., EMNLP 2020)
 - *[Mission: Impossible Language Models](https://aclanthology.org/2024.acl-long.787/)* — The hook ("Mission: Impossible") and the subject ("impossible language models") fuse into one phrase. ACL 2024 Best Paper. (Kallini et al., ACL 2024)
+
+<details>
+<summary>**Show 6 more**</summary>
+
 - *[Get To The Point: Summarization with Pointer-Generator Networks](https://aclanthology.org/P17-1099/)* — The idiom ("get to the point") quietly puns on summarization; the colon-clause names the method exactly. (See, Liu & Manning, ACL 2017)
 - *[Lost in the Middle: How Language Models Use Long Contexts](https://aclanthology.org/2024.tacl-1.9/)* — The hook *is* the finding (information in the middle gets lost); the subtitle says the topic in full. (Liu et al., TACL 2024)
 - *[Beyond Accuracy: Behavioral Testing of NLP Models with CheckList](https://aclanthology.org/2020.acl-main.442/)* — "Beyond Accuracy" frames the critique; the subtitle delivers the method and the tool's name. ACL 2020 Best Paper. (Ribeiro et al., ACL 2020)
@@ -150,27 +144,17 @@ A memorable first half, a colon, then the half that says the actual topic. The m
 
 A title phrased as advice. It only works when the finding is sharp enough to *be* advice — when the paper has earned the right to tell the reader what to do.
 
-<details>
-<summary>**Show 3 examples**</summary>
-
 - *[Don't Stop Pretraining: Adapt Language Models to Domains and Tasks](https://aclanthology.org/2020.acl-main.740/)* — The imperative *is* the finding (keep pretraining on in-domain data); the subtitle says how. (Gururangan et al., ACL 2020)
 - *[Show Your Work: Improved Reporting of Experimental Results](https://aclanthology.org/D19-1224/)* — A scolding imperative that names a community bad habit; the subtitle makes it a methods contribution. (Dodge et al., EMNLP 2019)
 - *[Get To The Point: Summarization with Pointer-Generator Networks](https://aclanthology.org/P17-1099/)* — Also an imperative (see above); it reads as both a pun and an instruction. (See, Liu & Manning, ACL 2017)
-
-</details>
 
 ### The "On the …" framing
 
 The "On the …" opening signals a position paper, an analysis, or a survey — a paper *about* a question rather than a system that solves one. It carries a slightly formal, essayistic tone. Use it when the contribution is an argument or a measurement, not an artifact.
 
-<details>
-<summary>**Show 3 examples**</summary>
-
 - *On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?* — The "On the Dangers of" framing announces a position paper; the metaphor ("stochastic parrots") became field vocabulary. Not \*ACL (FAccT 2021) but worth studying for how a title can name a concept the field then adopts. (Bender, Gebru, McMillan-Major & Mitchell, FAccT 2021)
 - *[On the Cross-lingual Transferability of Monolingual Representations](https://aclanthology.org/2020.acl-main.421/)* — "On the … Transferability of …" frames the paper as an investigation of a property, not a new model. (Artetxe, Ruder & Yogatama, ACL 2020)
 - *[Universal Adversarial Triggers for Attacking and Analyzing NLP](https://aclanthology.org/D19-1221/)* — Not literally "On the," but the same essayistic register: the title promises a phenomenon to understand, not a leaderboard to top. (Wallace et al., EMNLP 2019)
-
-</details>
 
 ## Common mistakes
 

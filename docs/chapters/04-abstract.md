@@ -27,13 +27,16 @@ Each subsection below lists verbatim openings, pivots, and closings from highly-
 
 The same move recurs at three scales across this guide: the [title](./03-title.md) compresses it to a phrase, the abstract states it in a sentence, and the [introduction](./05-introduction.md) unfolds it into a paragraph. Reading the three phrasebooks side by side — often drawn from the very same papers — is the fastest way to see one piece of rhetoric expand and contract to fit its slot.
 
-### Context openers
+Under each move below, a couple of examples sit in the open so you can skim the pattern at a glance; expand **Show more** for the rest.
 
-<details>
-<summary>**Show 12 examples**</summary>
+### Context openers
 
 - "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration." — Opens by naming the incumbent paradigm in one sentence; sets up the dethroning. *[Attention Is All You Need](https://arxiv.org/abs/1706.03762)* (Vaswani et al., NeurIPS 2017)
 - "Neural sequence-to-sequence models have provided a viable new approach for abstractive text summarization (meaning they are not restricted to simply selecting and rearranging passages from the original text)." — Opener that names the approach and parenthetically defines the key term. *[Get To The Point: Summarization with Pointer-Generator Networks](https://aclanthology.org/P17-1099/)* (See et al., ACL 2017)
+
+<details>
+<summary>**Show 10 more**</summary>
+
 - "Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method." — Opens by stating the standard practice the paper will replace. *[Dense Passage Retrieval for Open-Domain Question Answering](https://aclanthology.org/2020.emnlp-main.550/)* (Karpukhin et al., EMNLP 2020)
 - "Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks." — A flat factual opener; no hype, just states what the field has. *[Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)* (Sutskever et al., NeurIPS 2014)
 - "Neural machine translation is a recently proposed approach to machine translation." — One-clause definitional opener naming the object of study. *[Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)* (Bahdanau et al., ICLR 2015)
@@ -49,11 +52,12 @@ The same move recurs at three scales across this guide: the [title](./03-title.m
 
 ### Gap statements
 
-<details>
-<summary>**Show 13 examples**</summary>
-
 - "However, these models have two shortcomings: they are liable to reproduce factual details inaccurately, and they tend to repeat themselves." — Classic "however + enumerated shortcomings" pivot. *[Get To The Point: Summarization with Pointer-Generator Networks](https://aclanthology.org/P17-1099/)* (See et al., ACL 2017)
 - "Yet, evaluation metrics have lagged behind, as the most popular choices (e.g., BLEU and ROUGE) may correlate poorly with human judgment." — "Yet" pivot naming the specific incumbents that fail. *[BLEURT: Learning Robust Metrics for Text Generation](https://aclanthology.org/2020.acl-main.704/)* (Sellam et al., ACL 2020)
+
+<details>
+<summary>**Show 11 more**</summary>
+
 - "However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures." — Gap framed as a capability ceiling on a specific task class. *[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)* (Lewis et al., NeurIPS 2020)
 - "However, at some point further model increases become harder due to GPU/TPU memory limitations and longer training times." — Gap as a hard resource constraint, not a quality complaint. *[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)* (Lan et al., ICLR 2020)
 - "However, it requires that both sentences are fed into the network, which causes a massive computational overhead: Finding the most similar pair in a collection of 10,000 sentences requires about 50 million inference computations (~65 hours) with BERT." — Gap quantified with a concrete cost number. *[Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://aclanthology.org/D19-1410/)* (Reimers & Gurevych, EMNLP 2019)
@@ -70,11 +74,12 @@ The same move recurs at three scales across this guide: the [title](./03-title.m
 
 ### Move / proposal statements
 
-<details>
-<summary>**Show 14 examples**</summary>
-
 - "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers." — Names the artefact and expands the acronym in one sentence. *[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)* (Devlin et al., NAACL 2019)
 - "We present BART, a denoising autoencoder for pretraining sequence-to-sequence models." — Six-word frame: name, category, what it pretrains. *[BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://aclanthology.org/2020.acl-main.703/)* (Lewis et al., ACL 2020)
+
+<details>
+<summary>**Show 12 more**</summary>
+
 - "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely." — "Propose + name + key design choice + what it removes" in one sentence. *[Attention Is All You Need](https://arxiv.org/abs/1706.03762)* (Vaswani et al., NeurIPS 2017)
 - "We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy)." — Enumerated contribution claim baked into the move sentence. *[Deep Contextualized Word Representations](https://aclanthology.org/N18-1202/)* (Peters et al., NAACL 2018)
 - "We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks." — Move sentence does double duty as a method summary. *[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)* (Hu et al., ICLR 2022)
@@ -92,11 +97,12 @@ The same move recurs at three scales across this guide: the [title](./03-title.m
 
 ### Method summaries
 
-<details>
-<summary>**Show 13 examples**</summary>
-
 - "BART is trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text." — Two-step recipe in one numbered sentence. *[BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://aclanthology.org/2020.acl-main.703/)* (Lewis et al., ACL 2020)
 - "Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus." — Describes the mechanism in one sentence, no narrative. *[Deep Contextualized Word Representations](https://aclanthology.org/N18-1202/)* (Peters et al., NAACL 2018)
+
+<details>
+<summary>**Show 11 more**</summary>
+
 - "Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector." — Encoder-decoder mechanism described in one sentence. *[Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)* (Sutskever et al., NeurIPS 2014)
 - "First, we use a hybrid pointer-generator network that can copy words from the source text via pointing, which aids accurate reproduction of information, while retaining the ability to produce novel words through the generator." — "First/Second" structure to lay out two mechanisms. *[Get To The Point: Summarization with Pointer-Generator Networks](https://aclanthology.org/P17-1099/)* (See et al., ACL 2017)
 - "In this paper, we introduce a simpler and more effective approach, making the NMT model capable of open-vocabulary translation by encoding rare and unknown words as sequences of subword units." — Mechanism summarised with the design rationale embedded. *[Neural Machine Translation of Rare Words with Subword Units](https://aclanthology.org/P16-1162/)* (Sennrich et al., ACL 2016)
@@ -113,11 +119,12 @@ The same move recurs at three scales across this guide: the [title](./03-title.m
 
 ### Result statements
 
-<details>
-<summary>**Show 13 examples**</summary>
-
 - "It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement)." — Headline number plus four datasets, with absolute deltas in parentheses. *[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)* (Devlin et al., NAACL 2019)
 - "Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU." — Number + dataset + delta in one sentence. *[Attention Is All You Need](https://arxiv.org/abs/1706.03762)* (Vaswani et al., NeurIPS 2017)
+
+<details>
+<summary>**Show 11 more**</summary>
+
 - "We apply our model to the CNN / Daily Mail summarization task, outperforming the current abstractive state-of-the-art by at least 2 ROUGE points." — Result framed as a minimum delta ("at least 2"). *[Get To The Point: Summarization with Pointer-Generator Networks](https://aclanthology.org/P17-1099/)* (See et al., ACL 2017)
 - "When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system greatly by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks." — Headline result as an absolute range over a strong baseline. *[Dense Passage Retrieval for Open-Domain Question Answering](https://aclanthology.org/2020.emnlp-main.550/)* (Karpukhin et al., EMNLP 2020)
 - "With local attention, we achieve a significant gain of 5.0 BLEU points over non-attentional systems which already incorporate known techniques such as dropout." — Result hedged-up by specifying the baseline already used good tricks. *[Effective Approaches to Attention-based Neural Machine Translation](https://aclanthology.org/D15-1166/)* (Luong et al., EMNLP 2015)
@@ -134,11 +141,12 @@ The same move recurs at three scales across this guide: the [title](./03-title.m
 
 ### Implication closers
 
-<details>
-<summary>**Show 14 examples**</summary>
-
 - "We discuss broader societal impacts of this finding and of GPT-3 in general." — Closer signposts the impact discussion rather than overclaiming. *[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)* (Brown et al., NeurIPS 2020)
 - "Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent." — Hedged closer: acknowledges limitation, then states what the field now knows. *[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)* (Ouyang et al., NeurIPS 2022)
+
+<details>
+<summary>**Show 12 more**</summary>
+
 - "These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements." — Closer that reframes prior literature, not just the present paper. *[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)* (Liu et al., 2019)
 - "Self-Instruct provides an almost annotation-free method for aligning pre-trained language models with instructions, and we release our large synthetic dataset to facilitate future studies on instruction tuning." — Closer pairs the claim with a concrete release. *[Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://aclanthology.org/2023.acl-long.754/)* (Wang et al., ACL 2023)
 - "However, human performance (86.8%) is much higher, indicating that the dataset presents a good challenge problem for future research." — Implication closer that positions the dataset as a future benchmark. *[SQuAD: 100,000+ Questions for Machine Comprehension of Text](https://aclanthology.org/D16-1264/)* (Rajpurkar et al., EMNLP 2016)
@@ -158,11 +166,12 @@ The same move recurs at three scales across this guide: the [title](./03-title.m
 
 **Anonymity warning.** For double-blind \*ACL submission, strip any release sentence that identifies you: GitHub URLs, lab pages, personal websites, named pip packages, even "anonymised" links whose slug still reveals authorship. Use a neutral placeholder — *"Code and data will be released upon acceptance"* is the standard form. Swap the full release sentence back in for the camera-ready version, after the paper is accepted. Most of the examples below are quoted from the camera-ready form; the URLs were not in the original anonymous submission.
 
-<details>
-<summary>**Show 14 examples**</summary>
-
 - "The library is available at https://github.com/huggingface/transformers." — Bare URL release; the library *is* the contribution, so the link is the whole sentence. *[Transformers: State-of-the-Art Natural Language Processing](https://aclanthology.org/2020.emnlp-demos.6/)* (Wolf et al., EMNLP 2020)
 - "We release code and model checkpoints to reproduce our experiments." — Reproducibility framing; names the artifacts and ties them explicitly to reproducing the paper. *[The Power of Scale for Parameter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243/)* (Lester et al., EMNLP 2021)
+
+<details>
+<summary>**Show 12 more**</summary>
+
 - "All of the code and model checkpoints used in this work are publicly available." — Covers code and checkpoints in one sentence; no URL, points outward to a separate location. *[mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer](https://aclanthology.org/2021.naacl-main.41/)* (Xue et al., NAACL 2021)
 - "We will make our code and models publicly available." — Future-tense pledge — common when the paper goes to print before the repo is ready. *[Unsupervised Cross-lingual Representation Learning at Scale](https://aclanthology.org/2020.acl-main.747/)* (Conneau et al., ACL 2020)
 - "Our code, datasets and models are freely available at https://github.com/bigscience-workshop/xmtf." — Three artifact types in one breath, URL inline. *[Crosslingual Generalization through Multitask Finetuning](https://aclanthology.org/2023.acl-long.891/)* (Muennighoff et al., ACL 2023)
