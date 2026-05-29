@@ -39,7 +39,7 @@ The first sentence of the section, or of each paragraph, that tells the reader h
 - *"Three threads of research inform this work — [A], [B], and [C] — and we take each in turn."* — Announce the count and the order so the reader can track where they are.
 
 <details>
-<summary>**Show 6 more**</summary>
+<summary>**Show 8 more**</summary>
 
 - *"We organize prior work along the axis most relevant to our contribution, [axis], and defer [other axis] to Appendix [N]."* — Honest signposting: tells the reader what you are *not* covering and where it went.
 - *"Our contribution touches two literatures that rarely cite each other: [field A] and [field B]."* — Useful when the paper's value is connecting two communities; flag it explicitly.
@@ -47,6 +47,8 @@ The first sentence of the section, or of each paragraph, that tells the reader h
 - *"We review prior work in order of decreasing relevance to our setting, beginning with [closest area]."* — Orders by relevance, not chronology — usually the more useful ordering for the reader.
 - *"Work on [topic] can be grouped by [dimension]: [type 1] and [type 2]."* — Sets up Structure B (the comparison-by-dimension table) in one sentence.
 - *"Below we situate our work with respect to [A], [B], and [C], deferring head-to-head comparison to Section [N]."* — Separates *positioning* (here) from *empirical comparison* (later), so §2 stays an argument rather than a results dump.
+- *"We discuss prior work in three groups, ordered from the most general ([broad area]) to the most specific ([the exact task])."* — General-to-specific ordering walks the reader inward toward your contribution.
+- *"For brevity we cover only the work that bears directly on [our claim]; [survey] gives the full picture of [area]."* — Scopes the section openly and offloads completeness to a survey.
 
 </details>
 
@@ -58,7 +60,7 @@ The move that makes related work an argument: name the prior class of work, then
 - "By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do." — "By contrast" pivots off a human baseline to position an entire paradigm, not one competitor. *[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)* (Brown et al., NeurIPS 2020)
 
 <details>
-<summary>**Show 6 more**</summary>
+<summary>**Show 9 more**</summary>
 
 - "In contrast, most NLU models above the word level are designed for a specific task and struggle with out-of-domain data." — "In contrast" set against the paper's own opening claim; the contrast motivates the benchmark. *[GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://aclanthology.org/W18-5446/)* (Wang et al., EMNLP Workshop 2018)
 - "Instead of masking the input, our approach corrupts it by replacing some tokens with plausible alternatives sampled from a small generator network." — "Instead of X, our approach does Y" positions sharply against BERT's masked-LM in a single sentence. *[ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555)* (Clark et al., ICLR 2020)
@@ -66,6 +68,9 @@ The move that makes related work an argument: name the prior class of work, then
 - "Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method." — Positions by naming the incumbent (BM25) it intends to replace. *[Dense Passage Retrieval for Open-Domain Question Answering](https://aclanthology.org/2020.emnlp-main.550/)* (Karpukhin et al., EMNLP 2020)
 - "However, RLHF is a complex and often unstable procedure, first fitting a reward model that reflects the human preferences, and then fine-tuning the large unsupervised LM using reinforcement learning to maximize this estimated reward without drifting too far from the original model." — Positions against the dominant method by spelling out its procedural pain, not by dismissing it. *[Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)* (Rafailov et al., NeurIPS 2023)
 - "They also, paradoxically, struggle with basic functionality, such as arithmetic or factual lookup, where much simpler and smaller models excel." — Positions large LMs against "simpler and smaller models" — a contrast framed as a paradox to motivate the gap. *[Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)* (Schick et al., NeurIPS 2023)
+- "However, relying on corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-finetune discrepancy." — Names two specific defects of the incumbent before proposing the alternative — far stronger than a vague "BERT has limitations." *[XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237)* (Yang et al., NeurIPS 2019)
+- "To address this limitation, we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer." — Positions against full self-attention by naming its scaling cost, then the fix. *[Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150)* (Beltagy, Peters & Cohan, 2020)
+- "While promising, this approach requires to use models with billions of parameters, which are expensive to train and query." — "While promising" concedes the prior approach works, then names the cost that motivates the departure. *[Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering](https://aclanthology.org/2021.eacl-main.74/)* (Izacard & Grave, EACL 2021)
 
 </details>
 
@@ -75,7 +80,21 @@ Positioning is not only about difference. The generous, confident move is to nam
 
 - "It uses a standard Tranformer-based neural machine translation architecture which, despite its simplicity, can be seen as generalizing BERT (due to the bidirectional encoder), GPT (with the left-to-right decoder), and many other more recent pretraining schemes." — Credits two prior models by naming precisely what it inherits from each (the "Tranformer" typo is in the original). *[BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://aclanthology.org/2020.acl-main.703/)* (Lewis et al., ACL 2020)
 - "In this paper, we explore the landscape of transfer learning techniques for NLP by introducing a unified framework that converts all text-based language problems into a text-to-text format." — Situates the work as *unifying* an existing landscape rather than competing within it. *[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)* (Raffel et al., JMLR 2020)
+
+<details>
+<summary>**Show 9 more**</summary>
+
 - "We present a replication study of BERT pretraining, which includes a careful evaluation of the effects of hyperparmeter tuning and training set size." — Frames the contribution as crediting and re-examining prior work, not displacing it (the "hyperparmeter" typo is in the original). *[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)* (Liu et al., 2019)
+- "In this paper we propose a new model architecture DeBERTa (Decoding-enhanced BERT with disentangled attention) that improves the BERT and RoBERTa models using two novel techniques." — Credits two predecessors by name and claims to improve them, not replace them. *[DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654)* (He et al., ICLR 2021)
+- "In this paper, we introduce mT5, a multilingual variant of T5 that was pre-trained on a new Common Crawl-based dataset covering 101 languages." — The name and the sentence both foreground the lineage: a variant of T5. *[mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer](https://aclanthology.org/2021.naacl-main.41/)* (Xue et al., NAACL 2021)
+- "In this publication, we present Sentence-BERT (SBERT), a modification of the pretrained BERT network that use siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity." — Credits BERT as the network it modifies. *[Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://aclanthology.org/D19-1410/)* (Reimers & Gurevych, EMNLP 2019)
+- "To address these problems, we present two parameter-reduction techniques to lower memory consumption and increase the training speed of BERT." — Frames the contribution as improving BERT, crediting it as the base. *[ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)* (Lan et al., ICLR 2020)
+- "We endow pre-trained, parametric-memory generation models with a non-parametric memory through a general-purpose fine-tuning approach which we refer to as retrieval-augmented generation (RAG)." — Situates the method as adding to pre-trained generation models rather than replacing them. *[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)* (Lewis et al., NeurIPS 2020)
+- "Specifically, we use reinforcement learning from human feedback (RLHF) to fine-tune GPT-3 to follow a broad class of written instructions." — Credits both the base model (GPT-3) and the technique (RLHF) by name. *[Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155)* (Ouyang et al., NeurIPS 2022)
+- "We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks." — Builds explicitly on the frozen pre-trained Transformer, within the adapter lineage. *[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)* (Hu et al., ICLR 2022)
+- "We introduce Self-Instruct, a framework for improving the instruction-following capabilities of pretrained language models by bootstrapping off their own generations." — Situates the method as improving pretrained LMs using their own output. *[Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://aclanthology.org/2023.acl-long.754/)* (Wang et al., ACL 2023)
+
+</details>
 
 ### Naming the closest work (templates)
 
@@ -85,13 +104,16 @@ Every paper has one or two nearest neighbours. Name them, and state the differen
 - *"Like [X], we [shared choice]; unlike [X], we [key difference], which lets us [consequence]."* — The "like X / unlike X" pairing credits and distinguishes in one breath.
 
 <details>
-<summary>**Show 5 more**</summary>
+<summary>**Show 8 more**</summary>
 
 - *"[X et al.] share our goal of [Z] but pursue it via [their method]; we instead [our method]."* — Separates shared *goal* from differing *method* — the most common real relationship between neighbouring papers.
 - *"Our method can be viewed as [X]'s [approach] without [their requirement]."* — Frames the contribution as removing a constraint of the closest prior work.
 - *"[X] is our most direct point of comparison; we adopt their [setup / splits / metric] so the numbers are comparable."* — Pre-empts "is this a fair comparison?" by stating that you reused the prior setup.
 - *"Two recent papers are especially relevant: [X] [does A] and [Y] [does B]. We combine their strengths while avoiding [shared limitation]."* — For when two papers jointly define the gap you fill.
 - *"Where [X] requires [expensive thing], our approach needs only [cheaper thing]."* — A one-line closest-work contrast built entirely around the cost axis.
+- *"The method of [X] is a special case of ours when [condition]; we generalize it to [setting]."* — A strong framing: the prior work is subsumed as a special case of yours.
+- *"[X] and [Y] are the only prior systems evaluated on [benchmark]; we compare directly against both."* — States the comparison set and that you cover it in full.
+- *"Our setup mirrors [X]'s in every respect but one — [the change] — which isolates the source of our gains."* — Signals a controlled comparison and pre-empts confounds.
 
 </details>
 
@@ -103,12 +125,16 @@ When another group reached a similar result around the same time, say so plainly
 - *"In independent and contemporaneous work, [X et al.] reach a similar conclusion using [a different method]."* — "Independent and contemporaneous" is the precise, accepted phrasing for genuine co-discovery.
 
 <details>
-<summary>**Show 4 more**</summary>
+<summary>**Show 8 more**</summary>
 
 - *"[X], released while this paper was under review, is complementary: they study [A] whereas we study [B]."* — Handles a paper that appeared after submission without conceding priority.
 - *"After this work was completed we became aware of [X]; we include it here for completeness and note [relationship]."* — Honest disclosure when you found a neighbour late.
 - *"Like us, [X] observe [shared finding], though they do not [your additional contribution]."* — Credits the overlap while marking what remains uniquely yours.
 - *"We do not claim priority over [X]; our contribution is instead [the part that is genuinely yours]."* — When in doubt, disclaim priority explicitly. It reads as confidence, not weakness.
+- *"Two contemporaneous papers, [X] and [Y], explore related ideas; we summarize the differences in Table [N]."* — When several concurrent efforts exist, tabulate rather than narrate.
+- *"[X] (arXiv, [month year]) overlaps with our [component]; the two were developed independently."* — Date-stamps the overlap so the concurrency claim is checkable.
+- *"While preparing this submission we became aware of [X] and have added a comparison in Section [N]."* — The honest, low-stakes way to handle a late-discovered neighbour.
+- *"Our and [X]'s approaches were posted within weeks of each other; we make no priority claim and focus on the complementary findings."* — Defuses a priority dispute before a reviewer can raise it.
 
 </details>
 
@@ -120,12 +146,16 @@ You will sometimes contradict prior work. Do it by locating the *reason* for the
 - *"[X]'s approach is well suited to [their setting]; our setting differs in [way], where [their assumption] no longer holds."* — Reframes disagreement as a difference in scope, which is almost always the truth.
 
 <details>
-<summary>**Show 4 more**</summary>
+<summary>**Show 8 more**</summary>
 
 - *"We reach a different conclusion from [X]; the discrepancy appears to stem from [cause], which we examine directly in Section [N]."* — Promises to investigate the disagreement rather than just asserting it.
 - *"Prior work has assumed [assumption]; we revisit it and find [nuance]."* — Challenges an assumption, not a person — the most defensible form of disagreement.
 - *"Our results complicate, rather than contradict, the picture in [X]: [explanation]."* — "Complicate, not contradict" lets you advance the field without picking a fight.
 - *"[X] is effective but [costly / narrow]; we trade [their strength] for [our strength]."* — Concedes the prior work's merit before stating the trade-off.
+- *"Our finding qualifies a claim in [X]: their result holds for [setting], but not for [other setting]."* — "Qualifies," not "refutes" — narrows the prior claim without attacking it.
+- *"We were unable to reproduce [X]'s reported [number] under [condition]; Section [N] documents the attempt and the likely cause."* — Report a failed reproduction as evidence with a cause, never as an accusation.
+- *"[X] interprets [phenomenon] as [their explanation]; our analysis suggests [alternative], though both are consistent with their data."* — Offers a competing interpretation while conceding their data stands.
+- *"Rather than dispute [X], we test their hypothesis on [new data] and report where it holds."* — Turns a disagreement into an experiment, which reviewers reward.
 
 </details>
 
@@ -137,12 +167,16 @@ Sometimes you genuinely must cite ten papers at once. The skill is to give the g
 - *"To our knowledge, no prior work [does the specific thing]; the nearest attempts [(cites)] stop short of [the gap]."* — A bounded novelty claim — "to our knowledge" — that names the nearest neighbours instead of claiming a vacuum.
 
 <details>
-<summary>**Show 4 more**</summary>
+<summary>**Show 8 more**</summary>
 
 - *"Several recent systems [(cites)] adopt [approach]; we are the first to [extension], to our knowledge."* — Groups the precedent, then states the precise increment.
 - *"[Technique] has been applied to [task A] [(cites)], [task B] [(cites)], and [task C] [(cites)]; we ask whether it transfers to [task D]."* — Turns a citation pile into a motivated research question.
 - *"Closest in spirit are [cites], which share [property] but differ from us in [respect]."* — A grouped version of the closest-work move when no single paper dominates.
 - *"The [benchmark / dataset] has been studied extensively [(cites)]; we revisit it under [new condition]."* — Acknowledges saturation, then justifies returning to a well-worn benchmark.
+- *"A line of work beginning with [seminal cite] and continued by [cites] established [result]; we depart from it by [difference]."* — Gives a literature a history and a head, then your departure.
+- *"Most systems in this space [(cites)] assume [assumption]; the few that relax it [(cites)] pay [a cost]."* — Splits a literature by a shared assumption and its exceptions.
+- *"Surveys of [area] [(cite)] cover the landscape; we discuss only what directly informs [our contribution]."* — Cites a survey for breadth, then narrows honestly.
+- *"We tabulate these methods by [dimension] in Table [N] and discuss only the rows relevant to our claims."* — Pushes the citation pile into a table and keeps the prose focused.
 
 </details>
 
