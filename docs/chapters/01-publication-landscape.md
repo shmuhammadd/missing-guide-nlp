@@ -127,7 +127,7 @@ System-description papers from shared tasks are archival ACL Anthology publicati
 
 ## A note on Best Paper awards and prestige
 
-The \*ACL conferences give Best Paper, Outstanding Paper, and area-specific awards each year. These are highly visible signals — being awarded one is a major career event. The list of awarded papers for each conference is published on the conference website and indexed in the ACL Anthology page for that year. Chapter 16 of this guide recommends specific Best Paper recipients worth reading closely.
+The \*ACL conferences give Best Paper, Outstanding Paper, and area-specific awards each year. These are highly visible signals — being awarded one is a major career event. The list of awarded papers for each conference is published on the conference website and indexed in the ACL Anthology page for that year. Chapter 17 of this guide recommends specific Best Paper recipients worth reading closely.
 
 ## Sources
 

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 9
-title: "9. Experimental Setup"
+sidebar_position: 10
+title: "10. Experimental Setup"
 ---
 
 This section is dry and necessary. Reviewers go here to check whether they should believe your results. Make it easy to check.

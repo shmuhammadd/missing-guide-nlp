@@ -25,6 +25,7 @@ const sidebars = {
         'chapters/introduction',
         'chapters/related-work',
         'chapters/background',
+        'chapters/dataset-construction',
         'chapters/methods',
         'chapters/experimental-setup',
         'chapters/results',

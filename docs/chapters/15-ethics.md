@@ -1,6 +1,6 @@
 ---
-sidebar_position: 14
-title: "14. Ethical Considerations"
+sidebar_position: 15
+title: "15. Ethical Considerations"
 ---
 
 Optional but strongly encouraged. Like the Limitations section, it does not count toward the page limit. It sits before the references.

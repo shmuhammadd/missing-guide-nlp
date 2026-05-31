@@ -1,6 +1,6 @@
 ---
-sidebar_position: 15
-title: "15. References, Appendices, and Reproducibility"
+sidebar_position: 16
+title: "16. References, Appendices, and Reproducibility"
 ---
 
 ## References

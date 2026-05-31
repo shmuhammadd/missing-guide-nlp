@@ -1,6 +1,6 @@
 ---
-sidebar_position: 8
-title: "8. Methods"
+sidebar_position: 9
+title: "9. Methods"
 ---
 
 The methods section is where the new author most often over-writes and under-explains simultaneously. Let me say what I mean by that.

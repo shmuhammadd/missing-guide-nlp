@@ -27,18 +27,18 @@ If you have published five or more first-author \*ACL papers, this guide is prob
 
 ## What you get
 
-- 16 chapters covering every section of an \*ACL paper, from title to limitations.
+- 18 chapters covering every section of an \*ACL paper, from title to limitations.
 - Five concrete examples from real ACL/EMNLP/NAACL papers in each chapter — not invented examples.
 - A **phrasebook of rhetorical moves** in each chapter — verbatim openings, pivots, and closings drawn from highly-cited NLP papers, grouped by the job they do (context, gap, proposal, method, result, implication). Inspired by the [Manchester Academic Phrasebook](https://www.phrasebank.manchester.ac.uk/), but calibrated to \*ACL conventions and built from real papers rather than generic academic English.
 - A [printable one-page submission checklist](/checklists/submission-checklist).
-- A `papers-to-read.bib` with every paper cited in Chapter 16, ready to drop into Overleaf.
+- A `papers-to-read.bib` with every paper cited in Chapter 17, ready to drop into Overleaf.
 - A [structured examples database](/examples/) you can browse by section or by paper.
 
 ## What this is *not*
 
 - It is **not** the official ACL author guidelines. For format, page limits, anonymity rules, and the Responsible NLP Checklist, see the [ACL Rolling Review CFP](https://aclrollingreview.org/cfp) and the [ACLPUB formatting page](https://acl-org.github.io/ACLPUB/formatting.html). When the official guidelines and this guide disagree, the official guidelines win.
 - It is **not** AI-generated filler. Every example links to a real paper on the [ACL Anthology](https://aclanthology.org).
-- It is **not** a substitute for actually reading great papers. Chapter 16 tells you which ones.
+- It is **not** a substitute for actually reading great papers. Chapter 17 tells you which ones.
 
 ## How to use it
 
@@ -46,11 +46,11 @@ Pick the track that matches your situation.
 
 | Your situation | Read these chapters |
 |---|---|
-| **Speed run** (deadline in 2 weeks, paper mostly drafted) | [4 Abstract](./chapters/abstract), [5 Introduction](./chapters/introduction), [10 Results](./chapters/results), [13 Limitations](./chapters/limitations), [17 Checklist](./chapters/checklist) |
+| **Speed run** (deadline in 2 weeks, paper mostly drafted) | [4 Abstract](./chapters/abstract), [5 Introduction](./chapters/introduction), [11 Results](./chapters/results), [14 Limitations](./chapters/limitations), [18 Checklist](./chapters/checklist) |
 | **First paper** (you have 6–8 weeks) | All chapters, in order |
-| **First-timer to NLP** (deciding where to submit) | [1 Publication Landscape](./chapters/publication-landscape), [2 Framing](./chapters/framing), [16 Best Papers](./chapters/best-papers) |
-| **Studying the craft** (no deadline, want to get better) | [2 Framing](./chapters/framing), [16 Best Papers](./chapters/best-papers), then any chapter that scratches an itch |
-| **Reviewing**, not writing | [11 Analysis](./chapters/analysis), [13 Limitations](./chapters/limitations), [16 Best Papers](./chapters/best-papers) |
+| **First-timer to NLP** (deciding where to submit) | [1 Publication Landscape](./chapters/publication-landscape), [2 Framing](./chapters/framing), [17 Best Papers](./chapters/best-papers) |
+| **Studying the craft** (no deadline, want to get better) | [2 Framing](./chapters/framing), [17 Best Papers](./chapters/best-papers), then any chapter that scratches an itch |
+| **Reviewing**, not writing | [12 Analysis](./chapters/analysis), [14 Limitations](./chapters/limitations), [17 Best Papers](./chapters/best-papers) |
 
 ## Chapters
 
@@ -61,16 +61,17 @@ Pick the track that matches your situation.
 5. [The Introduction](./chapters/introduction)
 6. [Related Work](./chapters/related-work)
 7. [Background / Preliminaries](./chapters/background)
-8. [Methods](./chapters/methods)
-9. [Experimental Setup](./chapters/experimental-setup)
-10. [Results](./chapters/results)
-11. [Analysis and Discussion](./chapters/analysis)
-12. [Conclusion](./chapters/conclusion)
-13. [Limitations (Required)](./chapters/limitations)
-14. [Ethical Considerations](./chapters/ethics)
-15. [References, Appendices, Reproducibility](./chapters/references-and-appendices)
-16. [Best Papers Worth Reading](./chapters/best-papers)
-17. [A Final Checklist](./chapters/checklist)
+8. [Dataset Construction](./chapters/dataset-construction)
+9. [Methods](./chapters/methods)
+10. [Experimental Setup](./chapters/experimental-setup)
+11. [Results](./chapters/results)
+12. [Analysis and Discussion](./chapters/analysis)
+13. [Conclusion](./chapters/conclusion)
+14. [Limitations (Required)](./chapters/limitations)
+15. [Ethical Considerations](./chapters/ethics)
+16. [References, Appendices, Reproducibility](./chapters/references-and-appendices)
+17. [Best Papers Worth Reading](./chapters/best-papers)
+18. [A Final Checklist](./chapters/checklist)
 
 ## Contributing
 

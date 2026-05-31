@@ -17,13 +17,14 @@ The guide, one chapter per file. Read in order if you have time; jump around if 
 | 5 | [The Introduction](./05-introduction.md) | The classic five-paragraph \*ACL intro; the contributions list |
 | 6 | [Related Work](./06-related-work.md) | Not a literature review — an argument |
 | 7 | [Background / Preliminaries](./07-background.md) | When you need one, when you don't |
-| 8 | [Methods](./08-methods.md) | The section new authors most often over-write and under-explain |
-| 9 | [Experimental Setup](./09-experimental-setup.md) | How reviewers decide whether to believe your results |
-| 10 | [Results](./10-results.md) | Not "here are our numbers" — "here is what they mean" |
-| 11 | [Analysis and Discussion](./11-analysis.md) | Where you earn the reader's trust |
-| 12 | [Conclusion](./12-conclusion.md) | Short. Five sentences is plenty |
-| 13 | [Limitations (Required)](./13-limitations.md) | The Confessional, the Dismissal, the Reflection |
-| 14 | [Ethical Considerations](./14-ethics.md) | Be specific, not performative |
-| 15 | [References & Appendices](./15-references-and-appendices.md) | Including the recent hallucinated-citations problem |
-| 16 | [Best Papers Worth Reading](./16-best-papers.md) | A reading list with purpose |
-| 17 | [A Final Checklist](./17-checklist.md) | Print this. Tape it above your desk |
+| 8 | [Dataset Construction](./08-dataset-construction.md) | For resource papers: source, languages, annotation, agreement, statistics |
+| 9 | [Methods](./09-methods.md) | The section new authors most often over-write and under-explain |
+| 10 | [Experimental Setup](./10-experimental-setup.md) | How reviewers decide whether to believe your results |
+| 11 | [Results](./11-results.md) | Not "here are our numbers" — "here is what they mean" |
+| 12 | [Analysis and Discussion](./12-analysis.md) | Where you earn the reader's trust |
+| 13 | [Conclusion](./13-conclusion.md) | Short. Five sentences is plenty |
+| 14 | [Limitations (Required)](./14-limitations.md) | The Confessional, the Dismissal, the Reflection |
+| 15 | [Ethical Considerations](./15-ethics.md) | Be specific, not performative |
+| 16 | [References & Appendices](./16-references-and-appendices.md) | Including the recent hallucinated-citations problem |
+| 17 | [Best Papers Worth Reading](./17-best-papers.md) | A reading list with purpose |
+| 18 | [A Final Checklist](./18-checklist.md) | Print this. Tape it above your desk |

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 11
-title: "11. Analysis and Discussion"
+sidebar_position: 12
+title: "12. Analysis and Discussion"
 ---
 
 A paper with results but no analysis is a benchmark submission, not a research contribution. The analysis section is where you earn the reader's trust by showing you understand *why* your numbers came out the way they did.
