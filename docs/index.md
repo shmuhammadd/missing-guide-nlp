@@ -31,14 +31,14 @@ If you have published five or more first-author \*ACL papers, this guide is prob
 - Five concrete examples from real ACL/EMNLP/NAACL papers in each chapter — not invented examples.
 - A **phrasebook of rhetorical moves** in each chapter — verbatim openings, pivots, and closings drawn from highly-cited NLP papers, grouped by the job they do (context, gap, proposal, method, result, implication). Inspired by the [Manchester Academic Phrasebook](https://www.phrasebank.manchester.ac.uk/), but calibrated to \*ACL conventions and built from real papers rather than generic academic English.
 - A [printable one-page submission checklist](/checklists/submission-checklist).
-- A `papers-to-read.bib` with every paper cited in Chapter 17, ready to drop into Overleaf.
+- A `papers-to-read.bib` with every paper cited in Chapter 27, ready to drop into Overleaf.
 - A [structured examples database](/examples/) you can browse by section or by paper.
 
 ## What this is *not*
 
 - It is **not** the official ACL author guidelines. For format, page limits, anonymity rules, and the Responsible NLP Checklist, see the [ACL Rolling Review CFP](https://aclrollingreview.org/cfp) and the [ACLPUB formatting page](https://acl-org.github.io/ACLPUB/formatting.html). When the official guidelines and this guide disagree, the official guidelines win.
 - It is **not** AI-generated filler. Every example links to a real paper on the [ACL Anthology](https://aclanthology.org).
-- It is **not** a substitute for actually reading great papers. Chapter 17 tells you which ones.
+- It is **not** a substitute for actually reading great papers. Chapter 27 tells you which ones.
 
 ## How to use it
 

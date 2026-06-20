@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-title: "2. Framing the Contribution"
+sidebar_position: 4
+title: "4. Framing the Contribution"
 ---
 
 Stop. Before you open Overleaf, you need to be able to answer four questions in plain English. Write them on an index card.

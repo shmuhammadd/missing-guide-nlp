@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-title: "3. The Title"
+sidebar_position: 8
+title: "8. The Title"
 ---
 
 The title is the only part of your paper most of the field will ever read. It is the line that appears in the proceedings, in citations, in a reviewer's bidding list, in a search result, in a tweet, on a slide someone else made about your work. You will write it in ninety seconds and live with it for ten years. Treat it like the load-bearing wall it is.
@@ -11,7 +11,7 @@ The title is the only part of your paper most of the field will ever read. It is
 - **It is searchable.** Reviewers, future students, and retrieval systems look for keywords. If the paper is about retrieval-augmented generation for biomedical QA, those words — or their close cousins — should be in the title. A title no one can find is a title no one cites.
 - **It is honest.** Do not promise *Universal* or *General-Purpose* if you tested one language and two datasets. Reviewers see through it in the abstract, and the claim ages badly once someone runs the obvious counterexample.
 - **It survives being read aloud.** Titles get spoken — in talks, in introductions, in hallway recommendations. If you stumble reading yours, rewrite it.
-- **It sets the reader's expectations and then the paper meets them.** The title is a promise. Paragraph 4 of your introduction (the results preview — see [the Introduction chapter](./05-introduction.md)) is where you keep it.
+- **It sets the reader's expectations and then the paper meets them.** The title is a promise. Paragraph 4 of your introduction (the results preview — see [the Introduction chapter](./10-introduction.md)) is where you keep it.
 
 ## The dominant patterns
 
@@ -33,7 +33,7 @@ The phrasebook below fills each of these in with real, highly-cited titles so yo
 
 The subsections below collect real \*ACL (and a few field-defining adjacent) titles, grouped by surface shape. Each entry names *what the title does* — the move — so you can copy the move, not the words.
 
-**These are patterns to internalise, not templates to fill in.** Unlike the abstract and introduction phrasebooks ([Chapter 4](./04-abstract.md), [Chapter 5](./05-introduction.md)), there is no plagiarism worry here: a title *is* its citation, so quoting one in full is just naming the paper. The risk runs the other way. These shapes are so well-worn that copying one mindlessly produces a cliché — the ten-thousandth *X: A Novel Framework for Y*. Read a subsection, name the move ("name-and-expand," "hook that still tells the topic," "the honest question"), then write your own. A paper can fit several patterns; each title is filed under the shape it shows most clearly. The larger patterns lead with two titles and fold the rest behind **Show more**; the shorter ones are listed in full.
+**These are patterns to internalise, not templates to fill in.** Unlike the abstract and introduction phrasebooks ([Chapter 9](./09-abstract.md), [Chapter 10](./10-introduction.md)), there is no plagiarism worry here: a title *is* its citation, so quoting one in full is just naming the paper. The risk runs the other way. These shapes are so well-worn that copying one mindlessly produces a cliché — the ten-thousandth *X: A Novel Framework for Y*. Read a subsection, name the move ("name-and-expand," "hook that still tells the topic," "the honest question"), then write your own. A paper can fit several patterns; each title is filed under the shape it shows most clearly. The larger patterns lead with two titles and fold the rest behind **Show more**; the shorter ones are listed in full.
 
 ### Name + colon expansion (the workhorse)
 
@@ -179,6 +179,6 @@ Write five titles. Show them to two colleagues with no context and ask which pap
 
 ## Further reading
 
-- Steven Pinker, *The Sense of Style*, Chapter 2 — on how a title functions as the reader's first model of your content.
+- Steven Pinker, *The Sense of Style*, Chapter 4 — on how a title functions as the reader's first model of your content.
 - Mike Ashby, ["How to Write a Paper"](https://www-mech.eng.cam.ac.uk/mmd/ashby-paper-V6.pdf), the section on titles.
-- The companion phrasebooks in [Chapter 4 — The Abstract](./04-abstract.md) and [Chapter 5 — The Introduction](./05-introduction.md): a title is the one-line compression of the move sentence those chapters unpack.
+- The companion phrasebooks in [Chapter 9 — The Abstract](./09-abstract.md) and [Chapter 10 — The Introduction](./10-introduction.md): a title is the one-line compression of the move sentence those chapters unpack.

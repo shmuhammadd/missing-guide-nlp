@@ -48,11 +48,14 @@ slug: /checklists/submission-checklist
 
 ## Submission Logistics
 
-- [ ] Anonymized: no author names, affiliations, or identifying self-citations.
-- [ ] No links to non-anonymous repositories.
+- [ ] Anonymized: no author names or affiliations; self-citations in the third person.
+- [ ] Acknowledgments and identifying funding/grant numbers removed from the review version.
+- [ ] PDF metadata clean — no author name in the file's document properties.
+- [ ] No links to non-anonymous repositories (use an anonymized mirror).
 - [ ] Page limits respected (Limitations, Ethics, References, Appendix do not count).
 - [ ] Responsible NLP Checklist filled out.
 - [ ] PDF compiled with the correct year's ACL style file.
+- [ ] Ran [`aclpubcheck`](https://github.com/acl-org/aclpubcheck) on the PDF; margin, font, page-limit, and citation errors fixed.
 
 ## The reviewer test
 

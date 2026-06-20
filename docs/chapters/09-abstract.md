@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-title: "4. The Abstract"
+sidebar_position: 9
+title: "9. The Abstract"
 ---
 
 The abstract is read by far more people than the rest of the paper — most of the field will read it and nothing else. It is also the first thing reviewers see, and many form a preliminary judgment from it before reading anything else. Spend disproportionate effort here.
@@ -25,7 +25,7 @@ Each subsection below lists verbatim openings, pivots, and closings from highly-
 
 **These are patterns to internalise, not templates to fill in word-for-word.** Lifting a phrase verbatim is plagiarism; absorbing the rhetorical move — "the 'however + enumerated shortcomings' pivot," "the move sentence that does double duty as a method summary" — and writing your own version is craft. Read a subsection, notice the underlying move, close the page, then write. The glosses in italics describe the move so you can name it; the quotes are evidence that the move works in real published papers.
 
-The same move recurs at three scales across this guide: the [title](./03-title.md) compresses it to a phrase, the abstract states it in a sentence, and the [introduction](./05-introduction.md) unfolds it into a paragraph. Reading the three phrasebooks side by side — often drawn from the very same papers — is the fastest way to see one piece of rhetoric expand and contract to fit its slot.
+The same move recurs at three scales across this guide: the [title](./08-title.md) compresses it to a phrase, the abstract states it in a sentence, and the [introduction](./10-introduction.md) unfolds it into a paragraph. Reading the three phrasebooks side by side — often drawn from the very same papers — is the fastest way to see one piece of rhetoric expand and contract to fit its slot.
 
 Under each move below, a couple of examples sit in the open so you can skim the pattern at a glance; expand **Show more** for the rest.
 

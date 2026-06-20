@@ -1,6 +1,6 @@
 ---
-sidebar_position: 18
-title: "18. A Final Checklist"
+sidebar_position: 28
+title: "28. A Final Checklist"
 ---
 
 Before you submit, walk through this. Some of it overlaps with the official Responsible NLP Checklist; treat that as the canonical version.
@@ -34,11 +34,14 @@ A standalone, printable copy is at [`checklists/submission-checklist.md`](../che
 
 ## Submission Logistics
 
-- [ ] Anonymized: no author names, affiliations, or self-citations that reveal identity.
-- [ ] No links to non-anonymous repositories.
+- [ ] Anonymized: no author names or affiliations, and self-citations in the third person ("Smith (2023) showed," not "we showed in [Smith 2023]").
+- [ ] Acknowledgments and identifying funding/grant numbers removed from the review version (they go back in the camera-ready).
+- [ ] PDF metadata clean — your name is not in the file's document properties (check the Author field; this catches many otherwise-anonymous submissions).
+- [ ] No links to non-anonymous repositories; use an anonymized mirror (e.g. [anonymous.4open.science](https://anonymous.4open.science)) for code and data.
 - [ ] Page limits respected (Limitations, Ethics, References, Appendix do not count).
 - [ ] Responsible NLP Checklist filled out.
 - [ ] PDF compiled with the correct year's ACL style file.
+- [ ] Ran [`aclpubcheck`](https://github.com/acl-org/aclpubcheck) on the PDF and fixed what it flags — it catches the margin, font, page-limit, and citation errors that trigger desk rejects (`aclpubcheck --paper_type long paper.pdf`). Ignore its line-number warnings on a review-version PDF.
 
 ## The reviewer test
 

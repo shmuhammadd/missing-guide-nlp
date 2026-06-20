@@ -1,7 +1,11 @@
 ---
-sidebar_position: 16
-title: "16. References, Appendices, and Reproducibility"
+sidebar_position: 22
+title: "22. References, Appendices, and Reproducibility"
 ---
+
+The back matter is where a paper earns trust after it has made its case. Three things live here, each with a different job: *references* let a reader verify the conversation you joined, *appendices* hold what supports your claims without being essential to them, and the *reproducibility* record lets someone rebuild your results. None of the three is a dumping ground — material the main claims depend on belongs in the main text, and material that supports no claim at all belongs nowhere.
+
+**The appendix test** is one question: *can a reviewer accept the paper's claims without turning to the appendix?* If yes, the content is placed correctly. If a claim only holds once the reader reaches Appendix C, that content is in the wrong place. This mirrors the boundaries drawn earlier in the guide — the method goes in [Methods](./14-methods.md), hyperparameter values in [Experimental Setup](./15-experimental-setup.md), data-collection detail in [Dataset Construction](./13-dataset-construction.md) — and the appendix takes the overflow from each that is useful but inessential.
 
 ## References
 

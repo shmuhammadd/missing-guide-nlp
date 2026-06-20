@@ -1,6 +1,6 @@
 ---
-sidebar_position: 7
-title: "7. Background / Preliminaries"
+sidebar_position: 12
+title: "12. Background / Preliminaries"
 ---
 
 Not every paper needs a separate background section. Some do. Use one when:
@@ -10,6 +10,14 @@ Not every paper needs a separate background section. Some do. Use one when:
 - The audience genuinely spans subfields and you need to level the floor.
 
 If your work is on a topic everyone at ACL already understands (e.g., autoregressive language modeling), skip this section and fold any necessary notation into Methods.
+
+## Background is not related work
+
+New authors blur these two sections, and their adjacent placement — §2 and §3 — does not help. They do different jobs. Related work is an *argument*: it positions your paper against competitors and names the gap you fill (see [Chapter 11](./11-related-work.md)). Background is *scaffolding*: it sets up the notation and formalism your Methods section depends on, and it cites the *origin* of a technique rather than its rivals.
+
+A simple test separates them. You can delete a related-work paragraph and the method still stands; delete a background paragraph and the notation in §Methods no longer parses.
+
+Some papers do combine the two under one heading, usually `Background and Related Work`, when the technical setup is light and the positioning is short. That is a fine choice — but combine them on purpose, knowing you are putting two distinct moves under one header. The names vary too: "Related Work" or "Prior Work"; "Background" or "Preliminaries."
 
 ## What goes in
 

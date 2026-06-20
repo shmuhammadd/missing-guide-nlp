@@ -1,15 +1,15 @@
 ---
-sidebar_position: 8
-title: "8. Dataset Construction"
+sidebar_position: 13
+title: "13. Dataset Construction"
 ---
 
 If your paper's contribution is a dataset, a benchmark, or any other resource, this is your methods section — and it is the section reviewers read most suspiciously. A modelling paper that hides a detail loses a little credibility; a resource paper that hides how the data was made loses all of it, because the data *is* the contribution. Everything a reader needs to trust your numbers, reuse your data, and reproduce your pipeline lives here. Write it as if a skeptical reviewer will try to rebuild the dataset from your description alone — because the good ones will.
 
-This chapter is for **resource papers**: new datasets, benchmarks, annotated corpora, shared-task data, evaluation suites. A modelling paper that merely *uses* an existing dataset does not need a section like this; a sentence in the experimental setup pointing at the original release is enough.
+This chapter is for **resource papers** — new datasets, benchmarks, annotated corpora, shared-task data, evaluation suites — and only for them. The test is one question: *is the resource itself the contribution?* If yes, read on, because this section is your methods; the construction is the work a modelling paper spends [Chapter 14](./14-methods.md) on. If your contribution is a model or a method that merely *uses* existing data, you do not write this section at all. You write [Methods](./14-methods.md) instead, and one sentence in [Experimental Setup](./15-experimental-setup.md) pointing at the original release covers the data — re-telling someone else's collection story is not your job. A paper that ships both a dataset and a model writes both: the dataset section first, since the model is trained and evaluated on it.
 
 ## Where it goes, and what it replaces
 
-In a resource paper this section usually appears right after Related Work, often titled *Data*, *Dataset*, *Dataset Construction*, *Data Collection*, or *Corpus*. For most resource papers it **stands in for the methods chapter** ([Chapter 9](./09-methods.md)): the construction *is* the method. If you also propose a model trained on the data, the dataset section comes first and the model section follows. Baselines and metrics then go in [Experimental Setup](./10-experimental-setup.md).
+In a resource paper this section usually appears right after Related Work, often titled *Data*, *Dataset*, *Dataset Construction*, *Data Collection*, or *Corpus* — the label varies, the contents do not. Whatever you call it, it occupies the slot a modelling paper gives to Methods. Baselines and metrics then go in [Experimental Setup](./15-experimental-setup.md).
 
 Reviewers of resource papers are explicitly asked, under most \*ACL data and reproducibility criteria, whether the collection and annotation are documented well enough to judge data quality and to reuse the resource. Treat that as the spec for this section.
 
@@ -36,7 +36,7 @@ This is where resource papers are won or lost. Report:
 - **Who annotated, and why they are qualified.** Native speakers? Trained linguists? Crowdworkers? For any language other than high-resource English, native-speaker or fluent annotation is not optional, and reviewers will ask. Name the number of annotators.
 - **The guidelines.** Summarise them and include the full version in an appendix or repository. Guidelines are the difference between a label scheme and a vibe.
 - **The process.** Pilot rounds, annotator training, how many annotators saw each item, how disagreements were adjudicated, how the guidelines changed in response to early rounds.
-- **Compensation and ethics.** Pay rate relative to local minimum wage, recruitment, and IRB/ethics approval where applicable. Underpaying annotators is both an ethical failure and, increasingly, a desk-reject risk. This connects to [Ethical Considerations](./15-ethics.md).
+- **Compensation and ethics.** Pay rate relative to local minimum wage, recruitment, and IRB/ethics approval where applicable. Underpaying annotators is both an ethical failure and, increasingly, a desk-reject risk. This connects to [Ethical Considerations](./20-ethics.md).
 - **The tooling.** What annotation interface or platform; it affects what kinds of errors are even possible.
 
 ### 5. Quality and inter-annotator agreement
@@ -49,7 +49,7 @@ Give the reader a table, not a paragraph of numbers. At minimum: total size, the
 
 ## Phrasebook: the moves of a dataset section
 
-The reporting sentences of a dataset section are formulaic — which is good news, because it means you can learn the moves. As in the [Related Work phrasebook](./06-related-work.md), most entries below are **adaptable templates** with `[bracketed]` slots, *not* quotations; a few are real, verified sentences from well-known resource papers and are marked with a citation. Templates are scaffolding — fill every bracket with a specific, and never report a statistic you did not compute. Two entries sit in the open under each move; expand **Show more** for the rest.
+The reporting sentences of a dataset section are formulaic — which is good news, because it means you can learn the moves. As in the [Related Work phrasebook](./11-related-work.md), most entries below are **adaptable templates** with `[bracketed]` slots, *not* quotations; a few are real, verified sentences from well-known resource papers and are marked with a citation. Templates are scaffolding — fill every bracket with a specific, and never report a statistic you did not compute. Two entries sit in the open under each move; expand **Show more** for the rest.
 
 ### Source and provenance
 
@@ -175,4 +175,4 @@ Before you submit, confirm the dataset section answers every one of these:
 - Emily M. Bender and Batya Friedman, ["Data Statements for Natural Language Processing"](https://aclanthology.org/Q18-1041/) (TACL 2018). The NLP standard for documenting who produced your data and who it represents.
 - Timnit Gebru et al., ["Datasheets for Datasets"](https://arxiv.org/abs/1803.09010) (CACM 2021). The general documentation checklist; pair it with the data statement.
 - Ron Artstein and Massimo Poesio, ["Inter-Coder Agreement for Computational Linguistics"](https://aclanthology.org/J08-4004/) (Computational Linguistics, 2008). The reference on which agreement metric to use and how to interpret it.
-- The companion phrasebooks in [Chapter 4 — The Abstract](./04-abstract.md) and [Chapter 5 — The Introduction](./05-introduction.md): your dataset's scale and contribution still have to be sold in one move sentence there.
+- The companion phrasebooks in [Chapter 9 — The Abstract](./09-abstract.md) and [Chapter 10 — The Introduction](./10-introduction.md): your dataset's scale and contribution still have to be sold in one move sentence there.
