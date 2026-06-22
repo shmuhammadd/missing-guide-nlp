@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-label="The Missing NLP Paper Guide — written by Shamsuddeen Hassan Muhammad">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1130"/>
+      <stop offset="0.55" stop-color="#121d4d"/>
+      <stop offset="1" stop-color="#0c2742"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.28" r="0.6">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <rect width="1200" height="600" fill="url(#glow)"/>
+  <rect x="14" y="14" width="1172" height="572" rx="18" fill="none" stroke="#2dd4bf" stroke-opacity="0.30" stroke-width="2"/>
+
+  <!-- attention-graph motif (right) -->
+  <g stroke="url(#accent)" stroke-opacity="0.45" stroke-width="1.6">
+    <line x1="980" y1="120" x2="1080" y2="190"/>
+    <line x1="980" y1="120" x2="900" y2="220"/>
+    <line x1="1080" y1="190" x2="900" y2="220"/>
+    <line x1="1080" y1="190" x2="1040" y2="330"/>
+    <line x1="900" y1="220" x2="1040" y2="330"/>
+    <line x1="900" y1="220" x2="940" y2="430"/>
+    <line x1="1040" y1="330" x2="940" y2="430"/>
+    <line x1="1040" y1="330" x2="1110" y2="430"/>
+    <line x1="940" y1="430" x2="1030" y2="500"/>
+    <line x1="1110" y1="430" x2="1030" y2="500"/>
+  </g>
+  <g fill="#0a1130" stroke="url(#accent)" stroke-width="2.4">
+    <circle cx="980" cy="120" r="11"/>
+    <circle cx="1080" cy="190" r="9"/>
+    <circle cx="900" cy="220" r="13"/>
+    <circle cx="1040" cy="330" r="10"/>
+    <circle cx="940" cy="430" r="9"/>
+    <circle cx="1110" cy="430" r="8"/>
+    <circle cx="1030" cy="500" r="11"/>
+  </g>
+  <g fill="#2dd4bf">
+    <circle cx="980" cy="120" r="4"/>
+    <circle cx="900" cy="220" r="4.5"/>
+    <circle cx="1040" cy="330" r="4"/>
+    <circle cx="1030" cy="500" r="4"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="80" y="132" fill="#5eead4" font-size="20" font-weight="600" letter-spacing="4">A FIELD GUIDE FOR FIRST-TIME &#42;ACL AUTHORS</text>
+
+  <!-- title -->
+  <text x="78" y="248" fill="#ffffff" font-size="82" font-weight="800" letter-spacing="-1">The Missing</text>
+  <text x="78" y="338" font-size="82" font-weight="800" letter-spacing="-1"><tspan fill="url(#accent)">NLP</tspan><tspan fill="#ffffff"> Paper Guide</tspan></text>
+
+  <!-- tagline -->
+  <text x="80" y="404" fill="#c7d2fe" font-size="27" font-weight="400">The class nobody teaches you about writing your first paper</text>
+  <text x="80" y="440" fill="#c7d2fe" font-size="27" font-weight="400">for ACL, EMNLP &amp; NAACL.</text>
+
+  <!-- divider -->
+  <rect x="82" y="486" width="64" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- author -->
+  <text x="80" y="536" font-size="28" font-weight="400"><tspan fill="#94a3b8">Written by </tspan><tspan fill="#ffffff" font-weight="700">Shamsuddeen Hassan Muhammad</tspan></text>
+</svg>
