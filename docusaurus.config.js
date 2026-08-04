@@ -7,7 +7,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'The Missing NLP Paper Guide',
+  title: 'AfriWrite — The Missing NLP Paper Guide',
   tagline: 'The class nobody teaches you about writing your first *ACL paper — ACL, EMNLP, and NAACL.',
   favicon: 'img/favicon.ico',
 
@@ -68,7 +68,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'The Missing NLP Paper Guide',
+        title: 'AfriWrite',
         logo: {
           alt: 'The Missing NLP Paper Guide logo',
           src: 'img/logo.svg',
