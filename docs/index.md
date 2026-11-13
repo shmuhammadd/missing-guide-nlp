@@ -29,12 +29,12 @@ If you have published five or more first-author \*ACL papers, this guide is prob
 
 ## What you get
 
-- 18 chapters covering every section of an \*ACL paper, from title to limitations.
+- 28 chapters covering every section of an \*ACL paper, plus the publication landscape, collaboration, figures, rebuttals, reviewing, and what to do after the decision.
 - Five concrete examples from real ACL/EMNLP/NAACL papers in each chapter — not invented examples.
 - A **phrasebook of rhetorical moves** in each chapter — verbatim openings, pivots, and closings drawn from highly-cited NLP papers, grouped by the job they do (context, gap, proposal, method, result, implication). Inspired by the [Manchester Academic Phrasebook](https://www.phrasebank.manchester.ac.uk/), but calibrated to \*ACL conventions and built from real papers rather than generic academic English.
-- A [printable one-page submission checklist](/checklists/submission-checklist).
+- A [printable one-page submission checklist](./checklists/submission-checklist.md).
 - A `papers-to-read.bib` with every paper cited in Chapter 27, ready to drop into Overleaf.
-- A [structured examples database](/examples/) you can browse by section or by paper.
+- A [structured examples database](./examples/README.md) you can browse by section or by paper.
 
 ## What this is *not*
 
@@ -48,32 +48,42 @@ Pick the track that matches your situation.
 
 | Your situation | Read these chapters |
 |---|---|
-| **Speed run** (deadline in 2 weeks, paper mostly drafted) | [4 Abstract](./chapters/abstract), [5 Introduction](./chapters/introduction), [11 Results](./chapters/results), [14 Limitations](./chapters/limitations), [18 Checklist](./chapters/checklist) |
+| **Speed run** (deadline in 2 weeks, paper mostly drafted) | [9 Abstract](./chapters/09-abstract.md), [10 Introduction](./chapters/10-introduction.md), [16 Results](./chapters/16-results.md), [19 Limitations](./chapters/19-limitations.md), [28 Checklist](./chapters/28-checklist.md) |
 | **First paper** (you have 6–8 weeks) | All chapters, in order |
-| **First-timer to NLP** (deciding where to submit) | [1 Publication Landscape](./chapters/publication-landscape), [2 Framing](./chapters/framing), [17 Best Papers](./chapters/best-papers) |
-| **Studying the craft** (no deadline, want to get better) | [2 Framing](./chapters/framing), [17 Best Papers](./chapters/best-papers), then any chapter that scratches an itch |
-| **Reviewing**, not writing | [12 Analysis](./chapters/analysis), [14 Limitations](./chapters/limitations), [17 Best Papers](./chapters/best-papers) |
+| **First-timer to NLP** (deciding where to submit) | [1 Publication Landscape](./chapters/01-publication-landscape.md), [4 Framing](./chapters/04-framing.md), [27 Best Papers](./chapters/27-best-papers.md) |
+| **Studying the craft** (no deadline, want to get better) | [4 Framing](./chapters/04-framing.md), [27 Best Papers](./chapters/27-best-papers.md), then any chapter that scratches an itch |
+| **Reviewing**, not writing | [24 How to Review Well](./chapters/24-reviewing.md), [17 Analysis](./chapters/17-analysis.md), [19 Limitations](./chapters/19-limitations.md), [27 Best Papers](./chapters/27-best-papers.md) |
 
 ## Chapters
 
-1. [The NLP Publication Landscape](./chapters/publication-landscape)
-2. [Before You Write: Framing the Contribution](./chapters/framing)
-3. [The Title](./chapters/title)
-4. [The Abstract](./chapters/abstract)
-5. [The Introduction](./chapters/introduction)
-6. [Related Work](./chapters/related-work)
-7. [Background / Preliminaries](./chapters/background)
-8. [Dataset Construction](./chapters/dataset-construction)
-9. [Methods](./chapters/methods)
-10. [Experimental Setup](./chapters/experimental-setup)
-11. [Results](./chapters/results)
-12. [Analysis and Discussion](./chapters/analysis)
-13. [Conclusion](./chapters/conclusion)
-14. [Limitations (Required)](./chapters/limitations)
-15. [Ethical Considerations](./chapters/ethics)
-16. [References, Appendices, Reproducibility](./chapters/references-and-appendices)
-17. [Best Papers Worth Reading](./chapters/best-papers)
-18. [A Final Checklist](./chapters/checklist)
+1. [The NLP Publication Landscape](./chapters/01-publication-landscape.md)
+2. [What Kind of Paper Are You Writing?](./chapters/02-paper-types.md)
+3. [Decoding the Jargon](./chapters/03-jargon.md)
+4. [Before You Write](./chapters/04-framing.md)
+5. [Working With Advisors and Co-authors](./chapters/05-collaboration.md)
+6. [Writing Clearly](./chapters/06-writing-clearly.md)
+7. [Figures and Tables That Work](./chapters/07-figures-and-tables.md)
+8. [The Title](./chapters/08-title.md)
+9. [The Abstract](./chapters/09-abstract.md)
+10. [The Introduction](./chapters/10-introduction.md)
+11. [Related Work](./chapters/11-related-work.md)
+12. [Background / Preliminaries](./chapters/12-background.md)
+13. [Dataset Construction](./chapters/13-dataset-construction.md)
+14. [Methods](./chapters/14-methods.md)
+15. [Experimental Setup](./chapters/15-experimental-setup.md)
+16. [Results](./chapters/16-results.md)
+17. [Analysis and Discussion](./chapters/17-analysis.md)
+18. [Conclusion](./chapters/18-conclusion.md)
+19. [Limitations (Required)](./chapters/19-limitations.md)
+20. [Ethical Considerations](./chapters/20-ethics.md)
+21. [Using AI Tools Responsibly](./chapters/21-ai-assistance.md)
+22. [References & Appendices](./chapters/22-references-and-appendices.md)
+23. [The Rebuttal](./chapters/23-rebuttal.md)
+24. [How to Review Well](./chapters/24-reviewing.md)
+25. [After Rejection](./chapters/25-after-rejection.md)
+26. [After Acceptance](./chapters/26-after-acceptance.md)
+27. [Best Papers Worth Reading](./chapters/27-best-papers.md)
+28. [A Final Checklist](./chapters/28-checklist.md)
 
 ## Contributing
 

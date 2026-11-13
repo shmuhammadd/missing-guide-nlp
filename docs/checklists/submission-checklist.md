@@ -65,4 +65,4 @@ That is where you have more work to do.
 
 ---
 
-*Part of [The Missing NLP Paper Guide](/).*
+*Part of [The Missing NLP Paper Guide](../index.md).*

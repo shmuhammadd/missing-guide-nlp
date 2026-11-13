@@ -55,7 +55,7 @@ A good results table is dense, scannable, and honest. The single highest-leverag
 
 ## Accessibility is now expected
 
-\*ACL venues ask for accessible papers, and reviewers increasingly notice. Beyond the colorblind-safe, redundant-encoding rules above, the [ACL accessibility guidance](https://acl2020.org/blog/accessibility-for-camera-ready/) asks for **alt text on every visual** — figures, tables, charts, and diagrams alike. Write alt text that conveys the *salient finding* ("Accuracy rises with model size on all three languages, fastest for Hausa"), not a flat description ("a line chart"), and do not just repeat the caption. This is part of the work now, not optional polish.
+\*ACL venues ask for accessible papers, and reviewers increasingly notice. Beyond the colorblind-safe, redundant-encoding rules above, the [ACL accessibility guidance](https://web.archive.org/web/20260209112627/https://acl2020.org/blog/accessibility-for-camera-ready/) asks for **alt text on every visual** — figures, tables, charts, and diagrams alike. Write alt text that conveys the *salient finding* ("Accuracy rises with model size on all three languages, fastest for Hausa"), not a flat description ("a line chart"), and do not just repeat the caption. This is part of the work now, not optional polish.
 
 ## Tools at a glance
 
@@ -90,5 +90,5 @@ A good results table is dense, scannable, and honest. The single highest-leverag
 - Rougier, Droettboom, and Bourne, ["Ten Simple Rules for Better Figures"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) (PLOS Computational Biology, 2014). Short, free, and the best starting point.
 - Claus O. Wilke, [*Fundamentals of Data Visualization*](https://clauswilke.com/dataviz/) (O'Reilly, 2019; free online). The deep reference, strong on color and accessibility.
 - Edward Tufte, *The Visual Display of Quantitative Information*. The classic on data-ink and removing chartjunk.
-- The [ACL formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [accessibility guidance](https://acl2020.org/blog/accessibility-for-camera-ready/) — the rules your camera-ready is held to ([Chapter 26](./26-after-acceptance.md)).
+- The [ACL formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [accessibility guidance](https://web.archive.org/web/20260209112627/https://acl2020.org/blog/accessibility-for-camera-ready/) — the rules your camera-ready is held to ([Chapter 26](./26-after-acceptance.md)).
 - [ColorBrewer](https://colorbrewer2.org) for ready-made, print- and colorblind-safe palettes.

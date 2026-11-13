@@ -5,7 +5,7 @@ title: "28. A Final Checklist"
 
 Before you submit, walk through this. Some of it overlaps with the official Responsible NLP Checklist; treat that as the canonical version.
 
-A standalone, printable copy is at [`checklists/submission-checklist.md`](../checklists/submission-checklist).
+A standalone, printable copy is at [`checklists/submission-checklist.md`](../checklists/submission-checklist.md).
 
 ## Content
 

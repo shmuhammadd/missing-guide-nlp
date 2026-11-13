@@ -51,7 +51,6 @@ The ACL Test-of-Time Award honors papers from 10 and 25 years prior whose impact
 
 - **Pennington, Socher, Manning, *[GloVe](https://aclanthology.org/D14-1162/)* (EMNLP 2014, 10-year award 2024).**
 - **Lillian Lee, *Measures of Distributional Similarity* (ACL 1999, 25-year award 2024).**
-- Full Test-of-Time announcements: [ACL Portal](https://www.aclweb.org/portal/content/announcement-20acl-test-time-paper-award).
 
 ## How to read these
 
