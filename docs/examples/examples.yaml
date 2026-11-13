@@ -190,3 +190,136 @@
   venue: "BlackBoxNLP 2019"
   anthology_url: null
   exemplifies: "Analysis through attention visualization done carefully."
+
+- chapter: understanding-the-field
+  paper: "The State and Fate of Linguistic Diversity and Inclusion in the NLP World"
+  authors: "Joshi et al."
+  venue: "ACL 2020"
+  anthology_url: "https://aclanthology.org/2020.acl-main.560/"
+  exemplifies: "Maps the field from Anthology data: six resource classes of languages and how little *ACL research reaches most of them."
+
+- chapter: understanding-the-field
+  paper: "Examining Citations of Natural Language Processing Literature"
+  authors: "Mohammad"
+  venue: "ACL 2020"
+  anthology_url: "https://aclanthology.org/2020.acl-main.464/"
+  exemplifies: "Measures which venues, areas and paper types the field cites; a calibration of what NLP rewards."
+
+- chapter: understanding-the-field
+  paper: "The Elephant in the Room: Analyzing the Presence of Big Tech in Natural Language Processing Research"
+  authors: "Abdalla et al."
+  venue: "ACL 2023"
+  anthology_url: "https://aclanthology.org/2023.acl-long.734/"
+  exemplifies: "Meta-research that traces industry's share of *ACL authorship over time."
+
+- chapter: understanding-the-field
+  paper: "Analysis Methods in Neural Language Processing: A Survey"
+  authors: "Belinkov, Glass"
+  venue: "TACL 2019"
+  anthology_url: "https://aclanthology.org/Q19-1004/"
+  exemplifies: "Narrative survey whose taxonomy (what is analysed, how) outlived the models it was built on."
+
+- chapter: understanding-the-field
+  paper: "A Survey of Data Augmentation Approaches for NLP"
+  authors: "Feng et al."
+  venue: "Findings of ACL 2021"
+  anthology_url: "https://aclanthology.org/2021.findings-acl.84/"
+  exemplifies: "Narrative survey with a method taxonomy and a table per task family."
+
+- chapter: understanding-the-field
+  paper: "A Survey of Code-switching: Linguistic and Social Perspectives for Language Technologies"
+  authors: "Doğruöz et al."
+  venue: "ACL 2021"
+  anthology_url: "https://aclanthology.org/2021.acl-long.131/"
+  exemplifies: "Narrative survey that imports the linguistics the engineering literature had ignored; the framing is the argument."
+
+- chapter: understanding-the-field
+  paper: "A Survey on Automated Fact-Checking"
+  authors: "Guo, Schlichtkrull, Vlachos"
+  venue: "TACL 2022"
+  anthology_url: "https://aclanthology.org/2022.tacl-1.11/"
+  exemplifies: "Narrative survey that defines the task as a pipeline and organises datasets and methods by stage."
+
+- chapter: understanding-the-field
+  paper: "Efficient Methods for Natural Language Processing: A Survey"
+  authors: "Treviso et al."
+  venue: "TACL 2023"
+  anthology_url: "https://aclanthology.org/2023.tacl-1.48/"
+  exemplifies: "Multi-author narrative survey with one shared definition of efficiency across subareas."
+
+- chapter: understanding-the-field
+  paper: "A Systematic Review of Reproducibility Research in Natural Language Processing"
+  authors: "Belz et al."
+  venue: "EACL 2021"
+  anthology_url: "https://aclanthology.org/2021.eacl-main.29/"
+  exemplifies: "Systematic review: a stated Anthology title search, an inclusion rule, and a coded comparison of definitions."
+
+- chapter: understanding-the-field
+  paper: "Twenty Years of Confusion in Human Evaluation: NLG Needs Evaluation Sheets and Standardised Definitions"
+  authors: "Howcroft et al."
+  venue: "INLG 2020"
+  anthology_url: "https://aclanthology.org/2020.inlg-1.23/"
+  exemplifies: "Systematic review: 165 papers coded against one scheme; the counts make the case."
+
+- chapter: understanding-the-field
+  paper: "Best practices for the human evaluation of automatically generated text"
+  authors: "van der Lee et al."
+  venue: "INLG 2019"
+  anthology_url: "https://aclanthology.org/W19-8643/"
+  exemplifies: "Structured review of how human evaluation is run, turned into concrete recommendations."
+
+- chapter: understanding-the-field
+  paper: "Mitigating Gender Bias in Natural Language Processing: Literature Review"
+  authors: "Sun et al."
+  venue: "ACL 2019"
+  anthology_url: "https://aclanthology.org/P19-1159/"
+  exemplifies: "Literature review explicit about its scope that ends by critiquing the methods it catalogued."
+
+- chapter: understanding-the-field
+  paper: "Language (Technology) is Power: A Critical Survey of \"Bias\" in NLP"
+  authors: "Blodgett et al."
+  venue: "ACL 2020"
+  anthology_url: "https://aclanthology.org/2020.acl-main.485/"
+  exemplifies: "Critical review: 146 papers surveyed, and the critique rests on the count."
+
+- chapter: understanding-the-field
+  paper: "Utility is in the Eye of the User: A Critique of NLP Leaderboards"
+  authors: "Ethayarajh, Jurafsky"
+  venue: "EMNLP 2020"
+  anthology_url: "https://aclanthology.org/2020.emnlp-main.393/"
+  exemplifies: "Critical review with one thesis and a framework the reader can apply."
+
+- chapter: understanding-the-field
+  paper: "On the Gap between Adoption and Understanding in NLP"
+  authors: "Bianchi, Hovy"
+  venue: "Findings of ACL 2021"
+  anthology_url: "https://aclanthology.org/2021.findings-acl.340/"
+  exemplifies: "Critical review naming five practices adopted faster than understood, each argued from the literature."
+
+- chapter: understanding-the-field
+  paper: "Challenges and Strategies in Cross-Cultural NLP"
+  authors: "Hershcovich et al."
+  venue: "ACL 2022"
+  anthology_url: "https://aclanthology.org/2022.acl-long.482/"
+  exemplifies: "Critical review that turns a survey of what exists into strategies for what should."
+
+- chapter: understanding-the-field
+  paper: "A Primer in BERTology: What We Know About How BERT Works"
+  authors: "Rogers, Kovaleva, Rumshisky"
+  venue: "TACL 2020"
+  anthology_url: "https://aclanthology.org/2020.tacl-1.54/"
+  exemplifies: "Primer organised by the questions people ask about the model rather than by the papers."
+
+- chapter: understanding-the-field
+  paper: "A Primer on Neural Network Models for Natural Language Processing"
+  authors: "Goldberg"
+  venue: "JAIR 2016"
+  anthology_url: "https://arxiv.org/abs/1510.00726"
+  exemplifies: "Primer that carries one notation through the whole neural toolkit."
+
+- chapter: understanding-the-field
+  paper: "Neural Machine Translation and Sequence-to-sequence Models: A Tutorial"
+  authors: "Neubig"
+  venue: "arXiv 2017"
+  anthology_url: "https://arxiv.org/abs/1703.01619"
+  exemplifies: "Tutorial that builds one model family step by step, exercises included."
