@@ -1,13 +1,13 @@
 ---
-sidebar_position: 19
-title: "19. Limitations (Required)"
+sidebar_position: 20
+title: "20. Limitations (Required)"
 ---
 
 Since 2022, \*ACL venues **require** a Limitations section after the conclusion. It does not count toward the page limit. New authors often write this section in a panic in the last hour. Do not.
 
 A strong Limitations section *helps* you. Reviewers are trained to look for what you missed. If you name those things yourself, you have controlled the narrative.
 
-**Limitations, not ethics, and not a confession.** This section answers one question: *where might our claims not hold?* It is not the place for societal risk — that is [Ethical Considerations](./20-ethics.md) — though the two overlap (biased data both bounds your claims and raises a harm concern; put the validity angle here and the harm angle there). Nor is it a re-run of every caveat you already raised in [Analysis](./17-analysis.md); consolidate those into the load-bearing few. The section is required at \*ACL venues and does not count against the page limit, so there is no excuse to rush it.
+**Limitations, not ethics, and not a confession.** This section answers one question: *where might our claims not hold?* It is not the place for societal risk — that is [Ethical Considerations](./21-ethics.md) — though the two overlap (biased data both bounds your claims and raises a harm concern; put the validity angle here and the harm angle there). Nor is it a re-run of every caveat you already raised in [Analysis](./18-analysis.md); consolidate those into the load-bearing few. The section is required at \*ACL venues and does not count against the page limit, so there is no excuse to rush it.
 
 ## What goes in
 
@@ -66,7 +66,7 @@ Every method rests on assumptions. Name the ones a reader would not guess.
 ### Data and generalization limits (templates)
 
 - *"The dataset reflects [its source / period / population]; findings may not transfer to [other]."* — Connects a data property to a limit on generalization.
-- *"Annotation was performed by [who], which may introduce [a specific bias]; we did not measure its effect."* — Honest about an unquantified source of bias. (Report the construction in [Dataset Construction](./13-dataset-construction.md); state the validity consequence here.)
+- *"Annotation was performed by [who], which may introduce [a specific bias]; we did not measure its effect."* — Honest about an unquantified source of bias. (Report the construction in [Dataset Construction](./14-dataset-construction.md); state the validity consequence here.)
 
 <details>
 <summary>**Show 3 more**</summary>
@@ -116,4 +116,4 @@ When stuck, ask: "If I were a hostile reviewer, what one experiment would I run 
 
 - ACLPUB formatting page, the Limitations subsection: [https://acl-org.github.io/ACLPUB/formatting.html](https://acl-org.github.io/ACLPUB/formatting.html).
 - Lingard, ["The Art of Limitations"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4456466/).
-- The neighbouring [Chapter 17 — Analysis](./17-analysis.md) and [Chapter 20 — Ethical Considerations](./20-ethics.md): a caveat first raised in analysis is consolidated here, and where a limitation also risks harm, that angle goes to ethics.
+- The neighbouring [Chapter 18 — Analysis](./18-analysis.md) and [Chapter 21 — Ethical Considerations](./21-ethics.md): a caveat first raised in analysis is consolidated here, and where a limitation also risks harm, that angle goes to ethics.

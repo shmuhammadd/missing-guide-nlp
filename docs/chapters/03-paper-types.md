@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-title: "2. What kind of paper are you writing?"
+sidebar_position: 3
+title: "3. What kind of paper are you writing?"
 ---
 
 Before you pick a title or open Overleaf, settle one question: what *kind* of paper is this? NLP has many — long and short, resource and survey, position and demo, reproduction and shared-task — and each has its own length limit, its own reviewing criteria, and its own idea of what counts as a contribution. Choosing the wrong frame is a quiet but common way to fail: a survey written as if it were an experiments paper draws reviewers hunting for experiments that were never the point, and a single crisp result padded into a long paper draws "thin contribution." This chapter is the menu, so you can match your contribution to the right form before you write a word.
@@ -17,14 +17,14 @@ The line that trips up beginners: **"a short paper is not a shortened long paper
 
 When you submit to a \*ACL conference, you are usually also opting into **Findings**: "papers submitted … but not selected for the main conference will … automatically be considered for publication in the Findings of the Association for Computational Linguistics" ([ACL 2025 main call](https://2025.aclweb.org/calls/main_conference_papers/)). A Findings paper is a real, citable, Anthology-indexed publication; it simply does not get a main-session presentation slot.
 
-In the language of the [ARR review form](./03-jargon.md), Findings is roughly the home of work that scores well on *soundness* but lower on *excitement* — solid and correct, but judged not quite a headline. Treat an offer of Findings as a result, not a rejection; for a first paper it is a genuinely good outcome.
+In the language of the [ARR review form](./04-jargon.md), Findings is roughly the home of work that scores well on *soundness* but lower on *excitement* — solid and correct, but judged not quite a headline. Treat an offer of Findings as a result, not a rejection; for a first paper it is a genuinely good outcome.
 
 ## Choosing by your contribution
 
 Start from the thing you are actually claiming, and let it pick the type.
 
-- **The empirical research paper.** A new method, model, or finding, backed by experiments. The default, and the shape most of this guide assumes — Methods ([Chapter 14](./14-methods.md)), Experimental Setup, Results, Analysis.
-- **Resource and data papers.** The dataset, benchmark, or corpus *is* the contribution. Reviewed against different criteria — provenance, annotation, agreement, leak-free splits — covered in [Dataset Construction](./13-dataset-construction.md). Homes include the main conference, Findings, dedicated data tracks, and venues like LREC.
+- **The empirical research paper.** A new method, model, or finding, backed by experiments. The default, and the shape most of this guide assumes — Methods ([Chapter 15](./15-methods.md)), Experimental Setup, Results, Analysis.
+- **Resource and data papers.** The dataset, benchmark, or corpus *is* the contribution. Reviewed against different criteria — provenance, annotation, agreement, leak-free splits — covered in [Dataset Construction](./14-dataset-construction.md). Homes include the main conference, Findings, dedicated data tracks, and venues like LREC.
 - **Survey papers.** A map of a subfield: what has been tried, how the pieces relate, where the open problems are. Hard to do well — it needs real command of the area — and it is an *argument about structure*, not a pile of summaries. ACL invites surveys; longer treatments often go to the journals *Computational Linguistics* or *TACL*.
 - **Position and theme-track papers.** An argued stance — "the field should rethink X" — built from evidence and reasoning rather than experiments. Each year ACL runs a **theme track** soliciting these on a chosen theme, with a Thematic Paper Award.
 - **Negative-results and reproduction papers.** Reporting what did not work, or whether a published result holds up, is an explicitly invited contribution. Often short papers; the [Insights workshop](https://aclanthology.org/venues/insights/) exists specifically for negative results, and reproducibility tracks for the rest.
@@ -57,7 +57,7 @@ Work from contribution to form, never the reverse:
 
 - **Name the one thing you are claiming.** If proving it needs several experiments, you have a long paper; if it is a single self-contained result, a short paper; if it is data, a resource paper; if it is "the field is wrong about X," a position paper; if it is "does X hold up?", a reproduction.
 - **Match the venue to maturity.** In-progress work fits a workshop or the SRW; complete work fits the main conference; thorough work that needs revision fits a journal.
-- **Do not inflate, and do not slice.** Padding a short idea into a long paper reads as a thin contribution; carving one real contribution into several minimal papers is salami-slicing (see the [jargon chapter](./03-jargon.md)). Either way a reviewer notices.
+- **Do not inflate, and do not slice.** Padding a short idea into a long paper reads as a thin contribution; carving one real contribution into several minimal papers is salami-slicing (see the [jargon chapter](./04-jargon.md)). Either way a reviewer notices.
 - **Read the call.** Tracks, page limits, and special requirements (a demo needs a working system and often a video; the theme track needs that year's theme) change every cycle. The [Publication Landscape](./01-publication-landscape.md) chapter covers where these venues sit.
 
 ## Common mistakes
@@ -72,4 +72,4 @@ Work from contribution to form, never the reverse:
 
 - The [ACL Rolling Review call for papers](https://aclrollingreview.org/cfp) — the authoritative source for long/short definitions and page limits.
 - A current main-conference call (e.g. [ACL 2025](https://2025.aclweb.org/calls/main_conference_papers/)) for the theme track, Findings, and the full list of welcomed contribution types.
-- [Chapter 1 — The NLP Publication Landscape](./01-publication-landscape.md) for the venues these paper types live in, and [Chapter 13 — Dataset Construction](./13-dataset-construction.md) if your contribution is a resource.
+- [Chapter 1 — The NLP Publication Landscape](./01-publication-landscape.md) for the venues these paper types live in, and [Chapter 14 — Dataset Construction](./14-dataset-construction.md) if your contribution is a resource.

@@ -9,7 +9,7 @@
 [![Built with Docusaurus](https://img.shields.io/badge/built%20with-Docusaurus-3578e5.svg)](https://docusaurus.io/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[**Read the guide →**](docs/chapters/) &nbsp;·&nbsp; [**One-page checklist**](docs/checklists/submission-checklist.md) &nbsp;·&nbsp; [**Best papers list**](docs/chapters/27-best-papers.md) &nbsp;·&nbsp; [**Contribute**](CONTRIBUTING.md)
+[**Read the guide →**](docs/chapters/) &nbsp;·&nbsp; [**One-page checklist**](docs/checklists/submission-checklist.md) &nbsp;·&nbsp; [**Best papers list**](docs/chapters/28-best-papers.md) &nbsp;·&nbsp; [**Contribute**](CONTRIBUTING.md)
 
 </div>
 
@@ -30,33 +30,34 @@ This is the missing class. Inspired in spirit by MIT's [Missing Semester of Your
 ## Chapters
 
 1. [The NLP Publication Landscape](docs/chapters/01-publication-landscape.md)
-2. [What Kind of Paper Are You Writing?](docs/chapters/02-paper-types.md)
-3. [Decoding the Jargon](docs/chapters/03-jargon.md)
-4. [Before You Write](docs/chapters/04-framing.md)
-5. [Working With Advisors and Co-authors](docs/chapters/05-collaboration.md)
-6. [Writing Clearly](docs/chapters/06-writing-clearly.md)
-7. [Figures and Tables That Work](docs/chapters/07-figures-and-tables.md)
-8. [The Title](docs/chapters/08-title.md)
-9. [The Abstract](docs/chapters/09-abstract.md)
-10. [The Introduction](docs/chapters/10-introduction.md)
-11. [Related Work](docs/chapters/11-related-work.md)
-12. [Background / Preliminaries](docs/chapters/12-background.md)
-13. [Dataset Construction](docs/chapters/13-dataset-construction.md)
-14. [Methods](docs/chapters/14-methods.md)
-15. [Experimental Setup](docs/chapters/15-experimental-setup.md)
-16. [Results](docs/chapters/16-results.md)
-17. [Analysis and Discussion](docs/chapters/17-analysis.md)
-18. [Conclusion](docs/chapters/18-conclusion.md)
-19. [Limitations (Required)](docs/chapters/19-limitations.md)
-20. [Ethical Considerations](docs/chapters/20-ethics.md)
-21. [Using AI Tools Responsibly](docs/chapters/21-ai-assistance.md)
-22. [References & Appendices](docs/chapters/22-references-and-appendices.md)
-23. [The Rebuttal](docs/chapters/23-rebuttal.md)
-24. [How to Review Well](docs/chapters/24-reviewing.md)
-25. [After Rejection](docs/chapters/25-after-rejection.md)
-26. [After Acceptance](docs/chapters/26-after-acceptance.md)
-27. [Best Papers Worth Reading](docs/chapters/27-best-papers.md)
-28. [A Final Checklist](docs/chapters/28-checklist.md)
+2. [Understanding the Field](docs/chapters/02-understanding-the-field.md)
+3. [What Kind of Paper Are You Writing?](docs/chapters/03-paper-types.md)
+4. [Decoding the Jargon](docs/chapters/04-jargon.md)
+5. [Before You Write](docs/chapters/05-framing.md)
+6. [Working With Advisors and Co-authors](docs/chapters/06-collaboration.md)
+7. [Writing Clearly](docs/chapters/07-writing-clearly.md)
+8. [Figures and Tables That Work](docs/chapters/08-figures-and-tables.md)
+9. [The Title](docs/chapters/09-title.md)
+10. [The Abstract](docs/chapters/10-abstract.md)
+11. [The Introduction](docs/chapters/11-introduction.md)
+12. [Related Work](docs/chapters/12-related-work.md)
+13. [Background / Preliminaries](docs/chapters/13-background.md)
+14. [Dataset Construction](docs/chapters/14-dataset-construction.md)
+15. [Methods](docs/chapters/15-methods.md)
+16. [Experimental Setup](docs/chapters/16-experimental-setup.md)
+17. [Results](docs/chapters/17-results.md)
+18. [Analysis and Discussion](docs/chapters/18-analysis.md)
+19. [Conclusion](docs/chapters/19-conclusion.md)
+20. [Limitations (Required)](docs/chapters/20-limitations.md)
+21. [Ethical Considerations](docs/chapters/21-ethics.md)
+22. [Using AI Tools Responsibly](docs/chapters/22-ai-assistance.md)
+23. [References & Appendices](docs/chapters/23-references-and-appendices.md)
+24. [The Rebuttal](docs/chapters/24-rebuttal.md)
+25. [How to Review Well](docs/chapters/25-reviewing.md)
+26. [After Rejection](docs/chapters/26-after-rejection.md)
+27. [After Acceptance](docs/chapters/27-after-acceptance.md)
+28. [Best Papers Worth Reading](docs/chapters/28-best-papers.md)
+29. [A Final Checklist](docs/chapters/29-checklist.md)
 
 ## Run the site locally
 
@@ -86,7 +87,7 @@ In VS Code: `Cmd+Shift+P` → **Tasks: Run Task** → **Docusaurus: start (dev s
 .
 ├── docs/                      # All content (chapters, checklists, examples)
 │   ├── index.md               # Homepage
-│   ├── chapters/              # The 28 chapters
+│   ├── chapters/              # The 29 chapters
 │   ├── checklists/            # Printable checklists
 │   └── examples/              # YAML database + BibTeX
 ├── src/css/custom.css         # Theme overrides

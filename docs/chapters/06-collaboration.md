@@ -1,15 +1,15 @@
 ---
-sidebar_position: 5
-title: "5. Working with advisors and co-authors"
+sidebar_position: 6
+title: "6. Working with advisors and co-authors"
 ---
 
 A first \*ACL paper is almost never solo work. You will have an advisor, and usually one or more co-authors, and the human side of that — who does what, whose name goes where, how to give and take feedback, how to disagree — is rarely taught and quietly decides whether the project is a good experience or a miserable one. The science is only half the job. This chapter is the other half.
 
 ## Who earns a place on the byline
 
-Authorship is not a reward for seniority, funding, or friendship. The widely-used standard, from the [ICMJE](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html), is four conditions, *all* required: a substantial contribution to the work; drafting it or revising it critically; approving the final version; and agreeing to be accountable for it. By that bar, someone who only secured the grant, ran the lab, or proofread the English does not qualify — such people "should not be listed as authors, but they should be acknowledged." A language model, likewise, is never an author ([Chapter 21](./21-ai-assistance.md)): it cannot be accountable for anything.
+Authorship is not a reward for seniority, funding, or friendship. The widely-used standard, from the [ICMJE](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html), is four conditions, *all* required: a substantial contribution to the work; drafting it or revising it critically; approving the final version; and agreeing to be accountable for it. By that bar, someone who only secured the grant, ran the lab, or proofread the English does not qualify — such people "should not be listed as authors, but they should be acknowledged." A language model, likewise, is never an author ([Chapter 22](./22-ai-assistance.md)): it cannot be accountable for anything.
 
-Two failure modes have names ([Chapter 3](./03-jargon.md)): *gift* (or *guest*) *authorship* — adding someone who did not contribute, to flatter them or look impressive — and *ghost authorship* — omitting someone who did. Both are misconduct. Note that in NLP the advisor is normally a genuine author: they shaped the idea and revised the paper, which clears the bar. The principle is that they are an author *by contribution*, not by default.
+Two failure modes have names ([Chapter 4](./04-jargon.md)): *gift* (or *guest*) *authorship* — adding someone who did not contribute, to flatter them or look impressive — and *ghost authorship* — omitting someone who did. Both are misconduct. Note that in NLP the advisor is normally a genuine author: they shaped the idea and revised the paper, which clears the bar. The principle is that they are an author *by contribution*, not by default.
 
 ## Author order, and what it signals
 
@@ -40,14 +40,14 @@ Advisors vary enormously — some want a meeting a week and a draft a fortnight 
 Feedback on your writing is about the writing, not about you — separate your ego from the draft and the whole process gets easier.
 
 - **Address every comment.** Fix it, or push back with a reason; never silently ignore a co-author's note.
-- **A harsh internal review is a gift.** Far better that a co-author finds the hole now than [Reviewer 2](./03-jargon.md) finds it later. Invite the toughest reading you can get before submission, not after.
-- **When you are the one giving feedback,** be specific and kind — the same standard the [reviewing chapter](./24-reviewing.md) asks of reviewers. These are your collaborators, not your adversaries.
+- **A harsh internal review is a gift.** Far better that a co-author finds the hole now than [Reviewer 2](./04-jargon.md) finds it later. Invite the toughest reading you can get before submission, not after.
+- **When you are the one giving feedback,** be specific and kind — the same standard the [reviewing chapter](./25-reviewing.md) asks of reviewers. These are your collaborators, not your adversaries.
 
 ## Co-writing logistics
 
 - **Keep one source of truth.** Agree on Overleaf, or git-plus-LaTeX, and stop emailing versions around before someone overwrites someone else's edits.
-- **Divide by expertise, unify by one voice.** Let people draft the sections they know best, but have a single author own the final pass so the paper reads in one voice ([Chapter 6](./06-writing-clearly.md)) rather than as a patchwork of five styles.
-- **Share the bibliography.** One `.bib` file, one reference manager, and every entry verified ([Chapter 22](./22-references-and-appendices.md)).
+- **Divide by expertise, unify by one voice.** Let people draft the sections they know best, but have a single author own the final pass so the paper reads in one voice ([Chapter 7](./07-writing-clearly.md)) rather than as a patchwork of five styles.
+- **Share the bibliography.** One `.bib` file, one reference manager, and every entry verified ([Chapter 23](./23-references-and-appendices.md)).
 - **Write down who owns what,** with dates. A shared task list prevents the deadline-week discovery that nobody wrote the related work.
 
 ## When things go wrong
@@ -70,4 +70,4 @@ Feedback on your writing is about the writing, not about you — separate your e
 - ICMJE, ["Defining the Role of Authors and Contributors"](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html). The standard criteria for who counts as an author, and who should be acknowledged instead.
 - [CRediT — Contributor Roles Taxonomy](https://credit.niso.org/). The 14-role vocabulary many venues now use for contribution statements.
 - The [ACL Policy on Publication Ethics](https://www.aclweb.org/adminwiki/index.php/ACL_Policy_on_Publication_Ethics). What ACL expects of authors, and where to turn when it is breached.
-- [Chapter 3 — Decoding the Jargon](./03-jargon.md) on gift, guest, and ghost authorship, and the incentives behind them.
+- [Chapter 4 — Decoding the Jargon](./04-jargon.md) on gift, guest, and ghost authorship, and the incentives behind them.

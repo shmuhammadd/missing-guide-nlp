@@ -19,6 +19,7 @@ const sidebars = {
       link: { type: 'doc', id: 'chapters/README' },
       items: [
         'chapters/publication-landscape',
+        'chapters/understanding-the-field',
         'chapters/paper-types',
         'chapters/jargon',
         'chapters/framing',
