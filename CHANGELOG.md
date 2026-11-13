@@ -11,10 +11,10 @@ The guide follows a calendar-versioned release scheme: `vYYYY.N` where N is the 
 ## [v2026.1] — 2026-XX-XX (planned)
 
 - Initial public release.
-- 16 chapters covering title through final checklist.
+- 28 chapters covering the publication landscape, every section of the paper, rebuttals, reviewing, and life after the decision.
 - Best-papers reading list current as of ACL 2024 / ACL 2025.
 - Printable submission checklist.
-- BibTeX file of all papers cited in Chapter 15.
+- BibTeX file of all papers cited in Chapter 27.
 - Last reviewed against: [ACL Rolling Review CFP](https://aclrollingreview.org/cfp), [ACLPUB formatting page](https://acl-org.github.io/ACLPUB/formatting.html).
 - Zenodo DOI: pending (will be minted on first tagged release).
 

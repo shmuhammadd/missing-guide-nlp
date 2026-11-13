@@ -44,8 +44,8 @@ A valid example:
 
 **How to add one:**
 
-1. Add the paper to [`examples/examples.yaml`](examples/examples.yaml) in the appropriate section.
-2. Add the BibTeX entry to [`examples/papers-to-read.bib`](examples/papers-to-read.bib).
+1. Add the paper to [`examples/examples.yaml`](docs/examples/examples.yaml) in the appropriate section.
+2. Add the BibTeX entry to [`examples/papers-to-read.bib`](docs/examples/papers-to-read.bib).
 3. Reference it in the relevant chapter file. Keep the chapter list at exactly five examples — if you add a sixth, you must argue for swapping one out.
 4. Open a PR titled `examples(chapter-N): add <short paper handle>`.
 

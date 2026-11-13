@@ -180,5 +180,5 @@ Write five titles. Show them to two colleagues with no context and ask which pap
 ## Further reading
 
 - Steven Pinker, *The Sense of Style*, Chapter 4 — on how a title functions as the reader's first model of your content.
-- Mike Ashby, ["How to Write a Paper"](https://www-mech.eng.cam.ac.uk/mmd/ashby-paper-V6.pdf), the section on titles.
+- Mike Ashby, ["How to Write a Paper"](https://web.archive.org/web/20240330171033/http://www-mech.eng.cam.ac.uk/mmd/ashby-paper-V6.pdf), the section on titles.
 - The companion phrasebooks in [Chapter 9 — The Abstract](./09-abstract.md) and [Chapter 10 — The Introduction](./10-introduction.md): a title is the one-line compression of the move sentence those chapters unpack.

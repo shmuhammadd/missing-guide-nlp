@@ -1,0 +1,9 @@
+# Sites that return 403 to link checkers but open fine in a browser.
+https://medium.com/
+https://deviparikh.medium.com/
+https://dl.acm.org/
+https://www.pnas.org/
+https://royalsocietypublishing.org/
+https://publicationethics.org/
+# Verbatim quote from the RACE paper (Chapter 9); the repo it names no longer exists.
+https://github.com/qizhex/RACE_AR_baselines

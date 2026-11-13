@@ -6,7 +6,7 @@ slug: /chapters/
 
 # Chapters
 
-The guide, one chapter per file. Read in order if you have time; jump around if you are on a deadline (see the tracks on the [home page](/)).
+The guide, one chapter per file. Read in order if you have time; jump around if you are on a deadline (see the tracks on the [home page](../index.md)).
 
 | # | Chapter | What it covers |
 |---|---|---|
