@@ -1,9 +1,9 @@
 ---
-sidebar_position: 7
-title: "7. Writing clearly"
+sidebar_position: 8
+title: "8. Writing clearly"
 ---
 
-This chapter is for everyone, but it is written with the many \*ACL authors who work in English as a second, third, or fourth language especially in mind. Start with the good news, which is backed by the field's own rules: reviewers are explicitly told to judge your science, not your prose polish — "as long as the writing is clear enough, better scientific content should be more valuable than better journalistic skills" ([Chapter 25](./25-reviewing.md)). What you owe the reader is *clarity*, not native fluency. And clarity is a craft, not a gift you are born with: nearly all of it reduces to a handful of habits you can learn. Clear writing is not writing dumbed down — it is writing that costs the reader the least effort to understand a hard idea.
+This chapter is for everyone, but it is written with the many \*ACL authors who work in English as a second, third, or fourth language especially in mind. Start with the good news, which is backed by the field's own rules: reviewers are explicitly told to judge your science, not your prose polish — "as long as the writing is clear enough, better scientific content should be more valuable than better journalistic skills" ([Chapter 26](./26-reviewing.md)). What you owe the reader is *clarity*, not native fluency. And clarity is a craft, not a gift you are born with: nearly all of it reduces to a handful of habits you can learn. Clear writing is not writing dumbed down — it is writing that costs the reader the least effort to understand a hard idea.
 
 ## Write for the reader's effort, not your own
 
@@ -41,7 +41,7 @@ Academic English hedges claims on purpose — to match the strength of a stateme
 - **Over-hedging** — the hedge-stack: "the results may possibly suggest that the method could perhaps help in some cases." Pick one hedge and say it once.
 - **Under-hedging** — the overclaim: "our method solves named-entity recognition." Scope it to what you showed.
 
-Aim for a claim exactly as strong as your evidence, and no stronger. The project's [STYLE.md](https://github.com/shmuhammadd/missing-guide-nlp/blob/main/STYLE.md) bans the hedge-stack; the [Results](./17-results.md) and [Limitations](./20-limitations.md) chapters police the overclaim from the other side.
+Aim for a claim exactly as strong as your evidence, and no stronger. The project's [STYLE.md](https://github.com/shmuhammadd/missing-guide-nlp/blob/main/STYLE.md) bans the hedge-stack; the [Results](./18-results.md) and [Limitations](./21-limitations.md) chapters police the overclaim from the other side.
 
 ## Prefer strong verbs and the active voice
 
@@ -83,9 +83,9 @@ Sixty-one words became twenty-three, with nothing lost. What changed: "due to th
 ## Habits that build the skill
 
 - **Read your draft aloud.** Your ear catches the tangles your eye slides over.
-- **Imitate structure, not words.** Read the papers in [Chapter 28](./28-best-papers.md) and steal how they move from sentence to sentence — never the sentences themselves.
+- **Imitate structure, not words.** Read the papers in [Chapter 29](./29-best-papers.md) and steal how they move from sentence to sentence — never the sentences themselves.
 - **Get one late reading** from a fluent colleague, after the science is settled, so the feedback is about prose and not content.
-- **Use tools honestly.** A grammar checker, or a model used to polish *your own* sentences, is the one clearly-permitted AI use ([Chapter 22](./22-ai-assistance.md)) — never to generate claims or paragraphs you did not write.
+- **Use tools honestly.** A grammar checker, or a model used to polish *your own* sentences, is the one clearly-permitted AI use ([Chapter 23](./23-ai-assistance.md)) — never to generate claims or paragraphs you did not write.
 - **Revise.** First drafts exist to get the ideas down; clarity arrives in the second and third pass. Expect to rewrite.
 
 ## Common mistakes

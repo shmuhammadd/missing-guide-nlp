@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-title: "4. Decoding the jargon"
+sidebar_position: 5
+title: "5. Decoding the jargon"
 ---
 
 Every field talks to itself in shorthand. \*ACL is no exception: reviews, hallway conversations, and threads on social media are thick with terms a newcomer is assumed to already know — *desk reject*, *Reviewer 2*, *salami-slicing*, *SOTA*, *stochastic parrots*. Nobody defines them for you, and asking can feel like admitting you do not belong.
@@ -51,21 +51,21 @@ The \*ACL review process has a precisely documented machinery and a layer of fol
 
 A cluster of named failure modes — most coined outside NLP, all alive inside it. Each names a way a result can look real without being real. Richard Feynman's framing covers them all: the easiest person to fool is yourself.
 
-**p-hacking.** Trying analyses, subsets, or metrics until something clears the significance bar, then reporting only that. The term was coined in 2014 by the researchers behind the *Data Colada* blog (Simonsohn, Nelson, and Simmons) ([overview](https://en.wikipedia.org/wiki/Data_dredging)). In ML the equivalent is tweaking splits, seeds, or hyperparameters until a baseline loses — which is why [Chapter 16](./16-experimental-setup.md) insists on val/test separation and seeds.
+**p-hacking.** Trying analyses, subsets, or metrics until something clears the significance bar, then reporting only that. The term was coined in 2014 by the researchers behind the *Data Colada* blog (Simonsohn, Nelson, and Simmons) ([overview](https://en.wikipedia.org/wiki/Data_dredging)). In ML the equivalent is tweaking splits, seeds, or hyperparameters until a baseline loses — which is why [Chapter 17](./17-experimental-setup.md) insists on val/test separation and seeds.
 
 **The garden of forking paths.** Coined by Andrew Gelman and Eric Loken in a 2013 working paper (its title nods to a Borges story) for a subtler problem than p-hacking: even a *single* analysis can be invalid if the choices that produced it were data-dependent, because many other reasonable choices were available ([paper](https://sites.stat.columbia.edu/gelman/research/unpublished/forking.pdf)). Crucially, the authors distance it from "p-hacking" — forking paths needs no conscious fishing, just ordinary judgement applied after seeing the data. The terms are not synonyms.
 
-**HARKing.** *Hypothesizing After the Results are Known* — presenting a post-hoc finding as though it were your prediction all along. Coined by Norbert Kerr in 1998 and applied to machine learning in ["The HARK Side of Deep Learning"](https://arxiv.org/abs/1904.07633) (2019). The fix is the honesty [Chapter 15](./15-methods.md) asks for: say what you set out to test, and what you found by accident.
+**HARKing.** *Hypothesizing After the Results are Known* — presenting a post-hoc finding as though it were your prediction all along. Coined by Norbert Kerr in 1998 and applied to machine learning in ["The HARK Side of Deep Learning"](https://arxiv.org/abs/1904.07633) (2019). The fix is the honesty [Chapter 16](./16-methods.md) asks for: say what you set out to test, and what you found by accident.
 
 **Cargo-cult science.** Work that mimics every outward form of science — the equations, the tables, the significance tests — while missing the essential thing, which Feynman named as a "leaning over backwards" honesty about everything that might prove you wrong (Feynman, 1974 Caltech commencement address, ["Cargo Cult Science"](https://calteches.library.caltech.edu/3043/)). A sharp epithet, and a contested one — some argue it slides too easily into attacking people's character — so deploy it on practices, not persons.
 
-**Clever Hans / shortcut learning.** Clever Hans was a 1900s horse that seemed to do arithmetic but was really reading its trainer's body language. In ML the analogy names a model that scores well by exploiting a dataset artifact rather than learning the task — popularized by Lapuschkin et al., 2019, ["Unmasking Clever Hans predictors"](https://www.nature.com/articles/s41467-019-08987-4). A model "pulls a Clever Hans" when a strong number hides a spurious shortcut; finding these is the job of [Chapter 18](./18-analysis.md).
+**Clever Hans / shortcut learning.** Clever Hans was a 1900s horse that seemed to do arithmetic but was really reading its trainer's body language. In ML the analogy names a model that scores well by exploiting a dataset artifact rather than learning the task — popularized by Lapuschkin et al., 2019, ["Unmasking Clever Hans predictors"](https://www.nature.com/articles/s41467-019-08987-4). A model "pulls a Clever Hans" when a strong number hides a spurious shortcut; finding these is the job of [Chapter 19](./19-analysis.md).
 
 **Graduate student descent.** A joke term — playing on *gradient descent* — for hyperparameter tuning done by hand, by a grad student running configs until something works. Folklore, but it names a real reproducibility hazard: numbers found this way are easy to HARK and hard to repeat.
 
-**Ablation.** Removing one component of a system to measure its contribution — the term borrowed from experimental biology, where you lesion a part to learn its function. Not a failure mode but the standard cure for one: it is how you show *which* of your design choices actually earns its place ([Chapter 18](./18-analysis.md)).
+**Ablation.** Removing one component of a system to measure its contribution — the term borrowed from experimental biology, where you lesion a part to learn its function. Not a failure mode but the standard cure for one: it is how you show *which* of your design choices actually earns its place ([Chapter 19](./19-analysis.md)).
 
-**The replication (or reproducibility) crisis.** The broad finding, across many empirical fields, that a large share of published results do not hold up when re-run. In NLP it shows up as numbers that cannot be reproduced from the paper — which is why the field added reproducibility checklists and why [Chapter 23](./23-references-and-appendices.md) treats release and documentation as part of the contribution.
+**The replication (or reproducibility) crisis.** The broad finding, across many empirical fields, that a large share of published results do not hold up when re-run. In NLP it shows up as numbers that cannot be reproduced from the paper — which is why the field added reproducibility checklists and why [Chapter 24](./24-references-and-appendices.md) treats release and documentation as part of the contribution.
 
 ## The lore of NLP and machine learning
 
@@ -81,13 +81,13 @@ Terms born in our own subfield, mostly in the last decade, mostly on the interne
 
 **SOTA, and SOTA-chasing.** *SOTA* = state of the art, the current best published number on a benchmark. *SOTA-chasing* is treating a higher number as the whole point of a paper. ARR explicitly rejects this as a review standard — "SOTA results are neither necessary nor sufficient for a scientific contribution" ([reviewer guidelines](https://aclrollingreview.org/reviewerguidelines)) — so a paper can contribute through efficiency, analysis, or fairness without topping a leaderboard. Goodhart's law, wearing a leaderboard.
 
-**Benchmark contamination.** When test data leaks into a model's training set — increasingly likely when models are pretrained on scraped web text that includes the benchmarks themselves — making high scores meaningless. The contemporary reason resource papers now argue explicitly that their test set is clean ([Chapter 14](./14-dataset-construction.md)).
+**Benchmark contamination.** When test data leaks into a model's training set — increasingly likely when models are pretrained on scraped web text that includes the benchmarks themselves — making high scores meaningless. The contemporary reason resource papers now argue explicitly that their test set is clean ([Chapter 15](./15-dataset-construction.md)).
 
 **GPU-poor vs GPU-rich.** Informal labels for the compute gap between groups with vast accelerator fleets and everyone else (students, most academics, most of the Global South). The terms entered wide use through 2023 industry commentary ([context](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)). More than a joke: the divide shapes which research questions are even askable on a given budget.
 
-**"Vibes-based evaluation."** Folklore, and a self-aware confession: judging a model by eyeballing a few outputs rather than measuring anything. Sometimes an honest admission that no good metric exists yet, more often a warning sign. If your evaluation is vibes, [Chapter 16](./16-experimental-setup.md) is for you.
+**"Vibes-based evaluation."** Folklore, and a self-aware confession: judging a model by eyeballing a few outputs rather than measuring anything. Sometimes an honest admission that no good metric exists yet, more often a warning sign. If your evaluation is vibes, [Chapter 17](./17-experimental-setup.md) is for you.
 
-**Concurrent work.** Research released so close to yours that neither could have cited the other — a status that excuses the missing citation, under \*ACL norms, for work posted within roughly the last three months. Claim it honestly and you lose nothing; claim someone else's earlier work as concurrent and a reviewer will notice ([Chapter 12](./12-related-work.md)).
+**Concurrent work.** Research released so close to yours that neither could have cited the other — a status that excuses the missing citation, under \*ACL norms, for work posted within roughly the last three months. Claim it honestly and you lose nothing; claim someone else's earlier work as concurrent and a reviewer will notice ([Chapter 13](./13-related-work.md)).
 
 ## Further reading
 

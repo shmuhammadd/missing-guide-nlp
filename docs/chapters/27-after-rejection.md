@@ -1,9 +1,9 @@
 ---
-sidebar_position: 26
-title: "26. After rejection"
+sidebar_position: 27
+title: "27. After rejection"
 ---
 
-Most first papers are rejected. \*ACL main-conference acceptance rates sit around a quarter, so rejection is the *modal* outcome, not a verdict on you or your future — almost every researcher you admire has a drawer full of rejection letters they later learned more from than from their acceptances. The reviews sting first and help second. This chapter is the sibling of [After Acceptance](./27-after-acceptance.md): what to do when the decision comes back *reject*.
+Most first papers are rejected. \*ACL main-conference acceptance rates sit around a quarter, so rejection is the *modal* outcome, not a verdict on you or your future — almost every researcher you admire has a drawer full of rejection letters they later learned more from than from their acceptances. The reviews sting first and help second. This chapter is the sibling of [After Acceptance](./28-after-acceptance.md): what to do when the decision comes back *reject*.
 
 ## First, do nothing
 
@@ -15,7 +15,7 @@ The reviews are information, even the bad ones — your job is to separate the s
 
 - **Weight by convergence.** A weakness two reviewers independently raise is real and must be addressed. A single reviewer's pet peeve may not be.
 - **Sort fixable from fundamental.** Be honest about which you got. "Add a baseline," "clarify Section 3," "run another seed" are fixable. "The core claim is not supported by the experiments" is fundamental and needs more than a polish.
-- **A misreading is a finding.** If a reviewer misunderstood your contribution, the paper was unclear there — that is your fault to fix, not theirs ([Reviewer 2](./04-jargon.md) notwithstanding). Even an unfair or AI-flavored review usually contains one true thing; mine it.
+- **A misreading is a finding.** If a reviewer misunderstood your contribution, the paper was unclear there — that is your fault to fix, not theirs ([Reviewer 2](./05-jargon.md) notwithstanding). Even an unfair or AI-flavored review usually contains one true thing; mine it.
 
 ## Decide: revise, redirect, or rethink
 
@@ -27,7 +27,7 @@ What you should *not* do is resubmit the identical paper to the next deadline ho
 
 ## How ARR resubmission actually works
 
-At ARR, the primary route for addressing substantive reviewer requests is revise-and-resubmit, not the in-cycle response ([Chapter 24](./24-rebuttal.md)). When you resubmit to a later cycle, three things matter.
+At ARR, the primary route for addressing substantive reviewer requests is revise-and-resubmit, not the in-cycle response ([Chapter 25](./25-rebuttal.md)). When you resubmit to a later cycle, three things matter.
 
 - **Acknowledge the previous version — this is not optional.** You provide the OpenReview link to the prior submission. "A paper that has been previously submitted but fails to acknowledge the previous version will be desk rejected." Hiding a rejection to get a fresh start is the one move guaranteed to backfire.
 - **Write a real revision note.** ARR asks for an explanation of revisions that "summarize[s] the changes made and include[s] a point-by-point response indicating how you have addressed each weakness and suggestion listed by each reviewer (or your justifications for not doing some of the revisions)." A color-coded PDF showing what changed makes the reviewers' job — and your case — easier.
@@ -39,7 +39,7 @@ The revision note is a promise, and returning reviewers check it. A note that sa
 
 ## Keep perspective
 
-- **Rejection is the common case, not failure.** Many of the papers in [Chapter 28](./28-best-papers.md) were rejected somewhere first.
+- **Rejection is the common case, not failure.** Many of the papers in [Chapter 29](./29-best-papers.md) were rejected somewhere first.
 - **The reviews are free expert feedback** most people would pay for. Keep a list of what you learned.
 - **The biggest predictor of a published paper is an author who revised it and sent it back out.** Persistence, not genius, gets most papers in.
 
@@ -55,5 +55,5 @@ The revision note is a promise, and returning reviewers check it. A note that sa
 ## Further reading
 
 - The [ARR author guidelines](https://aclrollingreview.org/authors) — the authoritative, current resubmission process and revision-note requirements.
-- [Chapter 24 — The Rebuttal](./24-rebuttal.md) for responding *during* review, and [Chapter 27 — After Acceptance](./27-after-acceptance.md) for the other outcome.
+- [Chapter 25 — The Rebuttal](./25-rebuttal.md) for responding *during* review, and [Chapter 28 — After Acceptance](./28-after-acceptance.md) for the other outcome.
 - [Chapter 3 — What Kind of Paper Are You Writing?](./03-paper-types.md) on Findings, workshops, and other venues a rejected paper can find a home in.

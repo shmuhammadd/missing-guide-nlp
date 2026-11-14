@@ -1,6 +1,6 @@
 ---
-sidebar_position: 28
-title: "28. Best Papers Worth Reading"
+sidebar_position: 29
+title: "29. Best Papers Worth Reading"
 ---
 
 Read these papers carefully — not just the abstract, the whole thing — paying attention to how they are structured, how they motivate their problem, how they present results, and how they handle the boring sections (related work, experimental setup, limitations). Pattern-match your own writing against them.

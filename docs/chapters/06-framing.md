@@ -1,6 +1,6 @@
 ---
-sidebar_position: 5
-title: "5. Framing the Contribution"
+sidebar_position: 6
+title: "6. Framing the Contribution"
 ---
 
 Stop. Before you open Overleaf, you need to be able to answer four questions in plain English. Write them on an index card.
@@ -9,7 +9,7 @@ Stop. Before you open Overleaf, you need to be able to answer four questions in 
 
 2. **Why does the answer matter?** If the only people who care are the three other groups working on the exact same benchmark, your paper will struggle. Tie it to something larger: a capability we did not have, a misconception we held, a tool the community needs, a deployment problem we cannot solve.
 
-3. **What did you do that nobody had done before?** Be honest. "We added a contrastive loss" is not a contribution if seventeen prior papers added a contrastive loss. The contribution might instead be *what you learned* by doing so.
+3. **What did you do that nobody had done before?** Be honest. "We added a contrastive loss" is not a contribution if seventeen prior papers added a contrastive loss. The contribution might instead be *what you learned* by doing so. [Chapter 4](./04-contribution.md) lists the kinds of thing that count.
 
 4. **What is the headline result?** One sentence. One number, or one finding. If you cannot say it in one sentence, your paper does not yet exist; your experiments do.
 
