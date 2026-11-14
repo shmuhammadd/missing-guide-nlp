@@ -1,6 +1,6 @@
 ---
-sidebar_position: 22
-title: "22. Using AI tools responsibly"
+sidebar_position: 23
+title: "23. Using AI tools responsibly"
 ---
 
 You will use a language model somewhere in the making of your paper — to polish a sentence, debug a script, or find related work. That is now normal, and the field has written rules about it. This chapter is what those rules actually say, what you must disclose, and the few uses that will get a paper desk-rejected or, later, retracted. The short version: AI can help you *write*, but it cannot *author*, it cannot be *trusted on facts*, and in *reviewing* it is mostly forbidden.
@@ -18,7 +18,7 @@ Disclosure runs through the **Responsible NLP Checklist** you already fill out a
 
 ## The hallucinated-citation trap
 
-This is the failure mode most likely to sink a first paper, so it gets its own section. Language models invent references that look perfect — plausible authors, a real-sounding venue, a clean title — and do not exist. Drop one into your bibliography and you have published a fabrication, whatever your intent. This is already a documented, field-wide problem: recent \*ACL papers have shipped with references to works that were never written, most of them produced when authors used a model to draft and did not check its output ([Chapter 23](./23-references-and-appendices.md) treats this as a hard rule).
+This is the failure mode most likely to sink a first paper, so it gets its own section. Language models invent references that look perfect — plausible authors, a real-sounding venue, a clean title — and do not exist. Drop one into your bibliography and you have published a fabrication, whatever your intent. This is already a documented, field-wide problem: recent \*ACL papers have shipped with references to works that were never written, most of them produced when authors used a model to draft and did not check its output ([Chapter 24](./24-references-and-appendices.md) treats this as a hard rule).
 
 So treat every model-produced citation as a *claim to verify*, not a fact to paste. Confirm the paper exists, the authors and title are exact, and the venue and year are right — preferably against the [ACL Anthology](https://aclanthology.org). The same caution extends to any *factual* claim a model hands you: a summary of prior work, a definition, a statistic. Models are fluent, not reliable; fluency is exactly what makes the errors hard to catch. If your paper states it, you are accountable for it, not the tool.
 
@@ -51,5 +51,5 @@ Two further facts worth carrying. First, this is not hypothetical: a 2024 study 
 ## Further reading
 
 - The [ACL 2023 Policy on AI Writing Assistance](https://2023.aclweb.org/blog/ACL-2023-policy/) — the primary source for the spectrum above. Read it before you submit.
-- The [ARR reviewer guidelines](https://aclrollingreview.org/reviewerguidelines) — the confidentiality and AI rules for when you are on the other side of the table ([Chapter 21](./21-ethics.md) covers the broader ethics).
+- The [ARR reviewer guidelines](https://aclrollingreview.org/reviewerguidelines) — the confidentiality and AI rules for when you are on the other side of the table ([Chapter 22](./22-ethics.md) covers the broader ethics).
 - Liang et al., ["Monitoring AI-Modified Content at Scale"](https://arxiv.org/abs/2403.07183) (ICML 2024) — the evidence on how far LLM use has already crept into peer review.

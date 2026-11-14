@@ -1,9 +1,9 @@
 ---
-sidebar_position: 24
-title: "24. The rebuttal"
+sidebar_position: 25
+title: "25. The rebuttal"
 ---
 
-You submitted. Weeks passed. The reviews arrived, and one of them misread your central claim, another asked for an experiment you already ran, and the third — well, you have met [Reviewer 2](./04-jargon.md). The rebuttal is your one chance to respond before scores are finalized. Written well, it can move a borderline paper to acceptance. Written in anger, it can confirm a reject. This chapter is how to write the good one.
+You submitted. Weeks passed. The reviews arrived, and one of them misread your central claim, another asked for an experiment you already ran, and the third — well, you have met [Reviewer 2](./05-jargon.md). The rebuttal is your one chance to respond before scores are finalized. Written well, it can move a borderline paper to acceptance. Written in anger, it can confirm a reject. This chapter is how to write the good one.
 
 First, calibrate your expectations. A study of ACL-2018 rebuttals found that author responses have only a "marginal (and statistically significant) influence on the final scores, especially for borderline papers," and that a reviewer's final score is "largely determined by her initial score and the distance to the other reviewers' initial scores" ([Gao et al., NAACL 2019](https://aclanthology.org/N19-1129/)). Read that as a strategy, not a discouragement: rebuttals rarely flip a clear reject, but **borderline is exactly where they bite** — and borderline is where most first papers live. A later study of ICLR-2022 likewise found significant score movement across the rebuttal stage ([Huang et al., 2023](https://arxiv.org/abs/2307.03371)). The response matters most precisely when your fate is undecided.
 

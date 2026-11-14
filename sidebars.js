@@ -21,6 +21,7 @@ const sidebars = {
         'chapters/publication-landscape',
         'chapters/understanding-the-field',
         'chapters/paper-types',
+        'chapters/contribution',
         'chapters/jargon',
         'chapters/framing',
         'chapters/collaboration',

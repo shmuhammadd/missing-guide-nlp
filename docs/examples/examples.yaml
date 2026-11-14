@@ -16,6 +16,230 @@
 # When adding entries, keep alphabetical by chapter, then by year. Verify
 # the URL resolves and the authors are correct against the Anthology.
 
+- chapter: contribution
+  paper: "The Nature of NLP: Analyzing Contributions in NLP Papers"
+  authors: "Pramanick, Hou, Mohammad, Gurevych"
+  venue: "ACL 2025"
+  anthology_url: "https://aclanthology.org/2025.acl-long.1224/"
+  exemplifies: "The taxonomy of artifact and knowledge contributions this chapter is built on, with fifty-year trends and a citation analysis."
+
+- chapter: contribution
+  paper: "The Rise of AfricaNLP: A Survey of Contributions, Contributors, Community Impact, and Bibliometric Analysis"
+  authors: "Belay et al."
+  venue: "arXiv 2026"
+  anthology_url: "https://arxiv.org/abs/2509.25477"
+  exemplifies: "The same contribution taxonomy applied to 1,902 papers on African languages; names the under-supplied contribution types."
+
+- chapter: contribution
+  paper: "Attention is not Explanation"
+  authors: "Jain, Wallace"
+  venue: "NAACL 2019"
+  anthology_url: "https://aclanthology.org/N19-1357/"
+  exemplifies: "Knowledge about a method: tests whether attention weights explain predictions and finds they often do not."
+
+- chapter: contribution
+  paper: "Annotation Artifacts in Natural Language Inference Data"
+  authors: "Gururangan et al."
+  venue: "NAACL 2018"
+  anthology_url: "https://aclanthology.org/N18-2017/"
+  exemplifies: "Knowledge about a dataset: the hypothesis alone predicts the SNLI label about 67% of the time."
+
+- chapter: contribution
+  paper: "Revisiting Low-Resource Neural Machine Translation: A Case Study"
+  authors: "Sennrich, Zhang"
+  venue: "ACL 2019"
+  anthology_url: "https://aclanthology.org/P19-1021/"
+  exemplifies: "Knowledge about a task: tuned NMT beats phrase-based MT even with tiny data, overturning an earlier claim."
+
+- chapter: contribution
+  paper: "Are All Languages Equally Hard to Language-Model?"
+  authors: "Cotterell et al."
+  venue: "NAACL 2018"
+  anthology_url: "https://aclanthology.org/N18-2085/"
+  exemplifies: "Knowledge about language: a measured property of languages rather than of a model."
+
+- chapter: contribution
+  paper: "The State and Fate of Linguistic Diversity and Inclusion in the NLP World"
+  authors: "Joshi et al."
+  venue: "ACL 2020"
+  anthology_url: "https://aclanthology.org/2020.acl-main.560/"
+  exemplifies: "Knowledge about people and the field: which languages *ACL research reaches, from Anthology data."
+
+- chapter: contribution
+  paper: "Building a Large Annotated Corpus of English: The Penn Treebank"
+  authors: "Marcus et al."
+  venue: "Computational Linguistics 1993"
+  anthology_url: "https://aclanthology.org/J93-2004/"
+  exemplifies: "The founding dataset paper; the annotation scheme and process are the paper."
+
+- chapter: contribution
+  paper: "Universal Dependencies v1: A Multilingual Treebank Collection"
+  authors: "Nivre et al."
+  venue: "LREC 2016"
+  anthology_url: "https://aclanthology.org/L16-1262/"
+  exemplifies: "Dataset contribution whose value is a scheme that holds across languages."
+
+- chapter: contribution
+  paper: "MasakhaNER: Named Entity Recognition for African Languages"
+  authors: "Adelani et al."
+  venue: "TACL 2021"
+  anthology_url: "https://aclanthology.org/2021.tacl-1.66/"
+  exemplifies: "Dataset contribution for ten African languages with guidelines and transfer experiments showing what the data enables."
+
+- chapter: contribution
+  paper: "AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages"
+  authors: "Muhammad et al."
+  venue: "EMNLP 2023"
+  anthology_url: "https://aclanthology.org/2023.emnlp-main.862/"
+  exemplifies: "Dataset contribution across fourteen languages that became a SemEval task."
+
+- chapter: contribution
+  paper: "Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets"
+  authors: "Kreutzer et al."
+  venue: "TACL 2022"
+  anthology_url: "https://aclanthology.org/2022.tacl-1.4/"
+  exemplifies: "Knowledge about datasets: an audit finding low-resource subsets of web corpora not in the language claimed."
+
+- chapter: contribution
+  paper: "A large annotated corpus for learning natural language inference"
+  authors: "Bowman et al."
+  venue: "EMNLP 2015"
+  anthology_url: "https://aclanthology.org/D15-1075/"
+  exemplifies: "Task contribution: reframed entailment as three-way NLI and shipped the corpus that made it standard."
+
+- chapter: contribution
+  paper: "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding"
+  authors: "Wang et al."
+  venue: "BlackboxNLP 2018"
+  anthology_url: "https://aclanthology.org/W18-5446/"
+  exemplifies: "Task contribution: a shared target built from existing tasks plus a diagnostic set."
+
+- chapter: contribution
+  paper: "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference"
+  authors: "Zellers et al."
+  venue: "EMNLP 2018"
+  anthology_url: "https://aclanthology.org/D18-1009/"
+  exemplifies: "Task contribution: defines the task and a construction method, adversarial filtering, that outlived the data."
+
+- chapter: contribution
+  paper: "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge"
+  authors: "Talmor et al."
+  venue: "NAACL 2019"
+  anthology_url: "https://aclanthology.org/N19-1421/"
+  exemplifies: "Task contribution defined by what it requires of a model, with a construction that enforces it."
+
+- chapter: contribution
+  paper: "NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis"
+  authors: "Muhammad et al."
+  venue: "LREC 2022"
+  anthology_url: "https://aclanthology.org/2022.lrec-1.63/"
+  exemplifies: "Task contribution where code-mixing is part of the task definition."
+
+- chapter: contribution
+  paper: "MAD-X: An Adapter-Based Framework for Multi-Task Cross-Lingual Transfer"
+  authors: "Pfeiffer et al."
+  venue: "EMNLP 2020"
+  anthology_url: "https://aclanthology.org/2020.emnlp-main.617/"
+  exemplifies: "Method contribution that is an adaptation to a setting rather than a new model."
+
+- chapter: contribution
+  paper: "LoRA: Low-Rank Adaptation of Large Language Models"
+  authors: "Hu et al."
+  venue: "ICLR 2022"
+  anthology_url: "https://arxiv.org/abs/2106.09685"
+  exemplifies: "Method contribution that only changes which weights get trained."
+
+- chapter: contribution
+  paper: "Bleu: a Method for Automatic Evaluation of Machine Translation"
+  authors: "Papineni et al."
+  venue: "ACL 2002"
+  anthology_url: "https://aclanthology.org/P02-1040/"
+  exemplifies: "A metric as a method contribution, validated against human judgments."
+
+- chapter: contribution
+  paper: "chrF: character n-gram F-score for automatic MT evaluation"
+  authors: "Popović"
+  venue: "WMT 2015"
+  anthology_url: "https://aclanthology.org/W15-3049/"
+  exemplifies: "A metric as a method contribution; judged on correlation with humans."
+
+- chapter: contribution
+  paper: "AfriMTE and AfriCOMET: Enhancing COMET to Embrace Under-resourced African Languages"
+  authors: "Wang et al."
+  venue: "NAACL 2024"
+  anthology_url: "https://aclanthology.org/2024.naacl-long.334/"
+  exemplifies: "A learned metric for African languages built on newly collected human judgments."
+
+- chapter: contribution
+  paper: "What Does BERT Look at? An Analysis of BERT's Attention"
+  authors: "Clark et al."
+  venue: "BlackboxNLP 2019"
+  anthology_url: "https://aclanthology.org/W19-4828/"
+  exemplifies: "Knowledge about a method from probing a model everyone was using."
+
+- chapter: contribution
+  paper: "Hypothesis Only Baselines in Natural Language Inference"
+  authors: "Poliak et al."
+  venue: "*SEM 2018"
+  anthology_url: "https://aclanthology.org/S18-2023/"
+  exemplifies: "Knowledge about datasets, measured the same way across ten of them."
+
+- chapter: contribution
+  paper: "Show Your Work: Improved Reporting of Experimental Results"
+  authors: "Dodge et al."
+  venue: "EMNLP 2019"
+  anthology_url: "https://aclanthology.org/D19-1224/"
+  exemplifies: "Knowledge about how results depend on tuning budget, with a reporting fix."
+
+- chapter: contribution
+  paper: "Energy and Policy Considerations for Deep Learning in NLP"
+  authors: "Strubell et al."
+  venue: "ACL 2019"
+  anthology_url: "https://aclanthology.org/P19-1355/"
+  exemplifies: "A measurement of training cost that changed what papers report."
+
+- chapter: contribution
+  paper: "Offspring from Reproduction Problems: What Replication Failure Teaches Us"
+  authors: "Fokkens et al."
+  venue: "ACL 2013"
+  anthology_url: "https://aclanthology.org/P13-1166/"
+  exemplifies: "A failed reproduction as a knowledge contribution, with the causes traced."
+
+- chapter: contribution
+  paper: "Transformers: State-of-the-Art Natural Language Processing"
+  authors: "Wolf et al."
+  venue: "EMNLP 2020 demos"
+  anthology_url: "https://aclanthology.org/2020.emnlp-demos.6/"
+  exemplifies: "Software contribution: a library and model hub with no new method."
+
+- chapter: contribution
+  paper: "Adapting Pre-trained Language Models to African Languages via Multilingual Adaptive Fine-Tuning"
+  authors: "Alabi et al."
+  venue: "COLING 2022"
+  anthology_url: "https://aclanthology.org/2022.coling-1.382/"
+  exemplifies: "Cited for the released models (AfroXLMR) more than for the recipe."
+
+- chapter: contribution
+  paper: "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data"
+  authors: "Bender, Koller"
+  venue: "ACL 2020"
+  anthology_url: "https://aclanthology.org/2020.acl-main.463/"
+  exemplifies: "Position paper argued from thought experiments alone."
+
+- chapter: contribution
+  paper: "Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science"
+  authors: "Bender, Friedman"
+  venue: "TACL 2018"
+  anthology_url: "https://aclanthology.org/Q18-1041/"
+  exemplifies: "Position paper that proposed a practice and got it adopted."
+
+- chapter: contribution
+  paper: "Theoretical Limitations of Self-Attention in Neural Sequence Models"
+  authors: "Hahn"
+  venue: "TACL 2020"
+  anthology_url: "https://aclanthology.org/2020.tacl-1.11/"
+  exemplifies: "Theory contribution: a proof about what self-attention cannot model."
+
 - chapter: title
   paper: "Attention Is All You Need"
   authors: "Vaswani et al."

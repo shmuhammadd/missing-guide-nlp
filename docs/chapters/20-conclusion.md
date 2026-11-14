@@ -1,11 +1,11 @@
 ---
-sidebar_position: 19
-title: "19. Conclusion"
+sidebar_position: 20
+title: "20. Conclusion"
 ---
 
 The conclusion is short. Many great \*ACL papers have a conclusion of three to five sentences.
 
-**Not the abstract, not the introduction.** All three compress the paper, and copying text between them is a tell reviewers catch at once. The abstract sells the work to someone deciding whether to read it; the introduction promises what the paper will show; the conclusion reports, to a reader who has now finished, what it showed and what follows. Tense is the giveaway — the introduction looks forward ("we propose"), the conclusion looks back ("we showed"). Genuine caveats go in [Limitations](./20-limitations.md), not here.
+**Not the abstract, not the introduction.** All three compress the paper, and copying text between them is a tell reviewers catch at once. The abstract sells the work to someone deciding whether to read it; the introduction promises what the paper will show; the conclusion reports, to a reader who has now finished, what it showed and what follows. Tense is the giveaway — the introduction looks forward ("we propose"), the conclusion looks back ("we showed"). Genuine caveats go in [Limitations](./21-limitations.md), not here.
 
 ## What goes in
 
@@ -92,4 +92,4 @@ A conclusion without an "and therefore" is a summary. End on what the work means
 ## Further reading
 
 - Vered Shwartz's [tips post](https://medium.com/@vered1986/tips-for-writing-nlp-papers-9c729a2f9e1f), again — her advice on conclusions is sharp.
-- The companion phrasebooks in [Chapter 10 — The Abstract](./10-abstract.md) and [Chapter 11 — The Introduction](./11-introduction.md): the conclusion restates, in past tense and to a reader who has finished, the same contribution those two introduce.
+- The companion phrasebooks in [Chapter 11 — The Abstract](./11-abstract.md) and [Chapter 12 — The Introduction](./12-introduction.md): the conclusion restates, in past tense and to a reader who has finished, the same contribution those two introduce.

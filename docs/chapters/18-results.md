@@ -1,11 +1,11 @@
 ---
-sidebar_position: 17
-title: "17. Results"
+sidebar_position: 18
+title: "18. Results"
 ---
 
 A results section is not "here are our numbers"; it is "here is what our numbers mean."
 
-**Results, not analysis.** That said, this section reports *what happened* — the scores, the comparison, what to see in each table — but it stops short of explaining *why*. The why is [Analysis](./18-analysis.md). The two blur, and the cost is a results section clogged with speculation and an analysis section with nothing left to do. Keep results to observation — "X beats Y by 3.2 points, and the gap widens on long inputs" — and save the mechanism — "because Y's attention degrades past 512 tokens" — for the next chapter. Reporting a number is results; arguing about its cause is analysis.
+**Results, not analysis.** That said, this section reports *what happened* — the scores, the comparison, what to see in each table — but it stops short of explaining *why*. The why is [Analysis](./19-analysis.md). The two blur, and the cost is a results section clogged with speculation and an analysis section with nothing left to do. Keep results to observation — "X beats Y by 3.2 points, and the gap widens on long inputs" — and save the mechanism — "because Y's attention degrades past 512 tokens" — for the next chapter. Reporting a number is results; arguing about its cause is analysis.
 
 ## The shape of a good results section
 
@@ -22,11 +22,11 @@ Your results table and figures carry the headline; reviewers read them before th
 - **Show variance.** "78.4 ± 0.6" beats "78.4" when you have multiple seeds.
 - **Captions are paragraphs, not labels.** A caption should let the reader understand the table or figure without the body text. Example: "Results on MMLU. Higher is better. Best per column in bold; differences within 0.5 are not significant. Our method is the last row."
 
-The full craft of figures and tables — vector graphics, legible fonts, colorblind-safe and grayscale-readable design, `booktabs`, alt text, and the tools for each — lives in [Chapter 8](./08-figures-and-tables.md). Treat it as required reading before you build Table 1.
+The full craft of figures and tables — vector graphics, legible fonts, colorblind-safe and grayscale-readable design, `booktabs`, alt text, and the tools for each — lives in [Chapter 9](./09-figures-and-tables.md). Treat it as required reading before you build Table 1.
 
 ## Phrasebook: the moves of a results section
 
-A results section is built from a few recurring moves — state the headline, point the reader at the table, report a comparison precisely, surface a non-result, scope the claim. As in the [Methods](./15-methods.md) and [Experimental Setup](./16-experimental-setup.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots — fill every bracket with a real number, and never report a comparison you did not run. A few are real, verified sentences from well-known papers and carry a citation. Two entries sit in the open under each move; expand **Show more** for the rest. The cardinal rule survives all of them: a result is a number, a named baseline, and — where it matters — a test, never "outperforms the baselines."
+A results section is built from a few recurring moves — state the headline, point the reader at the table, report a comparison precisely, surface a non-result, scope the claim. As in the [Methods](./16-methods.md) and [Experimental Setup](./17-experimental-setup.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots — fill every bracket with a real number, and never report a comparison you did not run. A few are real, verified sentences from well-known papers and carry a citation. Two entries sit in the open under each move; expand **Show more** for the rest. The cardinal rule survives all of them: a result is a number, a named baseline, and — where it matters — a test, never "outperforms the baselines."
 
 ### Stating the headline result (from real papers and templates)
 
@@ -87,7 +87,7 @@ The difference between a result and a vibe is a number, a named baseline, and a 
 A clean negative is a finding. A buried loss is a liability a reviewer will dig up.
 
 - *"We find no significant difference between [X] and [Y] ([numbers], p = [value]); this is itself informative, because [why]."* — Reports a null result as a finding, with the reason it matters.
-- *"[Our method] underperforms on [dataset] ([number] vs. [baseline]); we surface it here and examine the cause in [Analysis](./18-analysis.md)."* — Puts the loss in the main table and hands the why to analysis.
+- *"[Our method] underperforms on [dataset] ([number] vs. [baseline]); we surface it here and examine the cause in [Analysis](./19-analysis.md)."* — Puts the loss in the main table and hands the why to analysis.
 
 <details>
 <summary>**Show 4 more**</summary>
@@ -135,4 +135,4 @@ Every result has a boundary. Name it before a reviewer does, and never let a two
 
 - Edward Tufte, *The Visual Display of Quantitative Information*. Old, still right.
 - ColorBrewer ([colorbrewer2.org](https://colorbrewer2.org)) for figure palettes.
-- The neighbouring chapters [Chapter 16 — Experimental Setup](./16-experimental-setup.md) and [Chapter 18 — Analysis](./18-analysis.md): the setup that makes a number interpretable and the analysis that explains it bracket this section on both sides.
+- The neighbouring chapters [Chapter 17 — Experimental Setup](./17-experimental-setup.md) and [Chapter 19 — Analysis](./19-analysis.md): the setup that makes a number interpretable and the analysis that explains it bracket this section on both sides.

@@ -37,7 +37,7 @@ Finding them is easy. Search the Anthology for *survey*, *review*, *primer* and 
 
 ### An editorial note
 
-*(This paragraph is in the first person because it is advice I give my own students.)* Do not just read the reviews. While you read them, draft one of your own, written through the lens of your problem. Keep a document with one row per paper: task, data, method, headline number, and the limitation the authors admit or you spot. Group the rows as you go. Within a few weeks you will have the skeleton of a survey of your narrow area, and you will have discovered which parts of the published reviews you did not actually understand, because you could not write them down. Francis Bacon put the principle in nine words in *Of Studies* (1625): "Reading maketh a full man; conference a ready man; and writing an exact man." Reading fills you; writing makes you exact, since you cannot write a sentence you have not understood. The same document becomes your related work section ([Chapter 12](./12-related-work.md)), and sometimes a publishable survey in its own right.
+*(This paragraph is in the first person because it is advice I give my own students.)* Do not just read the reviews. While you read them, draft one of your own, written through the lens of your problem. Keep a document with one row per paper: task, data, method, headline number, and the limitation the authors admit or you spot. Group the rows as you go. Within a few weeks you will have the skeleton of a survey of your narrow area, and you will have discovered which parts of the published reviews you did not actually understand, because you could not write them down. Francis Bacon put the principle in nine words in *Of Studies* (1625): "Reading maketh a full man; conference a ready man; and writing an exact man." Reading fills you; writing makes you exact, since you cannot write a sentence you have not understood. The same document becomes your related work section ([Chapter 13](./13-related-work.md)), and sometimes a publishable survey in its own right.
 
 ## The kinds of review paper NLP writes
 
@@ -106,11 +106,11 @@ Publish only when the document answers a question other people are asking. The m
 - **No stated method.** Even a narrative survey should say how the papers were found and why those. Without it, every omission looks like ignorance.
 - **Missing the origin or the latest.** Reviewers in the area will check for the paper that started it and the three from the last cycle. Use the citation graph for the first and arXiv for the second.
 - **Out of date on submission.** A survey takes months and the field does not wait. Date your search, and rerun it the week before you submit.
-- **Citations you have not read.** Surveys cite hundreds of papers and are where fabricated references appear most often, especially when a language model helped. Every entry must be a paper you opened. See [Chapter 22](./22-ai-assistance.md).
+- **Citations you have not read.** Surveys cite hundreds of papers and are where fabricated references appear most often, especially when a language model helped. Every entry must be a paper you opened. See [Chapter 23](./23-ai-assistance.md).
 
 ## Further reading
 
 - S. Keshav, ["How to Read a Paper"](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf): the three-pass method, three pages long.
 - The [PRISMA 2020 statement](https://www.prisma-statement.org/): the reporting standard for systematic reviews, with the flow diagram NLP reviewers now expect.
-- [Chapter 3](./03-paper-types.md) on where surveys sit among \*ACL paper types, and [Chapter 12](./12-related-work.md), which turns the document from this chapter into a section of your paper.
-- [Chapter 28](./28-best-papers.md) for the reading list that belongs beside this one.
+- [Chapter 3](./03-paper-types.md) on where surveys sit among \*ACL paper types, and [Chapter 13](./13-related-work.md), which turns the document from this chapter into a section of your paper.
+- [Chapter 29](./29-best-papers.md) for the reading list that belongs beside this one.

@@ -1,9 +1,9 @@
 ---
-sidebar_position: 8
-title: "8. Figures and tables that work"
+sidebar_position: 9
+title: "9. Figures and tables that work"
 ---
 
-Many reviewers read your figures and tables before a single sentence of prose, and form an opinion there. Figure 1 — usually your architecture or your main idea — and Table 1 — usually your headline result — do more persuading than any paragraph. [Methods](./15-methods.md) tells you to spend a full day on Figure 1; [Results](./17-results.md) tells you the main table is the headline. This chapter is how to make figures and tables that are *correct, legible, accessible,* and *ACL-compliant* — and which tools to reach for. The governing test: a reader who looks only at your figures, tables, and their captions should be able to reconstruct the paper.
+Many reviewers read your figures and tables before a single sentence of prose, and form an opinion there. Figure 1 — usually your architecture or your main idea — and Table 1 — usually your headline result — do more persuading than any paragraph. [Methods](./16-methods.md) tells you to spend a full day on Figure 1; [Results](./18-results.md) tells you the main table is the headline. This chapter is how to make figures and tables that are *correct, legible, accessible,* and *ACL-compliant* — and which tools to reach for. The governing test: a reader who looks only at your figures, tables, and their captions should be able to reconstruct the paper.
 
 ## What ACL actually requires
 
@@ -11,7 +11,7 @@ These are not suggestions; getting them wrong looks careless to the people decid
 
 - **Use vector graphics.** "Graphics and photos should, if possible, use vector graphic formats (PDF, EPS), which allow the graphics to scale arbitrarily." A blurry PNG screenshot of a plot is the most common amateur tell — export PDF instead.
 - **Keep the font large.** "For any text or numbers in tables and figures, whenever possible, please use the font size of the document text." Six-point axis labels nobody can read are a real source of reviewer irritation.
-- **Captions are 10-point and self-contained,** and the ACL guide places them below the figure or table — but follow the year's style files, and make every caption a short paragraph that explains the figure without the body text ([Results](./17-results.md)).
+- **Captions are 10-point and self-contained,** and the ACL guide places them below the figure or table — but follow the year's style files, and make every caption a short paragraph that explains the figure without the body text ([Results](./18-results.md)).
 - **It must survive print and zoom.** "Your paper must look good both when printed (A4 size) and when viewed onscreen as PDF." Check both.
 - **Grayscale-readable.** "To accommodate people who are color-blind (as well as those printing with black-and-white printers), grayscale readability is strongly encouraged… tables and figures [must] not rely solely on color to convey critical distinctions."
 
@@ -47,7 +47,7 @@ Figure 1 is often the most reproduced part of a paper, so it earns real time. A 
 A good results table is dense, scannable, and honest. The single highest-leverage fix in LaTeX is the [`booktabs`](https://ctan.org/pkg/booktabs) package.
 
 - **No vertical rules.** Use `booktabs`' `\toprule`, `\midrule`, `\bottomrule` and *no* vertical lines and *no* double rules — they are visual clutter that the eye has to fight through.
-- **Bold the best per column,** and if the difference is not significant, bold both rather than implying a winner that the statistics do not support ([Experimental Setup](./16-experimental-setup.md)).
+- **Bold the best per column,** and if the difference is not significant, bold both rather than implying a winner that the statistics do not support ([Experimental Setup](./17-experimental-setup.md)).
 - **Show variance and align numbers.** Report `78.4 ± 0.6`, keep significant figures consistent down a column, put units in the header, and align on the decimal point (the `siunitx` `S` column does this automatically).
 - **Right-align numbers, left-align text,** group related rows, and let whitespace — not lines — do the separating.
 - **Don't dump the giant table in the body.** A 40-column monster belongs in the appendix; the main text gets the rows that carry your claims.
@@ -90,5 +90,5 @@ A good results table is dense, scannable, and honest. The single highest-leverag
 - Rougier, Droettboom, and Bourne, ["Ten Simple Rules for Better Figures"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) (PLOS Computational Biology, 2014). Short, free, and the best starting point.
 - Claus O. Wilke, [*Fundamentals of Data Visualization*](https://clauswilke.com/dataviz/) (O'Reilly, 2019; free online). The deep reference, strong on color and accessibility.
 - Edward Tufte, *The Visual Display of Quantitative Information*. The classic on data-ink and removing chartjunk.
-- The [ACL formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [accessibility guidance](https://web.archive.org/web/20260209112627/https://acl2020.org/blog/accessibility-for-camera-ready/) — the rules your camera-ready is held to ([Chapter 27](./27-after-acceptance.md)).
+- The [ACL formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [accessibility guidance](https://web.archive.org/web/20260209112627/https://acl2020.org/blog/accessibility-for-camera-ready/) — the rules your camera-ready is held to ([Chapter 28](./28-after-acceptance.md)).
 - [ColorBrewer](https://colorbrewer2.org) for ready-made, print- and colorblind-safe palettes.
