@@ -7,3 +7,5 @@ https://royalsocietypublishing.org/
 https://publicationethics.org/
 # Verbatim quote from the RACE paper (Chapter 9); the repo it names no longer exists.
 https://github.com/qizhex/RACE_AR_baselines
+# ACL admin wiki returns 418 to link checkers but opens in a browser.
+https://www.aclweb.org/adminwiki/
