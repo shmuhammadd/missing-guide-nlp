@@ -34,7 +34,7 @@ Each field of the ARR form does a job:
 
 ## Scoring honestly
 
-Three of the scores are easy to confuse; keep them distinct.
+The form asks for four scores. Keep them distinct.
 
 - **Soundness** asks whether the claims are adequately supported. The rule that catches lazy reviews: "The soundness scores must be justified by the text of the review. If you give a low Soundness score without finding any major faults, this means that your review is not a faithful explanation of your recommendation." Name the fault or raise the score.
 - **Excitement** is your subjective sense of how interesting or impactful the work is. It is explicitly *orthogonal* to soundness. A paper can be rock-solid but unexciting, or thrilling but shaky, and the form lets you record both.
