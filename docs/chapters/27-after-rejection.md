@@ -3,57 +3,57 @@ sidebar_position: 27
 title: "27. After rejection"
 ---
 
-Most first papers are rejected. \*ACL main-conference acceptance rates sit around a quarter, so rejection is the *modal* outcome, not a verdict on you or your future — almost every researcher you admire has a drawer full of rejection letters they later learned more from than from their acceptances. The reviews sting first and help second. This chapter is the sibling of [After Acceptance](./28-after-acceptance.md): what to do when the decision comes back *reject*.
+Most first papers are rejected. \*ACL main-conference acceptance rates sit around a quarter, so rejection is the *modal* outcome. It says little about you or your future. Almost every researcher you admire has a drawer full of rejection letters, and they learned more from those than from their acceptances. The reviews sting first and help second. This chapter is the sibling of [After Acceptance](./28-after-acceptance.md). It covers what to do when the decision comes back *reject*.
 
 ## First, do nothing
 
-Read the reviews once, then close the laptop for a day. The urge to fire back a furious response, email the chairs, or rage-post is strong and helps nothing. Reviews you read angry look different from reviews you read calm. Come back when you can treat them as data.
+Read the reviews once, then close the laptop for a day. You will want to fire back a furious response, email the chairs, or rage-post. None of it helps. Reviews you read angry look different from reviews you read calm. Come back when you can treat them as data.
 
 ## Read the reviews for signal
 
-The reviews are information, even the bad ones — your job is to separate the signal from the noise.
+Even the bad reviews carry information. Your job is to separate the signal from the noise.
 
-- **Weight by convergence.** A weakness two reviewers independently raise is real and must be addressed. A single reviewer's pet peeve may not be.
+- **Weight by convergence.** A weakness two reviewers raise independently is real and must be addressed. A single reviewer's pet peeve may not be.
 - **Sort fixable from fundamental.** Be honest about which you got. "Add a baseline," "clarify Section 3," "run another seed" are fixable. "The core claim is not supported by the experiments" is fundamental and needs more than a polish.
-- **A misreading is a finding.** If a reviewer misunderstood your contribution, the paper was unclear there — that is your fault to fix, not theirs ([Reviewer 2](./05-jargon.md) notwithstanding). Even an unfair or AI-flavored review usually contains one true thing; mine it.
+- **A misreading is a finding.** If a reviewer misunderstood your contribution, the paper was unclear there. That is your fault to fix ([Reviewer 2](./05-jargon.md) notwithstanding). Even an unfair or AI-flavored review usually contains one true thing; mine it.
 
 ## Decide: revise, redirect, or rethink
 
 - **Revise and resubmit** when the contribution is sound and the issues are addressable. This is the usual path, and the next section is how it works.
-- **Redirect** to a better-fit venue when the problem was *fit*, not quality — a workshop, [Findings](./03-paper-types.md), a more applied or specialized track. A paper rejected as "too niche for the main track" can be a great fit for a workshop.
-- **Rethink** when reviewers converge on a fundamental flaw. Sometimes the honest move is a different experiment or a reframed claim, not a resubmission of the same paper with the abstract reworded.
+- **Redirect** to a better-fit venue when the problem was *fit* and the quality was fine: a workshop, [Findings](./03-paper-types.md), a more applied or specialized track. A paper rejected as "too niche for the main track" can be a great fit for a workshop.
+- **Rethink** when reviewers converge on a fundamental flaw. Sometimes the honest move is a different experiment or a reframed claim. Resubmitting the same paper with the abstract reworded will not fix it.
 
-What you should *not* do is resubmit the identical paper to the next deadline hoping for a kinder draw. Reviewers can tell, the same weaknesses resurface, and — as the next section explains — ARR requires you to disclose the prior version regardless.
+Do *not* resubmit the identical paper to the next deadline hoping for a kinder draw. Reviewers can tell, and the same weaknesses resurface. ARR also requires you to disclose the prior version, as the next section explains.
 
-## How ARR resubmission actually works
+## How ARR resubmission works
 
-At ARR, the primary route for addressing substantive reviewer requests is revise-and-resubmit, not the in-cycle response ([Chapter 25](./25-rebuttal.md)). When you resubmit to a later cycle, three things matter.
+At ARR, you address substantive reviewer requests mainly by revising and resubmitting. The in-cycle response ([Chapter 25](./25-rebuttal.md)) is the lesser route. When you resubmit to a later cycle, three things matter.
 
-- **Acknowledge the previous version — this is not optional.** You provide the OpenReview link to the prior submission. "A paper that has been previously submitted but fails to acknowledge the previous version will be desk rejected." Hiding a rejection to get a fresh start is the one move guaranteed to backfire.
-- **Write a real revision note.** ARR asks for an explanation of revisions that "summarize[s] the changes made and include[s] a point-by-point response indicating how you have addressed each weakness and suggestion listed by each reviewer (or your justifications for not doing some of the revisions)." A color-coded PDF showing what changed makes the reviewers' job — and your case — easier.
-- **Choose your reviewers deliberately.** You can request the *same* reviewers, who will focus on whether your revisions addressed their concerns, or *all new* ones, who do not see the prior reviews until after they submit their own. Same reviewers reward genuine revision and a strong note; new reviewers reset a relationship that went badly. Pick on purpose, not by default.
+- **Acknowledge the previous version. This is not optional.** You provide the OpenReview link to the prior submission. "A paper that has been previously submitted but fails to acknowledge the previous version will be desk rejected." Hiding a rejection to get a fresh start is the one move guaranteed to backfire.
+- **Write a real revision note.** ARR asks for an explanation of revisions that "summarize[s] the changes made and include[s] a point-by-point response indicating how you have addressed each weakness and suggestion listed by each reviewer (or your justifications for not doing some of the revisions)." A color-coded PDF showing what changed makes the reviewers' job easier and your case stronger.
+- **Choose your reviewers deliberately.** You can request the *same* reviewers, who will focus on whether your revisions addressed their concerns. Or you can request *all new* ones, who do not see the prior reviews until after they submit their own. Same reviewers reward real revision and a strong note. New reviewers reset a relationship that went badly. Pick on purpose.
 
 ## Make the revision real
 
-The revision note is a promise, and returning reviewers check it. A note that says "we have added the significance test (Section 5.2)" attached to a paper that still has no significance test is the fastest way to lose the same reviewers twice. Actually do the work — and use the revision as the chance to fix what no reviewer flagged but you now see with fresh distance.
+Returning reviewers check the revision note against the paper. Suppose the note says "we have added the significance test (Section 5.2)" and the paper still has no significance test. That is the fastest way to lose the same reviewers twice. Do the work. Use the revision to fix what no reviewer flagged but you now see with fresh distance.
 
 ## Keep perspective
 
-- **Rejection is the common case, not failure.** Many of the papers in [Chapter 29](./29-best-papers.md) were rejected somewhere first.
+- **Rejection is the common case.** Many of the papers in [Chapter 29](./29-best-papers.md) were rejected somewhere first.
 - **The reviews are free expert feedback** most people would pay for. Keep a list of what you learned.
-- **The biggest predictor of a published paper is an author who revised it and sent it back out.** Persistence, not genius, gets most papers in.
+- **The biggest predictor of a published paper is an author who revised it and sent it back out.** Persistence gets most papers in.
 
 ## Common mistakes
 
 - **Firing off an angry response** to reviewers or chairs. It never helps and the field is small.
 - **Resubmitting the identical paper** unchanged, hoping for an easier panel.
-- **Not disclosing the prior version** — an automatic desk reject.
+- **Not disclosing the prior version.** It is an automatic desk reject.
 - **A revision note that promises changes the paper does not contain.**
 - **Addressing only the kind reviewer** and ignoring the harsh-but-right one.
-- **Giving up after one rejection.** The reviews are a map to the next version, not a verdict on the project.
+- **Giving up after one rejection.** The reviews are a map to the next version.
 
 ## Further reading
 
-- The [ARR author guidelines](https://aclrollingreview.org/authors) — the authoritative, current resubmission process and revision-note requirements.
-- [Chapter 25 — The Rebuttal](./25-rebuttal.md) for responding *during* review, and [Chapter 28 — After Acceptance](./28-after-acceptance.md) for the other outcome.
-- [Chapter 3 — What Kind of Paper Are You Writing?](./03-paper-types.md) on Findings, workshops, and other venues a rejected paper can find a home in.
+- The [ARR author guidelines](https://aclrollingreview.org/authors): the authoritative, current resubmission process and revision-note requirements.
+- [Chapter 25: The Rebuttal](./25-rebuttal.md) for responding *during* review, and [Chapter 28: After Acceptance](./28-after-acceptance.md) for the other outcome.
+- [Chapter 3: What Kind of Paper Are You Writing?](./03-paper-types.md) on Findings, workshops, and other venues where a rejected paper can find a home.

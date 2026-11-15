@@ -2,7 +2,7 @@
 
 # The Missing NLP Paper Guide
 
-**The class nobody teaches you: how to actually write your first paper for ACL, EMNLP, NAACL, EACL, and the rest of the \*ACL family.**
+**The class nobody teaches you: how to write your first paper for ACL, EMNLP, NAACL, EACL, and the rest of the \*ACL family.**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Last Reviewed](https://img.shields.io/badge/last%20reviewed-2026-blue)](CHANGELOG.md)
@@ -17,13 +17,13 @@
 
 ## Why this exists
 
-There is a class your PhD program does not teach. Your advisor assumes you picked it up by osmosis. Your peers pretend they already know it. The official ACL author guidelines tell you the *format* of a paper — margins, citation style, page limits — but not the *craft*. How do you actually frame a contribution? What goes in a related work section that is not just a list of citations? Why does your introduction feel flat? Why did the reviewer say your results section was "hard to follow" when the numbers are right there?
+Your PhD program does not teach you how to write a paper. Your advisor assumes you picked it up by osmosis. Your peers pretend they already know how. The official ACL author guidelines cover the *format* of a paper: margins, citation style, page limits. They say nothing about the *craft*. They will not show you how to frame a contribution, or what a related work section needs beyond a list of citations. Nor will they explain why your introduction feels flat, or why a reviewer called your results section "hard to follow" when the numbers are right there.
 
-This is the missing class. Inspired in spirit by MIT's [Missing Semester of Your CS Education](https://missing.csail.mit.edu/) — the course that finally taught students the command line, version control, and debugging tools nobody had bothered to teach them — this guide tries to do the same for \*ACL paper writing. It is the missing methods seminar.
+This guide is that missing class. MIT's [Missing Semester of Your CS Education](https://missing.csail.mit.edu/) taught students the command line, version control, and debugging tools that nobody had bothered to teach them. We try to do the same for \*ACL paper writing, as the methods seminar your program never ran.
 
 ## Who this is for
 
-- **First-time \*ACL authors** — PhD students, MS students, or industry researchers with a result and a deadline.
+- **First-time \*ACL authors**: PhD students, MS students, or industry researchers with a result and a deadline.
 - **Advisors** who want a single artifact to hand new students instead of explaining the same things every cycle.
 - **Reading groups** running a "how to write papers" session.
 
@@ -62,7 +62,7 @@ This is the missing class. Inspired in spirit by MIT's [Missing Semester of Your
 
 ## Run the site locally
 
-This repo is a [Docusaurus 3](https://docusaurus.io/) site. The chapters are plain markdown — you can read them directly on GitHub — but the deployed site has search, dark mode, and a proper sidebar.
+This repo is a [Docusaurus 3](https://docusaurus.io/) site. The chapters are plain markdown, and you can read them directly on GitHub. The deployed site adds search, dark mode, and a proper sidebar.
 
 ```bash
 # Install dependencies (Node 18+ required)
@@ -101,9 +101,9 @@ In VS Code: `Cmd+Shift+P` → **Tasks: Run Task** → **Docusaurus: start (dev s
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [STYLE.md](STYLE.md). We particularly want:
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [STYLE.md](STYLE.md). We most want:
 
-- More paper examples (subject to our quality bar — read [examples database](docs/examples/) first).
+- More paper examples. They must meet our quality bar, so read the [examples database](docs/examples/) first.
 - Translations under `i18n/<locale>/`.
 - Corrections to broken links, outdated rules, or hallucinated citations.
 
@@ -125,6 +125,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [STYLE.md](STYLE.md). We particularly
 
 ## Acknowledgments
 
-This guide stands on the shoulders of [Vered Shwartz's "Tips for Writing NLP Papers"](https://medium.com/@vered1986/tips-for-writing-nlp-papers-9c729a2f9e1f), [Simon Peyton Jones's "How to Write a Great Research Paper"](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/), [Jennifer Widom's "Tips for Writing Technical Papers"](https://cs.stanford.edu/people/widom/paper-writing.html), the [ACLPUB documentation](https://acl-org.github.io/ACLPUB/), and the example set by MIT's [Missing Semester](https://missing.csail.mit.edu/).
+This guide builds on [Vered Shwartz's "Tips for Writing NLP Papers"](https://medium.com/@vered1986/tips-for-writing-nlp-papers-9c729a2f9e1f), [Simon Peyton Jones's "How to Write a Great Research Paper"](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/), [Jennifer Widom's "Tips for Writing Technical Papers"](https://cs.stanford.edu/people/widom/paper-writing.html), the [ACLPUB documentation](https://acl-org.github.io/ACLPUB/), and the example set by MIT's [Missing Semester](https://missing.csail.mit.edu/).
 
-If you used this guide to write a paper that got into \*ACL, [open an issue and tell us](https://github.com/shmuhammadd/missing-guide-nlp/issues/new). That is the kind of feedback that keeps a guide like this alive.
+If you used this guide to write a paper that got into \*ACL, [open an issue and tell us](https://github.com/shmuhammadd/missing-guide-nlp/issues/new).

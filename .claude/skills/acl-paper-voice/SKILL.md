@@ -34,6 +34,15 @@ read both if a question is not answered here.
   "revolutionary," "novel paradigm," "cutting-edge," "state-of-the-art" as a bare
   adjective. When you *quote* a paper that uses them, that is fine.
 
+## Machine-written tells (cut on every edit)
+
+STYLE.md has the full list. The ones that matter most: no em-dashes in the
+guide's own prose, phrasebook glosses included (dashes inside a verbatim
+quote stay); no "not X but Y" contrasts; no colon-then-reveal; no maxim
+openers; no closing line that restates the paragraph; no stock words
+(delve, landscape, robust, leverage, pivotal, crucial, vital, navigate);
+no intensifiers (very, really, quite, simply, actually).
+
 ## Diction substitutions (apply on every edit)
 
 | Avoid | Use |
@@ -95,8 +104,8 @@ When adding or extending a phrasebook section:
   HTML `<details>`/`<summary>` and compact tables trip markdown-lint warnings —
   ignore them; they are the repo's established convention and render in
   Docusaurus.)
-- Each entry: the verbatim quote (or, for titles, the title itself as the link),
-  an **em-dash**, then an *italic-free* one-clause gloss that **names the move**
+- Each entry: the verbatim quote followed by the gloss as a new sentence (for
+  titles, the title itself as the link, then a colon), an *italic-free* gloss that **names the move**
   ("the *however*-plus-enumerated-failures gap," "name-and-expand,"
   "human-vs-model contrast opener"), then the citation.
 - Open each phrasebook with the standard caution: *these are patterns to

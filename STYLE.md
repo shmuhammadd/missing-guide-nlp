@@ -10,6 +10,21 @@ The voice of the guide is opinionated, terse, and evidence-based. This document 
 - **No corporate-AI tics.** No "as an AI" disclaimers obviously. Also no "in conclusion," no "it is important to note that," no "delve into," no "navigate the complexities of," no "in today's rapidly evolving landscape."
 - **No "exciting", "revolutionary", "novel paradigm", "cutting-edge", "state-of-the-art" as adjectives in the guide itself.** When you quote a paper, fine.
 
+## Machine-written tells
+
+Readers now recognise the habits of generated prose, and one of them in a paragraph is enough to lose trust. Cut them on sight.
+
+- **The em-dash.** Do not use it in the guide's own prose. A full stop, comma or colon does the job, and two sentences usually beat one with a dash. Phrasebook entries follow the same rule. A quote is followed by its gloss as a new sentence; a title entry takes a colon. Em-dashes inside a verbatim quote stay, because the quote is not ours to edit.
+- **"Not X but Y."** Say what the thing is. "A survey is an argument" beats "A survey is not a list but an argument."
+- **Colon-then-reveal.** "The answer is simple: write less." Just say "Write less."
+- **Threes for rhythm.** A list of three exists only if there are three things.
+- **Maxim openers.** Do not open a paragraph or bullet with a general truth that sets up the point ("Reviewers are tired."). Open with the fact or the action. Put the reason at the end of the sentence.
+- **Closers that restate.** Stop at the last new fact. A last line that sums up the paragraph is cut.
+- **Stock words.** delve, landscape, robust, leverage, pivotal, seamless, testament, crucial, vital, navigate, realm, underscore, showcase, foster, nuanced, myriad.
+- **Intensifiers and hedges.** very, really, quite, rather, somewhat, fairly, truly, actually, basically, simply, genuinely.
+- **Transitions doing the work of logic.** moreover, furthermore, additionally, ultimately, importantly. Fix the order of the sentences instead.
+- **Metadiscourse.** "In this section we will," "as mentioned above," "it is worth noting." Say the thing.
+
 ## Diction
 
 | Avoid | Use |
@@ -36,7 +51,7 @@ The voice of the guide is opinionated, terse, and evidence-based. This document 
 ## Examples
 
 - Real papers only. Cite the ACL Anthology version if it exists.
-- Each example must have a *reason* attached — what specifically does this paper exemplify? "It's a good paper" is not a reason.
+- Each example must say what the paper exemplifies. "It's a good paper" is not a reason.
 - Five examples per chapter section, no more. Cap is real; if you add one, swap one out.
 
 ## Citations

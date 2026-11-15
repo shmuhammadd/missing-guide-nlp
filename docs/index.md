@@ -5,33 +5,33 @@ sidebar_position: 0
 hide_title: true
 ---
 
-![The Missing NLP Paper Guide — written by Shamsuddeen Hassan Muhammad](./assets/guide-cover.svg)
+![The Missing NLP Paper Guide, written by Shamsuddeen Hassan Muhammad](./assets/guide-cover.svg)
 
 # The Missing NLP Paper Guide
 
-**The class nobody teaches you: how to actually write your first paper for ACL, EMNLP, NAACL, EACL, and the rest of the \*ACL family.**
+**The class nobody teaches you: how to write your first paper for ACL, EMNLP, NAACL, EACL, and the rest of the \*ACL family.**
 
 ---
 
 ## Why this exists
 
-There is a class your PhD program does not teach. Your advisor assumes you picked it up by osmosis. Your peers pretend they already know it. The official ACL author guidelines tell you the *format* of a paper — margins, citation style, page limits — but not the *craft*. How do you actually frame a contribution? What goes in a related work section that is not just a list of citations? Why does your introduction feel flat? Why did the reviewer say your results section was "hard to follow" when the numbers are right there?
+Your PhD program does not teach you how to write a paper. Your advisor assumes you picked it up by osmosis. Your peers pretend they already know how. The official ACL author guidelines cover the *format* of a paper: margins, citation style, page limits. They say nothing about the *craft*. They will not show you how to frame a contribution, or what a related work section needs beyond a list of citations. Nor will they explain why your introduction feels flat, or why a reviewer called your results section "hard to follow" when the numbers are right there.
 
-This is the missing class. Inspired in spirit by MIT's [Missing Semester of Your CS Education](https://missing.csail.mit.edu/) — the course that finally taught students the command line, version control, and debugging tools nobody had bothered to teach them — this guide tries to do the same for \*ACL paper writing. It is the missing methods seminar.
+This guide is that missing class. MIT's [Missing Semester of Your CS Education](https://missing.csail.mit.edu/) taught students the command line, version control, and debugging tools that nobody had bothered to teach them. We try to do the same for \*ACL paper writing, as the methods seminar your program never ran.
 
 ## Who this is for
 
-- **First-time \*ACL authors** — PhD students, MS students, or industry researchers with a result and a deadline.
+- **First-time \*ACL authors**: PhD students, MS students, or industry researchers with a result and a deadline.
 - **Advisors** who want a single artifact to hand new students instead of explaining the same things every cycle.
 - **Reading groups** running a "how to write papers" session.
 
-If you have published five or more first-author \*ACL papers, this guide is probably below your level. We would, however, love your contributions.
+If you have published five or more first-author \*ACL papers, this guide is probably below your level. We would still love your contributions.
 
 ## What you get
 
-- 30 chapters covering every section of an \*ACL paper, plus the publication landscape, collaboration, figures, rebuttals, reviewing, and what to do after the decision.
-- Five concrete examples from real ACL/EMNLP/NAACL papers in each chapter — not invented examples.
-- A **phrasebook of rhetorical moves** in each chapter — verbatim openings, pivots, and closings drawn from highly-cited NLP papers, grouped by the job they do (context, gap, proposal, method, result, implication). Inspired by the [Manchester Academic Phrasebook](https://www.phrasebank.manchester.ac.uk/), but calibrated to \*ACL conventions and built from real papers rather than generic academic English.
+- 30 chapters covering every section of an \*ACL paper, plus where to publish, collaboration, figures, rebuttals, reviewing, and what to do after the decision.
+- Five examples from real ACL/EMNLP/NAACL papers in each chapter. None are invented.
+- A **phrasebook of rhetorical moves** in each chapter: verbatim openings, pivots, and closings from highly-cited NLP papers. We group them by the job they do (context, gap, proposal, method, result, implication). The idea comes from the [Manchester Academic Phrasebook](https://www.phrasebank.manchester.ac.uk/), but our phrases follow \*ACL conventions and come from real papers instead of generic academic English.
 - A [printable one-page submission checklist](./checklists/submission-checklist.md).
 - A `papers-to-read.bib` with every paper cited in Chapter 29, ready to drop into Overleaf.
 - A [structured examples database](./examples/README.md) you can browse by section or by paper.
@@ -40,7 +40,7 @@ If you have published five or more first-author \*ACL papers, this guide is prob
 
 - It is **not** the official ACL author guidelines. For format, page limits, anonymity rules, and the Responsible NLP Checklist, see the [ACL Rolling Review CFP](https://aclrollingreview.org/cfp) and the [ACLPUB formatting page](https://acl-org.github.io/ACLPUB/formatting.html). When the official guidelines and this guide disagree, the official guidelines win.
 - It is **not** AI-generated filler. Every example links to a real paper on the [ACL Anthology](https://aclanthology.org).
-- It is **not** a substitute for actually reading great papers. Chapter 29 tells you which ones.
+- It is **not** a substitute for reading great papers. Chapter 29 tells you which ones.
 
 ## How to use it
 
@@ -89,7 +89,7 @@ Pick the track that matches your situation.
 
 ## Contributing
 
-Yes, please. The guide is better when more experienced authors share what they have learned. See [CONTRIBUTING.md](https://github.com/shmuhammadd/missing-guide-nlp/blob/main/CONTRIBUTING.md) in the repo.
+Yes, please. The guide improves each time an experienced author shares what they have learned. See [CONTRIBUTING.md](https://github.com/shmuhammadd/missing-guide-nlp/blob/main/CONTRIBUTING.md) in the repo.
 
 ## License
 

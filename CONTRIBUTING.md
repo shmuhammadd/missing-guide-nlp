@@ -1,6 +1,6 @@
 # Contributing to The Missing NLP Paper Guide
 
-Thanks for considering a contribution. This guide is better when more experienced authors share what they have learned. Below are the rules — they exist because a community resource only stays useful if it stays principled.
+Thanks for considering a contribution. The guide gets better each time an experienced author adds what they learned. The rules below keep it accurate.
 
 ## What we want
 
@@ -23,7 +23,7 @@ In rough order of priority:
 
 Read [STYLE.md](STYLE.md) before opening a PR. Summary:
 
-- First person plural ("we") or impersonal — never "I" except in clearly-marked editorial asides.
+- First person plural ("we") or impersonal. Use "I" only in clearly marked editorial asides.
 - Active voice over passive.
 - Concrete over abstract. "Reviewers are tired" beats "reviewer fatigue is a known phenomenon."
 - Cite primary sources. ACL Anthology over arXiv when both exist.
@@ -46,7 +46,7 @@ A valid example:
 
 1. Add the paper to [`examples/examples.yaml`](docs/examples/examples.yaml) in the appropriate section.
 2. Add the BibTeX entry to [`examples/papers-to-read.bib`](docs/examples/papers-to-read.bib).
-3. Reference it in the relevant chapter file. Keep the chapter list at exactly five examples — if you add a sixth, you must argue for swapping one out.
+3. Reference it in the relevant chapter file. Keep each section at five examples at most. To add a sixth, argue for the one it replaces.
 4. Open a PR titled `examples(chapter-N): add <short paper handle>`.
 
 ## Translations
@@ -72,7 +72,7 @@ Open an issue before starting so we can avoid duplicate work.
 
 ## Reporting problems
 
-If you find an error — a wrong claim, broken link, hallucinated paper, outdated CFP rule — open an issue with the `bug` label. The faster we fix these the more the guide stays trustworthy.
+If you find a wrong claim, a broken link, a paper that does not exist or an outdated CFP rule, open an issue with the `bug` label.
 
 If you used the guide and got a paper into \*ACL: open an issue with the `success` label and tell us which chapter helped most. That is the feedback that keeps the maintainers going.
 

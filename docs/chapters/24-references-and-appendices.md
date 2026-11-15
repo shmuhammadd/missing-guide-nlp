@@ -3,20 +3,20 @@ sidebar_position: 24
 title: "24. References, Appendices, and Reproducibility"
 ---
 
-The back matter is where a paper earns trust after it has made its case. Three things live here, each with a different job: *references* let a reader verify the conversation you joined, *appendices* hold what supports your claims without being essential to them, and the *reproducibility* record lets someone rebuild your results. None of the three is a dumping ground — material the main claims depend on belongs in the main text, and material that supports no claim at all belongs nowhere.
+The back matter holds three things, each with its own job. *References* let a reader check the conversation you joined. *Appendices* hold what supports your claims without being essential to them. The *reproducibility* record lets someone rebuild your results. Material the main claims depend on belongs in the main text. Material that supports no claim belongs nowhere.
 
-**The appendix test** is one question: *can a reviewer accept the paper's claims without turning to the appendix?* If yes, the content is placed correctly. If a claim only holds once the reader reaches Appendix C, that content is in the wrong place. This mirrors the boundaries drawn earlier in the guide — the method goes in [Methods](./16-methods.md), hyperparameter values in [Experimental Setup](./17-experimental-setup.md), data-collection detail in [Dataset Construction](./15-dataset-construction.md) — and the appendix takes the overflow from each that is useful but inessential.
+**The appendix test** asks one question: *can a reviewer accept the paper's claims without turning to the appendix?* If yes, the content sits in the right place. If a claim holds only once the reader reaches Appendix C, that content is in the wrong place. The same boundaries run through the guide. The method goes in [Methods](./16-methods.md), hyperparameter values in [Experimental Setup](./17-experimental-setup.md), and data-collection detail in [Dataset Construction](./15-dataset-construction.md). The appendix takes the useful but inessential overflow from each.
 
 ## References
 
 - **Alphabetical by first author.** ACL convention.
 - **Use the ACL Anthology BibTeX** wherever the paper appears there. The bib keys are stable and other authors will find your citations easier to verify. ACL Anthology bib key format: `{firstauthor}-{etal}-{year}-{titleword}`.
 - **Cite the peer-reviewed version**, not the arXiv preprint, if both exist. ACLPUB guidelines are explicit on this.
-- **Do not hallucinate citations.** This is now a documented problem in the field — hundreds of recent \*ACL papers contain references to nonexistent works, most produced when authors used LLMs to help draft without verifying the output. Verify every citation. If you used an LLM to help draft, *check every reference it produced*.
+- **Do not hallucinate citations.** This is now a documented problem in the field. Hundreds of recent \*ACL papers contain references to nonexistent works, most produced when authors drafted with LLMs and did not verify the output. Verify every citation. If you used an LLM to help draft, *check every reference it produced*.
 
 ## Appendices
 
-Appendices go after references. They do not count toward the page limit, but they should not contain content essential to the main claims — reviewers are not required to read them.
+Appendices go after references. They do not count toward the page limit. Keep out anything essential to the main claims, because reviewers are not required to read them.
 
 **Good appendix content:**
 
@@ -46,10 +46,10 @@ Key reproducibility items:
 
 ## A practical workflow
 
-About one week before the deadline, freeze your code and your experiments. Tag the commit. From that tag, you should be able to reproduce every number in the paper with one command. If you cannot, write the documentation to make it possible. Reviewers may not look — but they may, and if they do, this is the difference between a clean accept and a "results may not be reproducible" rejection.
+About one week before the deadline, freeze your code and your experiments. Tag the commit. From that tag, you should be able to reproduce every number in the paper with one command. If you cannot, write the documentation to make it possible. Reviewers may not look. If they do, this is the difference between a clean accept and a "results may not be reproducible" rejection.
 
 ## Further reading
 
-- Pineau et al., ["Improving Reproducibility in Machine Learning Research"](https://arxiv.org/abs/2003.12206) — the NeurIPS reproducibility checklist that influenced ACL's.
+- Pineau et al., ["Improving Reproducibility in Machine Learning Research"](https://arxiv.org/abs/2003.12206), the NeurIPS reproducibility checklist that influenced ACL's.
 - Dodge et al., ["Show Your Work"](https://aclanthology.org/D19-1224/), EMNLP 2019.
 - The ACL Anthology FAQ on bib keys: [https://aclanthology.org/faq/](https://aclanthology.org/faq/).

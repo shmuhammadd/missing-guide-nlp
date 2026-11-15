@@ -18,7 +18,7 @@ slug: /checklists/submission-checklist
 - [ ] Figures and tables are readable in grayscale.
 - [ ] All claims are supported by experiments or citations.
 - [ ] Results are reported with variance (≥3 seeds where feasible).
-- [ ] Strongest available baselines are included or absence is justified.
+- [ ] Strongest available baselines included, or their absence justified.
 
 ## Writing
 
@@ -50,7 +50,7 @@ slug: /checklists/submission-checklist
 
 - [ ] Anonymized: no author names or affiliations; self-citations in the third person.
 - [ ] Acknowledgments and identifying funding/grant numbers removed from the review version.
-- [ ] PDF metadata clean — no author name in the file's document properties.
+- [ ] PDF metadata clean: no author name in the file's document properties.
 - [ ] No links to non-anonymous repositories (use an anonymized mirror).
 - [ ] Page limits respected (Limitations, Ethics, References, Appendix do not count).
 - [ ] Responsible NLP Checklist filled out.
@@ -59,9 +59,7 @@ slug: /checklists/submission-checklist
 
 ## The reviewer test
 
-Pretend you are a tired reviewer with eight more papers to read. Where would you stop reading?
-
-That is where you have more work to do.
+Read the paper as a tired reviewer with eight more papers to read. Mark where you would stop reading. That is where you have more work to do.
 
 ---
 
