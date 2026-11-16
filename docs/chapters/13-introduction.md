@@ -1,6 +1,6 @@
 ---
-sidebar_position: 12
-title: "12. The Introduction"
+sidebar_position: 13
+title: "13. The Introduction"
 ---
 
 The abstract persuades the reader to open the paper. The introduction must persuade them to read past page two. In every paper I have advised on, it is the section that gets the most rewrites.
@@ -21,7 +21,7 @@ Most well-written ACL papers follow roughly this structure:
 
 ## Phrasebook: phrases for each paragraph
 
-The five subsections match the five paragraphs. Each quotes sentences from the **introduction body** of highly cited papers, never from their abstracts. [Chapter 11](./11-abstract.md) has a separate phrasebook drawn from the same papers' *abstracts*. An introduction restates the same five moves at greater length. Compare the two versions side by side to see how the abstract compresses what the introduction unfolds. Many papers recur because their introductions are exemplary. Study the move, not the sentence.
+The five subsections match the five paragraphs. Each quotes sentences from the **introduction body** of highly cited papers, never from their abstracts. [Chapter 12](./12-abstract.md) has a separate phrasebook drawn from the same papers' *abstracts*. An introduction restates the same five moves at greater length. Compare the two versions side by side to see how the abstract compresses what the introduction unfolds. Many papers recur because their introductions are exemplary. Study the move, not the sentence.
 
 **Learn the patterns; do not copy the words.** Lifting a phrase verbatim is plagiarism. Absorbing the rhetorical move and writing your own version is craft. Examples of moves are "the human-vs-model contrast opener," "the *however*-plus-enumerated-failures gap," and "the contributions list framed as deliverables". Read a subsection, name the move, close the page, then write. The italic glosses describe the move; the quotes show that it works in published papers. We removed inline citations from the quotes for readability.
 

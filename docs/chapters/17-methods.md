@@ -1,6 +1,6 @@
 ---
-sidebar_position: 16
-title: "16. Methods"
+sidebar_position: 17
+title: "17. Methods"
 ---
 
 New authors most often over-write and under-explain the methods section, both at once.
@@ -9,7 +9,7 @@ New authors most often over-write and under-explain the methods section, both at
 
 **Under-explains**: the *why* of each design choice is missing. The reader cannot tell which choices are essential to the contribution and which were arbitrary.
 
-**A scope check first.** This chapter is for **modelling and method papers**, whose contribution is a model, an algorithm, a training procedure, or an analysis method. If your contribution is a dataset, benchmark, or other resource, write [Dataset Construction](./15-dataset-construction.md) in this slot instead, because there the construction *is* the method. A paper that proposes both writes both, the dataset first. Everything below assumes you are explaining a method.
+**A scope check first.** This chapter is for **modelling and method papers**, whose contribution is a model, an algorithm, a training procedure, or an analysis method. If your contribution is a dataset, benchmark, or other resource, write [Dataset Construction](./16-dataset-construction.md) in this slot instead, because there the construction *is* the method. A paper that proposes both writes both, the dataset first. Everything below assumes you are explaining a method.
 
 ## Structure that works
 
@@ -20,7 +20,7 @@ New authors most often over-write and under-explain the methods section, both at
 
 ## Phrasebook: the moves of a methods section
 
-A methods section is built from a handful of recurring moves: state the method, formalise the task, walk through a component, justify a choice, fix the objective, point forward to the evidence. As in the [Related Work](./13-related-work.md) and [Dataset Construction](./15-dataset-construction.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots. Fill them with your specifics; do *not* lift the phrasing. A few are real, verified sentences from well-known papers and carry a citation. Study how they move, then write your own. Two entries sit in the open under each move; expand **Show more** for the rest. A section assembled from templates without thought reads as assembled. Name the move, then write the sentence your method needs.
+A methods section is built from a handful of recurring moves: state the method, formalise the task, walk through a component, justify a choice, fix the objective, point forward to the evidence. As in the [Related Work](./14-related-work.md) and [Dataset Construction](./16-dataset-construction.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots. Fill them with your specifics; do *not* lift the phrasing. A few are real, verified sentences from well-known papers and carry a citation. Study how they move, then write your own. Two entries sit in the open under each move; expand **Show more** for the rest. A section assembled from templates without thought reads as assembled. Name the move, then write the sentence your method needs.
 
 ### Stating the method: the overview sentence (from real papers and templates)
 
@@ -94,9 +94,9 @@ The under-explaining author skips this move. Why this choice over the obvious al
 </details>
 ### Objective, training, and what counts as contribution (templates)
 
-State the objective and the parts of training that are yours. Push routine hyperparameters to [Experimental Setup](./17-experimental-setup.md); they are not method.
+State the objective and the parts of training that are yours. Push routine hyperparameters to [Experimental Setup](./18-experimental-setup.md); they are not method.
 
-- *"We train [model] to minimise [loss], which [what it encourages]; optimiser and schedule details are deferred to [Experimental Setup](./17-experimental-setup.md)."* States the objective and what it does, then gets the hyperparameters out of the way.
+- *"We train [model] to minimise [loss], which [what it encourages]; optimiser and schedule details are deferred to [Experimental Setup](./18-experimental-setup.md)."* States the objective and what it does, then gets the hyperparameters out of the way.
 - *"The only non-standard part of training is [X]; everything else follows [prior recipe] [(cite)]."* Tells the reader the one training detail to attend to.
 
 <details>
@@ -147,4 +147,4 @@ After drafting methods, ask a colleague who is *not* in your subfield to read th
 
 - Strunk & White, *The Elements of Style*. Methods writing rewards terseness, and this book teaches it.
 - Daniel Wilkerson on passive voice. Methods sections are where passive voice runs amok. Active voice ("we compute X") almost always reads better than "X is computed."
-- The companion phrasebooks in [Chapter 11: The Abstract](./11-abstract.md), [Chapter 12: The Introduction](./12-introduction.md), and [Chapter 15: Dataset Construction](./15-dataset-construction.md). Your abstract and introduction sell, in compressed form, the same contribution as the overview sentence you write here.
+- The companion phrasebooks in [Chapter 12: The Abstract](./12-abstract.md), [Chapter 13: The Introduction](./13-introduction.md), and [Chapter 16: Dataset Construction](./16-dataset-construction.md). Your abstract and introduction sell, in compressed form, the same contribution as the overview sentence you write here.

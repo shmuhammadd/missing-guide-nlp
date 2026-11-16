@@ -1,6 +1,6 @@
 ---
-sidebar_position: 10
-title: "10. The Title"
+sidebar_position: 11
+title: "11. The Title"
 ---
 
 Most of the field will read your title and nothing else. It appears in the proceedings, in citations, in a reviewer's bidding list, in search results, in tweets, and on slides other people make about your work. You will write it in ninety seconds and live with it for ten years.
@@ -11,7 +11,7 @@ Most of the field will read your title and nothing else. It appears in the proce
 - **It is searchable.** Reviewers, future students and retrieval systems search by keyword. A paper on retrieval-augmented generation for biomedical QA should carry those words, or close variants, in its title. Nobody cites a paper they cannot find.
 - **It is honest.** Do not promise *Universal* or *General-Purpose* if you tested one language and two datasets. Reviewers see through it by the abstract. The claim ages badly once someone runs the obvious counterexample.
 - **It survives being read aloud.** People say titles aloud in talks, in introductions and in hallway recommendations. If you stumble reading yours, rewrite it.
-- **It sets expectations, and the paper meets them.** The title makes a promise. You keep it in paragraph 4 of your introduction, the results preview (see [the Introduction chapter](./12-introduction.md)).
+- **It sets expectations, and the paper meets them.** The title makes a promise. You keep it in paragraph 4 of your introduction, the results preview (see [the Introduction chapter](./13-introduction.md)).
 
 ## The dominant patterns
 
@@ -33,7 +33,7 @@ The phrasebook below gives real, highly cited titles for each shape.
 
 Each subsection collects real \*ACL titles, plus a few field-defining ones from nearby venues, grouped by surface shape. Each entry names the move, *what the title does*, so you can copy the move without copying the words.
 
-**Study the shapes; do not fill them in.** Quoting a title carries no plagiarism risk, unlike the abstract and introduction phrasebooks ([Chapter 11](./11-abstract.md), [Chapter 12](./12-introduction.md)). A title *is* its citation, so quoting it in full names the paper. The risk here is cliché. These shapes are so worn that copying one without thought produces the ten-thousandth *X: A Novel Framework for Y*. Read a subsection, name the move ("name-and-expand," "hook that still tells the topic," "the honest question"), then write your own. A paper can fit several patterns; we file each title under the shape it shows most clearly. The larger patterns show two titles and fold the rest behind **Show more**. The shorter ones list every title.
+**Study the shapes; do not fill them in.** Quoting a title carries no plagiarism risk, unlike the abstract and introduction phrasebooks ([Chapter 12](./12-abstract.md), [Chapter 13](./13-introduction.md)). A title *is* its citation, so quoting it in full names the paper. The risk here is cliché. These shapes are so worn that copying one without thought produces the ten-thousandth *X: A Novel Framework for Y*. Read a subsection, name the move ("name-and-expand," "hook that still tells the topic," "the honest question"), then write your own. A paper can fit several patterns; we file each title under the shape it shows most clearly. The larger patterns show two titles and fold the rest behind **Show more**. The shorter ones list every title.
 
 ### Name + colon expansion (the workhorse)
 
@@ -181,4 +181,4 @@ Write five titles. Show them to two colleagues with no context. Ask which paper 
 
 - Steven Pinker, *The Sense of Style*, Chapter 4, on how a title gives the reader a first model of your content.
 - Mike Ashby, ["How to Write a Paper"](https://web.archive.org/web/20240330171033/http://www-mech.eng.cam.ac.uk/mmd/ashby-paper-V6.pdf), the section on titles.
-- The companion phrasebooks in [Chapter 11: The Abstract](./11-abstract.md) and [Chapter 12: The Introduction](./12-introduction.md). A title compresses into one line the move sentence those chapters unpack.
+- The companion phrasebooks in [Chapter 12: The Abstract](./12-abstract.md) and [Chapter 13: The Introduction](./13-introduction.md). A title compresses into one line the move sentence those chapters unpack.

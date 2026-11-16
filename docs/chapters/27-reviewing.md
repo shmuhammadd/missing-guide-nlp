@@ -1,9 +1,9 @@
 ---
-sidebar_position: 26
-title: "26. How to review well"
+sidebar_position: 27
+title: "27. How to review well"
 ---
 
-You will be asked to review sooner than you expect, often in your first year and sometimes before your own first acceptance. Peer review is volunteer labor, and the system runs on it. A field that submits more than it reviews collapses under its backlog, so reviewing well is a duty. It is also the fastest way to become a better author, because you learn what reviewers look for by sitting in the chair. Below is how to review well without becoming the [Reviewer 2](./05-jargon.md) of someone else's story. Read it alongside [the rebuttal chapter](./25-rebuttal.md), its mirror image.
+You will be asked to review sooner than you expect, often in your first year and sometimes before your own first acceptance. Peer review is volunteer labor, and the system runs on it. A field that submits more than it reviews collapses under its backlog, so reviewing well is a duty. It is also the fastest way to become a better author, because you learn what reviewers look for by sitting in the chair. Below is how to review well without becoming the [Reviewer 2](./05-jargon.md) of someone else's story. Read it alongside [the rebuttal chapter](./26-rebuttal.md), its mirror image.
 
 Everything below follows the [ARR reviewer guidelines](https://aclrollingreview.org/reviewerguidelines), the authoritative source. Read them in full before your first assignment. Carry one sentence from them into every review: **"Write the review you would like to get yourself."**
 
@@ -13,7 +13,7 @@ Some duties begin before you read a word of the paper.
 
 - **Conflict of interest.** You have a conflict if you know who wrote it (a collaborator, an advisor or advisee, someone at your institution, a close friend) or if it overlaps your own unsubmitted work. The guidelines are explicit: "If the submission looks like something that is very close to your own work about to be submitted, it is best to recuse yourself." Ask your area chair for reassignment, and use the form field that asks whether you know the authors' identity.
 - **Confidentiality.** "All the information about submissions and reviews that you receive as part of your assignment is confidential." Do not share the paper, do not discuss identifiable details, and if you talk about reviewing on social media, keep examples "general enough that no submissions can be identified."
-- **No language models on the manuscript.** You may not paste a submission, or your review, into a non-privacy-preserving AI tool. It breaches the authors' confidentiality ([Chapter 23](./23-ai-assistance.md) covers this in full). If you spot a hidden prompt injection trying to manipulate an AI reviewer, report it to the chairs; such papers should be desk-rejected. A review you did not write breaks trust, and it is increasingly easy to detect.
+- **No language models on the manuscript.** You may not paste a submission, or your review, into a non-privacy-preserving AI tool. It breaches the authors' confidentiality ([Chapter 24](./24-ai-assistance.md) covers this in full). If you spot a hidden prompt injection trying to manipulate an AI reviewer, report it to the chairs; such papers should be desk-rejected. A review you did not write breaks trust, and it is increasingly easy to detect.
 - **Timeliness.** Block the time when you accept. "Late reviews mean extra work for the AC and other volunteers — and the authors might not get a fair chance to respond." If life intervenes, tell your ACs early rather than vanishing.
 - **Competence.** Review what you can judge, and set your Confidence score honestly. A low-confidence review is no shame. A confident review of work you did not understand does real harm.
 
@@ -54,7 +54,7 @@ The guidelines list the bad reasons explicitly, and knowing them separates a goo
 - **"It only evaluates a non-English language,"** or uses a methodology you would not have chosen, or addresses a narrow subfield. NLP is interdisciplinary, and a main-track paper "may well make a big contribution to a narrow subfield."
 - **"The English has errors."** "As long as the writing is clear enough, better scientific content should be more valuable than better journalistic skills." Judge the science, especially when the authors are not native speakers.
 - **"It's missing experiment X."** "A paper only needs to present sufficient evidence for the claim that the authors are making." Demanding experiments beyond that claim turns the review into a wishlist.
-- **The authors' own Limitations section.** "A good review should not just take the limitations and list them as weaknesses or reasons to reject." Punishing honesty teaches authors to hide their limitations. [Chapter 21](./21-limitations.md) asks them to do the opposite.
+- **The authors' own Limitations section.** "A good review should not just take the limitations and list them as weaknesses or reasons to reject." Punishing honesty teaches authors to hide their limitations. [Chapter 22](./22-limitations.md) asks them to do the opposite.
 
 ## Write it so it helps
 
@@ -105,5 +105,5 @@ The strong review opens with a neutral summary that proves the reviewer read the
 ## Further reading
 
 - The [ARR reviewer guidelines](https://aclrollingreview.org/reviewerguidelines) and [review form](https://aclrollingreview.org/reviewform), the authoritative, current source for everything above.
-- The [ACL Code of Ethics](https://www.aclweb.org/portal/content/acl-code-ethics), the standard your ethics flags are judged against ([Chapter 22](./22-ethics.md)).
-- [The rebuttal](./25-rebuttal.md), the other side of the same conversation. Reviewing well and rebutting well are one skill seen from two chairs.
+- The [ACL Code of Ethics](https://www.aclweb.org/portal/content/acl-code-ethics), the standard your ethics flags are judged against ([Chapter 23](./23-ethics.md)).
+- [The rebuttal](./26-rebuttal.md), the other side of the same conversation. Reviewing well and rebutting well are one skill seen from two chairs.

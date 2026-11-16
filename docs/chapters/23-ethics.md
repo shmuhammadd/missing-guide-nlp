@@ -1,11 +1,11 @@
 ---
-sidebar_position: 22
-title: "22. Ethical Considerations"
+sidebar_position: 23
+title: "23. Ethical Considerations"
 ---
 
 Optional, but strongly encouraged. Like Limitations, it does not count toward the page limit, and it sits before the references.
 
-**Ethics and limitations.** [Limitations](./21-limitations.md) asks where your claims break. This section asks *who could be affected, and how.* The two meet at data and bias. A skewed training set both bounds your claims (limitations) and risks downstream harm (ethics). Split such a sentence by the question it answers. Almost every paper has something real to say here. Even a syntax parser has training-data provenance, and the [Responsible NLP Checklist](https://aclrollingreview.org/cfp) will ask regardless. "Not applicable" is rarely true, and it reads as not having looked.
+**Ethics and limitations.** [Limitations](./22-limitations.md) asks where your claims break. This section asks *who could be affected, and how.* The two meet at data and bias. A skewed training set both bounds your claims (limitations) and risks downstream harm (ethics). Split such a sentence by the question it answers. Almost every paper has something real to say here. Even a syntax parser has training-data provenance, and the [Responsible NLP Checklist](https://aclrollingreview.org/cfp) will ask regardless. "Not applicable" is rarely true, and it reads as not having looked.
 
 ## What goes in
 
@@ -17,7 +17,7 @@ Optional, but strongly encouraged. Like Limitations, it does not count toward th
 
 ## Phrasebook: the moves of an ethics section
 
-An ethical considerations section names, concretely, who could be affected and how. As in the limitations phrasebook, every entry here is an **adaptable template** and none is a quotation. Fill each with the specifics of your data, annotators, and model. The worst sentence here is boilerplate that signals concern without content, so each template forces a specific. Several moves overlap the [Dataset Construction](./15-dataset-construction.md) phrasebook. Report the procedure there and the ethical judgement here. Two entries sit in the open under each move; expand **Show more** for the rest.
+An ethical considerations section names, concretely, who could be affected and how. As in the limitations phrasebook, every entry here is an **adaptable template** and none is a quotation. Fill each with the specifics of your data, annotators, and model. The worst sentence here is boilerplate that signals concern without content, so each template forces a specific. Several moves overlap the [Dataset Construction](./16-dataset-construction.md) phrasebook. Report the procedure there and the ethical judgement here. Two entries sit in the open under each move; expand **Show more** for the rest.
 
 ### Data, consent, and privacy (templates)
 
@@ -92,4 +92,4 @@ An ethical considerations section names, concretely, who could be affected and h
 
 - ACL Code of Ethics: [https://www.aclweb.org/portal/content/acl-code-ethics](https://www.aclweb.org/portal/content/acl-code-ethics).
 - Bender & Friedman, ["Data Statements for NLP"](https://aclanthology.org/Q18-1041/), TACL 2018. The original "what should a dataset paper disclose" reference.
-- The companion phrasebook in [Chapter 15 (Dataset Construction)](./15-dataset-construction.md) and the neighbouring [Chapter 21 (Limitations)](./21-limitations.md). Report the data and annotation procedure in the first, the validity boundary in the second, and the question of harm here.
+- The companion phrasebook in [Chapter 16 (Dataset Construction)](./16-dataset-construction.md) and the neighbouring [Chapter 22 (Limitations)](./22-limitations.md). Report the data and annotation procedure in the first, the validity boundary in the second, and the question of harm here.

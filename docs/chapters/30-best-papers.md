@@ -1,6 +1,6 @@
 ---
-sidebar_position: 29
-title: "29. Best Papers Worth Reading"
+sidebar_position: 30
+title: "30. Best Papers Worth Reading"
 ---
 
 Read these papers in full, past the abstract. Watch how each one is structured, motivates its problem, and presents results. Watch how it handles the boring sections: related work, experimental setup, limitations. Then hold your own writing up against them.

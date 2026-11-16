@@ -1,9 +1,9 @@
 ---
-sidebar_position: 27
-title: "27. After rejection"
+sidebar_position: 28
+title: "28. After rejection"
 ---
 
-Most first papers are rejected. \*ACL main-conference acceptance rates sit around a quarter, so rejection is the *modal* outcome. It says little about you or your future. Almost every researcher you admire has a drawer full of rejection letters, and they learned more from those than from their acceptances. The reviews sting first and help second. This chapter is the sibling of [After Acceptance](./28-after-acceptance.md). It covers what to do when the decision comes back *reject*.
+Most first papers are rejected. \*ACL main-conference acceptance rates sit around a quarter, so rejection is the *modal* outcome. It says little about you or your future. Almost every researcher you admire has a drawer full of rejection letters, and they learned more from those than from their acceptances. The reviews sting first and help second. This chapter is the sibling of [After Acceptance](./29-after-acceptance.md). It covers what to do when the decision comes back *reject*.
 
 ## First, do nothing
 
@@ -27,7 +27,7 @@ Do *not* resubmit the identical paper to the next deadline hoping for a kinder d
 
 ## How ARR resubmission works
 
-At ARR, you address substantive reviewer requests mainly by revising and resubmitting. The in-cycle response ([Chapter 25](./25-rebuttal.md)) is the lesser route. When you resubmit to a later cycle, three things matter.
+At ARR, you address substantive reviewer requests mainly by revising and resubmitting. The in-cycle response ([Chapter 26](./26-rebuttal.md)) is the lesser route. When you resubmit to a later cycle, three things matter.
 
 - **Acknowledge the previous version. This is not optional.** You provide the OpenReview link to the prior submission. "A paper that has been previously submitted but fails to acknowledge the previous version will be desk rejected." Hiding a rejection to get a fresh start is the one move guaranteed to backfire.
 - **Write a real revision note.** ARR asks for an explanation of revisions that "summarize[s] the changes made and include[s] a point-by-point response indicating how you have addressed each weakness and suggestion listed by each reviewer (or your justifications for not doing some of the revisions)." A color-coded PDF showing what changed makes the reviewers' job easier and your case stronger.
@@ -39,7 +39,7 @@ Returning reviewers check the revision note against the paper. Suppose the note 
 
 ## Keep perspective
 
-- **Rejection is the common case.** Many of the papers in [Chapter 29](./29-best-papers.md) were rejected somewhere first.
+- **Rejection is the common case.** Many of the papers in [Chapter 30](./30-best-papers.md) were rejected somewhere first.
 - **The reviews are free expert feedback** most people would pay for. Keep a list of what you learned.
 - **The biggest predictor of a published paper is an author who revised it and sent it back out.** Persistence gets most papers in.
 
@@ -55,5 +55,5 @@ Returning reviewers check the revision note against the paper. Suppose the note 
 ## Further reading
 
 - The [ARR author guidelines](https://aclrollingreview.org/authors): the authoritative, current resubmission process and revision-note requirements.
-- [Chapter 25: The Rebuttal](./25-rebuttal.md) for responding *during* review, and [Chapter 28: After Acceptance](./28-after-acceptance.md) for the other outcome.
+- [Chapter 26: The Rebuttal](./26-rebuttal.md) for responding *during* review, and [Chapter 29: After Acceptance](./29-after-acceptance.md) for the other outcome.
 - [Chapter 3: What Kind of Paper Are You Writing?](./03-paper-types.md) on Findings, workshops, and other venues where a rejected paper can find a home.

@@ -1,11 +1,11 @@
 ---
-sidebar_position: 19
-title: "19. Analysis and Discussion"
+sidebar_position: 20
+title: "20. Analysis and Discussion"
 ---
 
 A paper with results and no analysis is a benchmark submission. The analysis section earns the reader's trust by showing you understand *why* your numbers came out as they did.
 
-**Analysis and discussion are not results.** Three moves hide under this one heading. Keep them apart. *Results* report what happened (the [previous chapter](./18-results.md)). *Analysis* shows *why* it happened and *where it breaks*: ablations, error analysis, probing, sensitivity. *Discussion* steps back to *what it means*. It says how the finding bears on the question you opened with, and what it does and does not license. Many \*ACL papers fold all three under "Analysis and Discussion". That is fine, but write them as three distinct moves. A caveat that rises to a stated weakness goes in [Limitations](./21-limitations.md).
+**Analysis and discussion are not results.** Three moves hide under this one heading. Keep them apart. *Results* report what happened (the [previous chapter](./19-results.md)). *Analysis* shows *why* it happened and *where it breaks*: ablations, error analysis, probing, sensitivity. *Discussion* steps back to *what it means*. It says how the finding bears on the question you opened with, and what it does and does not license. Many \*ACL papers fold all three under "Analysis and Discussion". That is fine, but write them as three distinct moves. A caveat that rises to a stated weakness goes in [Limitations](./22-limitations.md).
 
 ## What goes here
 
@@ -17,7 +17,7 @@ A paper with results and no analysis is a benchmark submission. The analysis sec
 
 ## Phrasebook: the moves of an analysis section
 
-Analysis is built from a handful of moves: set up an ablation, read what it shows, categorise the errors, walk through a few examples, then interpret. As in the [Methods](./16-methods.md) and [Results](./18-results.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots. Fill every bracket with a specific, and never assert a cause you did not test. A few are real, verified sentences from well-known analysis papers and carry a citation; study how carefully they word their claims. Two entries sit in the open under each move; expand **Show more** for the rest.
+Analysis is built from a handful of moves: set up an ablation, read what it shows, categorise the errors, walk through a few examples, then interpret. As in the [Methods](./17-methods.md) and [Results](./19-results.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots. Fill every bracket with a specific, and never assert a cause you did not test. A few are real, verified sentences from well-known analysis papers and carry a citation; study how carefully they word their claims. Two entries sit in the open under each move; expand **Show more** for the rest.
 
 ### Setting up an ablation (templates)
 
@@ -120,4 +120,4 @@ As a rough guide, give analysis at least as many pages as headline results. If y
 ## Further reading
 
 - Belinkov & Glass, ["Analysis Methods in Neural Language Processing: A Survey"](https://aclanthology.org/Q19-1004/), TACL 2019. The reference on what counts as analysis in our field.
-- The neighbouring [Chapter 18: Results](./18-results.md) and [Chapter 21: Limitations](./21-limitations.md). Results supply the numbers this section explains, and a caveat raised here graduates into the limitations section.
+- The neighbouring [Chapter 19: Results](./19-results.md) and [Chapter 22: Limitations](./22-limitations.md). Results supply the numbers this section explains, and a caveat raised here graduates into the limitations section.

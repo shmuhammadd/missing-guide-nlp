@@ -1,11 +1,11 @@
 ---
-sidebar_position: 17
-title: "17. Experimental Setup"
+sidebar_position: 18
+title: "18. Experimental Setup"
 ---
 
 This section is dry and necessary. Reviewers read it to decide whether to believe your results. Make that check easy.
 
-**Where the line falls.** New authors often blur this section with [Methods](./16-methods.md). Methods says *what your contribution is*. Experimental setup gives *everything a reader needs to re-run it and trust the numbers*: data versions, baselines, metrics, hyperparameters, seeds, compute. The test is simple. If a detail is part of the idea, it goes in Methods. If it is a knob you turned to get a number, it goes here. Hyperparameter values are setup. If your paper's contribution is a dataset, much of the construction lives in [Dataset Construction](./15-dataset-construction.md) instead, but you still report baselines, metrics, and splits here.
+**Where the line falls.** New authors often blur this section with [Methods](./17-methods.md). Methods says *what your contribution is*. Experimental setup gives *everything a reader needs to re-run it and trust the numbers*: data versions, baselines, metrics, hyperparameters, seeds, compute. The test is simple. If a detail is part of the idea, it goes in Methods. If it is a knob you turned to get a number, it goes here. Hyperparameter values are setup. If your paper's contribution is a dataset, much of the construction lives in [Dataset Construction](./16-dataset-construction.md) instead, but you still report baselines, metrics, and splits here.
 
 ## What belongs here
 
@@ -22,13 +22,13 @@ A metric is a proxy. The only question that matters is whether it tracks what yo
 
 **Check that your metric measures your claim.** Automatic metrics can diverge sharply from human judgment. A structured review of 284 reported correlations found BLEU's agreement with human quality ratings far weaker and more variable than its ubiquity suggests ([Reiter, *Computational Linguistics* 2018](https://aclanthology.org/J18-3002/)). Accuracy misleads under class imbalance. Overlap metrics like BLEU and ROUGE reward surface similarity over meaning. Choose a metric because it is valid for what you claim, and report a second when one cannot carry the claim. Remember Goodhart ([Chapter 5](./05-jargon.md)): once a number becomes the target, it stops measuring what you wanted.
 
-**Use human evaluation when metrics cannot reach.** For generation and other subjective tasks, automatic scores are necessary but not sufficient, and human evaluation is the standard. Yet papers run it so inconsistently that comparison across them breaks down ([van der Lee et al., INLG 2019](https://aclanthology.org/W19-8643/)). Do it properly. Define each criterion precisely; fluency, adequacy, and faithfulness are different things. Use enough items and annotators for adequate power. Report inter-annotator agreement ([Chapter 15](./15-dataset-construction.md)), pay fairly ([Chapter 22](./22-ethics.md)), and release the protocol and the raw ratings. Eyeballing a handful of outputs is "vibes-based evaluation" ([Chapter 5](./05-jargon.md)), and it is not human evaluation.
+**Use human evaluation when metrics cannot reach.** For generation and other subjective tasks, automatic scores are necessary but not sufficient, and human evaluation is the standard. Yet papers run it so inconsistently that comparison across them breaks down ([van der Lee et al., INLG 2019](https://aclanthology.org/W19-8643/)). Do it properly. Define each criterion precisely; fluency, adequacy, and faithfulness are different things. Use enough items and annotators for adequate power. Report inter-annotator agreement ([Chapter 16](./16-dataset-construction.md)), pay fairly ([Chapter 23](./23-ethics.md)), and release the protocol and the raw ratings. Eyeballing a handful of outputs is "vibes-based evaluation" ([Chapter 5](./05-jargon.md)), and it is not human evaluation.
 
 **Treat an LLM judge as an instrument to be calibrated.** Scoring outputs with a language model is cheap and increasingly common. It also carries documented biases: a *position bias* toward whichever answer it sees first, a *verbosity bias* toward longer answers, and a *self-enhancement bias* toward its own outputs ([Zheng et al., NeurIPS 2023](https://arxiv.org/abs/2306.05685)). Before you trust an LLM judge, validate it against human ratings on a sample. Control for position by swapping answer order, report the exact model and prompt, and be wary of letting a model grade its own family's outputs. An unvalidated LLM judge is a metric of unknown validity, the problem this section opened with.
 
 ## Phrasebook: the moves of an experimental setup
 
-The reporting sentences of an experimental setup are formulaic. That is good news: the moves are learnable, and the goal is clarity. As in the [Dataset Construction](./15-dataset-construction.md) and [Methods](./16-methods.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots. Fill every bracket with a specific, and never report a number you did not compute. A few entries in the last group are real, verified sentences from the methodology papers that argue for honest reporting; quote them when you need the authority. Two entries sit in the open under each move; expand **Show more** for the rest.
+The reporting sentences of an experimental setup are formulaic. That is good news: the moves are learnable, and the goal is clarity. As in the [Dataset Construction](./16-dataset-construction.md) and [Methods](./17-methods.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots. Fill every bracket with a specific, and never report a number you did not compute. A few entries in the last group are real, verified sentences from the methodology papers that argue for honest reporting; quote them when you need the authority. Two entries sit in the open under each move; expand **Show more** for the rest.
 
 ### Datasets, benchmarks, and versions
 
@@ -160,4 +160,4 @@ If any is missing, reviewers will ask. Answer it in the paper before you have to
 - Ehud Reiter, ["A Structured Review of the Validity of BLEU"](https://aclanthology.org/J18-3002/), *Computational Linguistics* 2018. Why a standard metric need not be a valid one.
 - van der Lee et al., ["Best practices for the human evaluation of automatically generated text"](https://aclanthology.org/W19-8643/), INLG 2019. How to run a human evaluation other people can trust.
 - Zheng et al., ["Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"](https://arxiv.org/abs/2306.05685), NeurIPS 2023. The biases of LLM judges, and how to check for them.
-- The companion phrasebooks in [Chapter 15: Dataset Construction](./15-dataset-construction.md) and [Chapter 16: Methods](./16-methods.md). They describe in full the data and method you set up here; keep the cross-references consistent.
+- The companion phrasebooks in [Chapter 16: Dataset Construction](./16-dataset-construction.md) and [Chapter 17: Methods](./17-methods.md). They describe in full the data and method you set up here; keep the cross-references consistent.

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 817" width="760" height="817" role="img" aria-labelledby="t d">
+<title id="t">The sections of an *ACL long paper</title>
+<desc id="d">Title and abstract, then eight numbered sections from Introduction to Conclusion that count toward the eight-page limit, then Limitations, Ethical considerations, Acknowledgments, References and Appendix, which do not count. Block heights show a rough share of the pages.</desc>
+<style>
+ text { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #1f2328; }
+ .h { font-size: 17px; font-weight: 600; }
+ .s { font-size: 12.5px; fill: #57606a; }
+ .n { font-size: 14px; font-weight: 500; }
+ .m { font-size: 12px; fill: #57606a; font-weight: 400; }
+ .c { font-size: 13px; fill: #3d6cb0; font-weight: 600; }
+ .b { font-size: 12.5px; fill: #3d6cb0; font-weight: 600; }
+ .b2 { font-size: 12.5px; fill: #6e6e6a; font-weight: 600; }
+ .l { font-size: 12px; fill: #b04a3d; font-weight: 600; }
+</style>
+<rect x="0" y="0" width="760" height="817" rx="12" fill="#ffffff"/>
+<text x="40" y="30" class="h">The sections of an *ACL long paper</text>
+<text x="586" y="30" class="s">Chapter</text>
+<rect x="170" y="52" width="400" height="26" rx="5" fill="#f4efe4" stroke="#9a7b3c" stroke-width="1.5"/>
+<text x="184" y="70.0" class="n">Title and authors<tspan class="m" dx="8">anonymous at review</tspan></text>
+<text x="586" y="70.0" class="c">Ch. 11</text>
+<rect x="170" y="82" width="400" height="26" rx="5" fill="#f4efe4" stroke="#9a7b3c" stroke-width="1.5"/>
+<text x="184" y="100.0" class="n">Abstract<tspan class="m" dx="8">150 to 250 words</tspan></text>
+<text x="586" y="100.0" class="c">Ch. 12</text>
+<rect x="170" y="112" width="400" height="58.0" rx="5" fill="#e7eefa" stroke="#3d6cb0" stroke-width="1.5"/>
+<text x="184" y="146.0" class="n">1  Introduction</text>
+<text x="586" y="146.0" class="c">Ch. 13</text>
+<rect x="170" y="174.0" width="400" height="34.8" rx="5" fill="#e7eefa" stroke="#3d6cb0" stroke-width="1.5"/>
+<text x="184" y="196.4" class="n">2  Related work</text>
+<text x="586" y="196.4" class="c">Ch. 14</text>
+<rect x="170" y="212.8" width="400" height="26" rx="5" fill="#f5f8fd" stroke="#3d6cb0" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="184" y="230.8" class="n">3  Background<tspan class="m" dx="8">optional</tspan></text>
+<text x="586" y="230.8" class="c">Ch. 15</text>
+<rect x="170" y="242.8" width="400" height="92.80000000000001" rx="5" fill="#e7eefa" stroke="#3d6cb0" stroke-width="1.5"/>
+<text x="184" y="294.2" class="n">4  Method, or Dataset construction</text>
+<text x="586" y="294.2" class="c">Ch. 17 / 16</text>
+<rect x="170" y="339.6" width="400" height="52.2" rx="5" fill="#e7eefa" stroke="#3d6cb0" stroke-width="1.5"/>
+<text x="184" y="370.7" class="n">5  Experimental setup</text>
+<text x="586" y="370.7" class="c">Ch. 18</text>
+<rect x="170" y="395.8" width="400" height="75.4" rx="5" fill="#e7eefa" stroke="#3d6cb0" stroke-width="1.5"/>
+<text x="184" y="438.5" class="n">6  Results</text>
+<text x="586" y="438.5" class="c">Ch. 19</text>
+<rect x="170" y="475.20000000000005" width="400" height="52.2" rx="5" fill="#e7eefa" stroke="#3d6cb0" stroke-width="1.5"/>
+<text x="184" y="506.3" class="n">7  Analysis</text>
+<text x="586" y="506.3" class="c">Ch. 20</text>
+<rect x="170" y="531.4000000000001" width="400" height="26" rx="5" fill="#e7eefa" stroke="#3d6cb0" stroke-width="1.5"/>
+<text x="184" y="549.4" class="n">8  Conclusion</text>
+<text x="586" y="549.4" class="c">Ch. 21</text>
+<path d="M160 52 H152 V557.4000000000001 H160" fill="none" stroke="#3d6cb0" stroke-width="2"/>
+<text x="140" y="304.7" class="b" text-anchor="middle" transform="rotate(-90 140 304.7)">Counts toward the page limit: 8 pages (long), 4 (short)</text>
+<line x1="40" y1="575.4" x2="720" y2="575.4" stroke="#b04a3d" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="170" y="593.4" class="l">Page limit ends after the conclusion. Camera-ready versions get one more page.</text>
+<rect x="170" y="611.4" width="400" height="28" rx="5" fill="#fbeaea" stroke="#b04a3d" stroke-width="1.5"/>
+<text x="184" y="630.4" class="n">Limitations<tspan class="m" dx="8">required</tspan></text>
+<text x="586" y="630.4" class="c">Ch. 22</text>
+<rect x="170" y="643.4" width="400" height="28" rx="5" fill="#f1f1f0" stroke="#8a8a86" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="184" y="662.4" class="n">Ethical considerations<tspan class="m" dx="8">optional</tspan></text>
+<text x="586" y="662.4" class="c">Ch. 23</text>
+<rect x="170" y="675.4" width="400" height="28" rx="5" fill="#f1f1f0" stroke="#8a8a86" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="184" y="694.4" class="n">Acknowledgments<tspan class="m" dx="8">camera-ready only</tspan></text>
+<text x="586" y="694.4" class="c">Ch. 24</text>
+<rect x="170" y="707.4" width="400" height="28" rx="5" fill="#f1f1f0" stroke="#8a8a86" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="184" y="726.4" class="n">References<tspan class="m" dx="8">no limit</tspan></text>
+<text x="586" y="726.4" class="c">Ch. 25</text>
+<rect x="170" y="739.4" width="400" height="28" rx="5" fill="#f1f1f0" stroke="#8a8a86" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="184" y="758.4" class="n">Appendix<tspan class="m" dx="8">no limit; reviewers may skip it</tspan></text>
+<text x="586" y="758.4" class="c">Ch. 25</text>
+<path d="M160 611.4 H152 V767.4 H160" fill="none" stroke="#8a8a86" stroke-width="2"/>
+<text x="140" y="689.4" class="b2" text-anchor="middle" transform="rotate(-90 140 689.4)">Does not count</text>
+<text x="40" y="805.4" class="s">Block height shows a rough share of an 8-page long paper. Dashed blocks are optional.</text>
+</svg>

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 25
-title: "25. The rebuttal"
+sidebar_position: 26
+title: "26. The rebuttal"
 ---
 
 You submitted. Weeks passed. The reviews arrived. One misread your central claim, another asked for an experiment you already ran, and the third came from [Reviewer 2](./05-jargon.md). The rebuttal is your one chance to respond before scores are final. Written well, it can move a borderline paper to acceptance. Written in anger, it can confirm a reject.

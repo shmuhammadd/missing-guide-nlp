@@ -1,6 +1,6 @@
 ---
-sidebar_position: 30
-title: "30. A Final Checklist"
+sidebar_position: 31
+title: "31. A Final Checklist"
 ---
 
 Walk through this list before you submit. Some of it overlaps with the official Responsible NLP Checklist; treat that one as canonical.

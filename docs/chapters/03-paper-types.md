@@ -23,8 +23,8 @@ In the terms of the [ARR review form](./05-jargon.md), Findings is roughly the h
 
 Start from what you claim, and let the claim pick the type.
 
-- **The empirical research paper.** A new method, model, or finding, backed by experiments. The default, and the shape most of this guide assumes: Methods ([Chapter 16](./16-methods.md)), Experimental Setup, Results, Analysis.
-- **Resource and data papers.** The dataset, benchmark, or corpus *is* the contribution. Reviewers judge it on different criteria, covered in [Dataset Construction](./15-dataset-construction.md): provenance, annotation, agreement, and leak-free splits. Homes include the main conference, Findings, dedicated data tracks, and venues like LREC.
+- **The empirical research paper.** A new method, model, or finding, backed by experiments. The default, and the shape most of this guide assumes: Methods ([Chapter 17](./17-methods.md)), Experimental Setup, Results, Analysis.
+- **Resource and data papers.** The dataset, benchmark, or corpus *is* the contribution. Reviewers judge it on different criteria, covered in [Dataset Construction](./16-dataset-construction.md): provenance, annotation, agreement, and leak-free splits. Homes include the main conference, Findings, dedicated data tracks, and venues like LREC.
 - **Survey papers.** A map of a subfield: what has been tried, how the pieces relate, where the open problems are. Hard to do well, because it needs command of the area. It must make an *argument about structure*, which a pile of summaries does not. ACL invites surveys; longer treatments often go to the journals *Computational Linguistics* or *TACL*.
 - **Position and theme-track papers.** An argued stance, such as "the field should rethink X", built from evidence and reasoning instead of experiments. Each year ACL runs a **theme track** that invites these on a chosen theme, with a Thematic Paper Award.
 - **Negative-results and reproduction papers.** Reporting what did not work, or whether a published result holds up, is a contribution the calls invite by name. These are often short papers. The [Insights workshop](https://aclanthology.org/venues/insights/) exists for negative results, and reproducibility tracks take the rest.
@@ -72,4 +72,4 @@ Work from contribution to form, never the reverse. [Chapter 4](./04-contribution
 
 - The [ACL Rolling Review call for papers](https://aclrollingreview.org/cfp): the authoritative source for long/short definitions and page limits.
 - A current main-conference call (e.g. [ACL 2025](https://2025.aclweb.org/calls/main_conference_papers/)) for the theme track, Findings, and the full list of welcomed contribution types.
-- [Chapter 1: The NLP Publication Landscape](./01-publication-landscape.md) for the venues these paper types live in, and [Chapter 15: Dataset Construction](./15-dataset-construction.md) if your contribution is a resource.
+- [Chapter 1: The NLP Publication Landscape](./01-publication-landscape.md) for the venues these paper types live in, and [Chapter 16: Dataset Construction](./16-dataset-construction.md) if your contribution is a resource.

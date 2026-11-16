@@ -7,7 +7,7 @@ A first \*ACL paper is almost never solo work. You will have an advisor and usua
 
 ## Who earns a place on the byline
 
-Seniority, funding and friendship do not earn authorship. The widely used standard, from the [ICMJE](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html), sets four conditions, *all* required: a substantial contribution to the work; drafting it or revising it critically; approving the final version; and agreeing to be accountable for it. By that bar, someone who only secured the grant, ran the lab or proofread the English does not qualify. Such people "should not be listed as authors, but they should be acknowledged." A language model is never an author either ([Chapter 23](./23-ai-assistance.md)), because it cannot be accountable for anything.
+Seniority, funding and friendship do not earn authorship. The widely used standard, from the [ICMJE](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html), sets four conditions, *all* required: a substantial contribution to the work; drafting it or revising it critically; approving the final version; and agreeing to be accountable for it. By that bar, someone who only secured the grant, ran the lab or proofread the English does not qualify. Such people "should not be listed as authors, but they should be acknowledged." A language model is never an author either ([Chapter 24](./24-ai-assistance.md)), because it cannot be accountable for anything.
 
 Two failure modes have names ([Chapter 5](./05-jargon.md)). *Gift* (or *guest*) *authorship* adds someone who did not contribute, to flatter them or to look impressive. *Ghost authorship* omits someone who did. Both are misconduct. In NLP the advisor is normally a real author: they shaped the idea and revised the paper, which clears the bar. They are an author *by contribution*, and never by default.
 
@@ -41,13 +41,13 @@ Comments on your draft are about the draft. Keep your ego out of it and the proc
 
 - **Address every comment.** Fix it, or push back with a reason. Never ignore a co-author's note in silence.
 - **Welcome a harsh internal review.** Better a co-author finds the hole now than [Reviewer 2](./05-jargon.md) later. Get the toughest reading you can before submission.
-- **When you are the one giving feedback,** be specific and kind, the standard the [reviewing chapter](./26-reviewing.md) asks of reviewers. These people are your collaborators.
+- **When you are the one giving feedback,** be specific and kind, the standard the [reviewing chapter](./27-reviewing.md) asks of reviewers. These people are your collaborators.
 
 ## Co-writing logistics
 
 - **Keep one source of truth.** Agree on Overleaf, or git plus LaTeX, and stop emailing versions around before someone overwrites someone else's edits.
 - **Divide by expertise, unify by one voice.** Let people draft the sections they know best. Have one author own the final pass, so the paper reads in one voice ([Chapter 8](./08-writing-clearly.md)) instead of five.
-- **Share the bibliography.** One `.bib` file, one reference manager, and every entry verified ([Chapter 24](./24-references-and-appendices.md)).
+- **Share the bibliography.** One `.bib` file, one reference manager, and every entry verified ([Chapter 25](./25-references-and-appendices.md)).
 - **Write down who owns what,** with dates. A shared task list prevents the deadline-week discovery that nobody wrote the related work.
 
 ## When things go wrong

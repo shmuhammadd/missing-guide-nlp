@@ -3,7 +3,7 @@ sidebar_position: 8
 title: "8. Writing clearly"
 ---
 
-We wrote this chapter for every author, and above all for the many \*ACL authors who work in English as a second, third or fourth language. Start with the good news, backed by the field's own rules. Reviewers are told to judge your science over your polish: "as long as the writing is clear enough, better scientific content should be more valuable than better journalistic skills" ([Chapter 26](./26-reviewing.md)). You owe the reader *clarity*. You do not owe them native fluency. Clarity is a craft, and nearly all of it comes down to a handful of habits you can learn. Clear writing explains a hard idea at the least cost to the reader.
+We wrote this chapter for every author, and above all for the many \*ACL authors who work in English as a second, third or fourth language. Start with the good news, backed by the field's own rules. Reviewers are told to judge your science over your polish: "as long as the writing is clear enough, better scientific content should be more valuable than better journalistic skills" ([Chapter 27](./27-reviewing.md)). You owe the reader *clarity*. You do not owe them native fluency. Clarity is a craft, and nearly all of it comes down to a handful of habits you can learn. Clear writing explains a hard idea at the least cost to the reader.
 
 ## Write for the reader's effort, not your own
 
@@ -41,7 +41,7 @@ Academic English hedges on purpose, to match the strength of a claim to the stre
 - **Over-hedging** stacks hedges: "the results may possibly suggest that the method could perhaps help in some cases." Pick one hedge and say it once.
 - **Under-hedging** overclaims: "our method solves named-entity recognition." Scope the claim to what you showed.
 
-Make each claim as strong as your evidence and no stronger. The project's [STYLE.md](https://github.com/shmuhammadd/missing-guide-nlp/blob/main/STYLE.md) bans the hedge-stack. The [Results](./18-results.md) and [Limitations](./21-limitations.md) chapters police the overclaim.
+Make each claim as strong as your evidence and no stronger. The project's [STYLE.md](https://github.com/shmuhammadd/missing-guide-nlp/blob/main/STYLE.md) bans the hedge-stack. The [Results](./19-results.md) and [Limitations](./22-limitations.md) chapters police the overclaim.
 
 ## Prefer strong verbs and the active voice
 
@@ -83,9 +83,9 @@ Sixty-one words became twenty-three, with nothing lost. "Due to the fact that" â
 ## Habits that build the skill
 
 - **Read your draft aloud.** Your ear catches the tangles your eye slides over.
-- **Imitate structure, never words.** Read the papers in [Chapter 29](./29-best-papers.md) and copy how they move from sentence to sentence. Never copy the sentences.
+- **Imitate structure, never words.** Read the papers in [Chapter 30](./30-best-papers.md) and copy how they move from sentence to sentence. Never copy the sentences.
 - **Get one late reading** from a fluent colleague after the science is settled, so the feedback is about prose.
-- **Use tools honestly.** A grammar checker, or a model that polishes *your own* sentences, is the one clearly permitted AI use ([Chapter 23](./23-ai-assistance.md)). Never use one to generate claims or paragraphs you did not write.
+- **Use tools honestly.** A grammar checker, or a model that polishes *your own* sentences, is the one clearly permitted AI use ([Chapter 24](./24-ai-assistance.md)). Never use one to generate claims or paragraphs you did not write.
 - **Revise.** A first draft gets the ideas down. Clarity comes in the second and third pass, so expect to rewrite.
 
 ## Common mistakes

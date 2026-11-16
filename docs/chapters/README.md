@@ -19,24 +19,25 @@ One chapter per file. Read in order if you have time. Jump around if you are on 
 | 7 | [Working With Advisors and Co-authors](./07-collaboration.md) | Authorship, author order, CRediT, advisor relationships, feedback, co-writing logistics |
 | 8 | [Writing Clearly](./08-writing-clearly.md) | Sentence-level craft for non-native authors: tense, articles, hedging, clutter, flow |
 | 9 | [Figures and Tables That Work](./09-figures-and-tables.md) | Vector graphics, accessible color, plots, architecture diagrams, booktabs, and the tools |
-| 10 | [The Title](./10-title.md) | The only part most of the field will read |
-| 11 | [The Abstract](./11-abstract.md) | The five-move abstract; 150–250 words; written last |
-| 12 | [The Introduction](./12-introduction.md) | The classic five-paragraph \*ACL intro; the contributions list |
-| 13 | [Related Work](./13-related-work.md) | Prior work organized into an argument for your paper |
-| 14 | [Background / Preliminaries](./14-background.md) | When you need one, when you don't |
-| 15 | [Dataset Construction](./15-dataset-construction.md) | For resource papers: source, languages, annotation, agreement, statistics |
-| 16 | [Methods](./16-methods.md) | The section new authors most often over-write and under-explain |
-| 17 | [Experimental Setup](./17-experimental-setup.md) | How reviewers decide whether to believe your results |
-| 18 | [Results](./18-results.md) | Say what the numbers mean; do not just list them |
-| 19 | [Analysis and Discussion](./19-analysis.md) | Where you earn the reader's trust |
-| 20 | [Conclusion](./20-conclusion.md) | Short. Five sentences is plenty |
-| 21 | [Limitations (Required)](./21-limitations.md) | The Confessional, the Dismissal, the Reflection |
-| 22 | [Ethical Considerations](./22-ethics.md) | Be specific, not performative |
-| 23 | [Using AI Tools Responsibly](./23-ai-assistance.md) | What the ACL policy allows, what to disclose, and the hallucinated-citation trap |
-| 24 | [References & Appendices](./24-references-and-appendices.md) | Including the recent hallucinated-citations problem |
-| 25 | [The Rebuttal](./25-rebuttal.md) | Responding to reviews: triage, structure, tone, and a worked example |
-| 26 | [How to Review Well](./26-reviewing.md) | The other chair: duties, scores, invalid reasons to reject, and a worked example |
-| 27 | [After Rejection](./27-after-rejection.md) | Reading reviews, revise vs. redirect vs. rethink, and how ARR resubmission works |
-| 28 | [After Acceptance](./28-after-acceptance.md) | Camera-ready, honoring rebuttal promises, the poster and the talk, getting read |
-| 29 | [Best Papers Worth Reading](./29-best-papers.md) | A reading list with purpose |
-| 30 | [A Final Checklist](./30-checklist.md) | Print this. Tape it above your desk |
+| 10 | [The Structure of an \*ACL Paper](./10-paper-structure.md) | The standard section order, the page budget, what counts toward it, and how the outline changes by paper type |
+| 11 | [The Title](./11-title.md) | The only part most of the field will read |
+| 12 | [The Abstract](./12-abstract.md) | The five-move abstract; 150–250 words; written last |
+| 13 | [The Introduction](./13-introduction.md) | The classic five-paragraph \*ACL intro; the contributions list |
+| 14 | [Related Work](./14-related-work.md) | Prior work organized into an argument for your paper |
+| 15 | [Background / Preliminaries](./15-background.md) | When you need one, when you don't |
+| 16 | [Dataset Construction](./16-dataset-construction.md) | For resource papers: source, languages, annotation, agreement, statistics |
+| 17 | [Methods](./17-methods.md) | The section new authors most often over-write and under-explain |
+| 18 | [Experimental Setup](./18-experimental-setup.md) | How reviewers decide whether to believe your results |
+| 19 | [Results](./19-results.md) | Say what the numbers mean; do not just list them |
+| 20 | [Analysis and Discussion](./20-analysis.md) | Where you earn the reader's trust |
+| 21 | [Conclusion](./21-conclusion.md) | Short. Five sentences is plenty |
+| 22 | [Limitations (Required)](./22-limitations.md) | The Confessional, the Dismissal, the Reflection |
+| 23 | [Ethical Considerations](./23-ethics.md) | Be specific, not performative |
+| 24 | [Using AI Tools Responsibly](./24-ai-assistance.md) | What the ACL policy allows, what to disclose, and the hallucinated-citation trap |
+| 25 | [References & Appendices](./25-references-and-appendices.md) | Including the recent hallucinated-citations problem |
+| 26 | [The Rebuttal](./26-rebuttal.md) | Responding to reviews: triage, structure, tone, and a worked example |
+| 27 | [How to Review Well](./27-reviewing.md) | The other chair: duties, scores, invalid reasons to reject, and a worked example |
+| 28 | [After Rejection](./28-after-rejection.md) | Reading reviews, revise vs. redirect vs. rethink, and how ARR resubmission works |
+| 29 | [After Acceptance](./29-after-acceptance.md) | Camera-ready, honoring rebuttal promises, the poster and the talk, getting read |
+| 30 | [Best Papers Worth Reading](./30-best-papers.md) | A reading list with purpose |
+| 31 | [A Final Checklist](./31-checklist.md) | Print this. Tape it above your desk |

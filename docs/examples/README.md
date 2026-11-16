@@ -12,7 +12,7 @@ This directory holds the database of paper examples cited across the guide.
 | File | Purpose |
 |---|---|
 | [`examples.yaml`](https://github.com/shmuhammadd/missing-guide-nlp/blob/main/docs/examples/examples.yaml) | Structured database: one entry per cited paper, indexed by chapter. The single source of truth. |
-| [`papers-to-read.bib`](https://github.com/shmuhammadd/missing-guide-nlp/blob/main/docs/examples/papers-to-read.bib) | BibTeX file of every paper cited in [Chapter 29](../chapters/29-best-papers.md). Drop into Overleaf. |
+| [`papers-to-read.bib`](https://github.com/shmuhammadd/missing-guide-nlp/blob/main/docs/examples/papers-to-read.bib) | BibTeX file of every paper cited in [Chapter 30](../chapters/30-best-papers.md). Drop into Overleaf. |
 
 ## Why YAML?
 
@@ -28,7 +28,7 @@ Read [CONTRIBUTING.md](https://github.com/shmuhammadd/missing-guide-nlp/blob/mai
 
 1. Add the entry to `examples.yaml` in the correct chapter section, alphabetized within the chapter.
 2. Verify the anthology_url resolves.
-3. Add the BibTeX to `papers-to-read.bib` if the paper belongs in Chapter 29.
+3. Add the BibTeX to `papers-to-read.bib` if the paper belongs in Chapter 30.
 4. Reference the example in the relevant chapter markdown file. The cap is five examples per section. If you add one, propose which one to swap out.
 
 ## Schema

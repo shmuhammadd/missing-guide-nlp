@@ -1,11 +1,11 @@
 ---
-sidebar_position: 18
-title: "18. Results"
+sidebar_position: 19
+title: "19. Results"
 ---
 
 A results section should not read as "here are our numbers". It should read as "here is what our numbers mean."
 
-**Results, not analysis.** This section reports *what happened*: the scores, the comparison, what to see in each table. It stops before *why*. The why belongs in [Analysis](./19-analysis.md). When the two blur, the results section clogs with speculation and the analysis section has nothing left to do. Keep results to observation ("X beats Y by 3.2 points, and the gap widens on long inputs"). Save the mechanism ("because Y's attention degrades past 512 tokens") for the next chapter.
+**Results, not analysis.** This section reports *what happened*: the scores, the comparison, what to see in each table. It stops before *why*. The why belongs in [Analysis](./20-analysis.md). When the two blur, the results section clogs with speculation and the analysis section has nothing left to do. Keep results to observation ("X beats Y by 3.2 points, and the gap widens on long inputs"). Save the mechanism ("because Y's attention degrades past 512 tokens") for the next chapter.
 
 ## The shape of a good results section
 
@@ -26,7 +26,7 @@ Reviewers read your results table and figures before the prose, so they carry th
 
 ## Phrasebook: the moves of a results section
 
-A results section is built from a few recurring moves: state the headline, point the reader at the table, report a comparison precisely, surface a non-result, scope the claim. As in the [Methods](./16-methods.md) and [Experimental Setup](./17-experimental-setup.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots. Fill every bracket with a real number, and never report a comparison you did not run. A few are real, verified sentences from well-known papers and carry a citation. Two entries sit in the open under each move; expand **Show more** for the rest. One rule holds across all of them. A result is a number, a named baseline, and, where it matters, a test. It is never "outperforms the baselines."
+A results section is built from a few recurring moves: state the headline, point the reader at the table, report a comparison precisely, surface a non-result, scope the claim. As in the [Methods](./17-methods.md) and [Experimental Setup](./18-experimental-setup.md) phrasebooks, most entries below are **adaptable templates** with `[bracketed]` slots. Fill every bracket with a real number, and never report a comparison you did not run. A few are real, verified sentences from well-known papers and carry a citation. Two entries sit in the open under each move; expand **Show more** for the rest. One rule holds across all of them. A result is a number, a named baseline, and, where it matters, a test. It is never "outperforms the baselines."
 
 ### Stating the headline result (from real papers and templates)
 
@@ -84,7 +84,7 @@ Give a number, a named baseline, and a test. Without them, a comparison is a vib
 Report a clean negative as a finding. If you bury a loss, a reviewer will dig it up.
 
 - *"We find no significant difference between [X] and [Y] ([numbers], p = [value]); this is itself informative, because [why]."* Reports a null result as a finding, with the reason it matters.
-- *"[Our method] underperforms on [dataset] ([number] vs. [baseline]); we surface it here and examine the cause in [Analysis](./19-analysis.md)."* Puts the loss in the main table and hands the why to analysis.
+- *"[Our method] underperforms on [dataset] ([number] vs. [baseline]); we surface it here and examine the cause in [Analysis](./20-analysis.md)."* Puts the loss in the main table and hands the why to analysis.
 
 <details>
 <summary>**Show 4 more**</summary>
@@ -130,4 +130,4 @@ Name the boundary of each result before a reviewer does. Never let a two-setting
 
 - Edward Tufte, *The Visual Display of Quantitative Information*. Old, still right.
 - ColorBrewer ([colorbrewer2.org](https://colorbrewer2.org)) for figure palettes.
-- The neighbouring chapters, [Chapter 17: Experimental Setup](./17-experimental-setup.md) and [Chapter 19: Analysis](./19-analysis.md), bracket this section. The setup makes a number interpretable; the analysis explains it.
+- The neighbouring chapters, [Chapter 18: Experimental Setup](./18-experimental-setup.md) and [Chapter 20: Analysis](./20-analysis.md), bracket this section. The setup makes a number interpretable; the analysis explains it.

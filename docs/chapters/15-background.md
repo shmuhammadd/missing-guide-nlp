@@ -1,6 +1,6 @@
 ---
-sidebar_position: 14
-title: "14. Background / Preliminaries"
+sidebar_position: 15
+title: "15. Background / Preliminaries"
 ---
 
 Many papers need no separate background section. Write one when:
@@ -13,7 +13,7 @@ If everyone at ACL already knows your topic (e.g., autoregressive language model
 
 ## Background is not related work
 
-New authors blur these two sections. Their placement next to each other, as §2 and §3, does not help. Related work is an *argument*: it sets your paper against competitors and names the gap you fill (see [Chapter 13](./13-related-work.md)). Background is *scaffolding*. It sets up the notation and formalism your Methods section depends on, and it cites where a technique came from instead of its rivals.
+New authors blur these two sections. Their placement next to each other, as §2 and §3, does not help. Related work is an *argument*: it sets your paper against competitors and names the gap you fill (see [Chapter 14](./14-related-work.md)). Background is *scaffolding*. It sets up the notation and formalism your Methods section depends on, and it cites where a technique came from instead of its rivals.
 
 One test separates them. Delete a related-work paragraph and the method still stands. Delete a background paragraph and the notation in §Methods no longer parses.
 

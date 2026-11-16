@@ -27,6 +27,7 @@ const sidebars = {
         'chapters/collaboration',
         'chapters/writing-clearly',
         'chapters/figures-and-tables',
+        'chapters/paper-structure',
         'chapters/title',
         'chapters/abstract',
         'chapters/introduction',

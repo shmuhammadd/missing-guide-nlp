@@ -1,11 +1,11 @@
 ---
-sidebar_position: 20
-title: "20. Conclusion"
+sidebar_position: 21
+title: "21. Conclusion"
 ---
 
 Keep the conclusion short. Many great \*ACL papers conclude in three to five sentences.
 
-**How it differs from the abstract and the introduction.** All three compress the paper, and reviewers spot text copied between them at once. The abstract sells the work to someone deciding whether to read it. The introduction promises what the paper will show. The conclusion tells a reader who has finished what the paper showed and what follows. Tense gives it away: the introduction looks forward ("we propose"), the conclusion looks back ("we showed"). Real caveats go in [Limitations](./21-limitations.md).
+**How it differs from the abstract and the introduction.** All three compress the paper, and reviewers spot text copied between them at once. The abstract sells the work to someone deciding whether to read it. The introduction promises what the paper will show. The conclusion tells a reader who has finished what the paper showed and what follows. Tense gives it away: the introduction looks forward ("we propose"), the conclusion looks back ("we showed"). Real caveats go in [Limitations](./22-limitations.md).
 
 ## What goes in
 
@@ -90,4 +90,4 @@ End on what the work means, then add at most one sentence on where it points. Wi
 ## Further reading
 
 - Vered Shwartz's [tips post](https://medium.com/@vered1986/tips-for-writing-nlp-papers-9c729a2f9e1f) again. Her advice on conclusions is sharp.
-- The companion phrasebooks in [Chapter 11 (The Abstract)](./11-abstract.md) and [Chapter 12 (The Introduction)](./12-introduction.md). Those two introduce the contribution. The conclusion restates it in the past tense, to a reader who has finished.
+- The companion phrasebooks in [Chapter 12 (The Abstract)](./12-abstract.md) and [Chapter 13 (The Introduction)](./13-introduction.md). Those two introduce the contribution. The conclusion restates it in the past tense, to a reader who has finished.

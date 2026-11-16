@@ -1,11 +1,11 @@
 ---
-sidebar_position: 13
-title: "13. Related Work"
+sidebar_position: 14
+title: "14. Related Work"
 ---
 
 New authors damage their papers in the related work section more often than anywhere else. The section is an *argument*: this is the conversation our paper joins, and here is what we add to it. A literature review, or a bibliography with sentences attached, does not do that job.
 
-Related work also differs from the background section ([Chapter 14](./14-background.md)). Background sets up the notation and formalism your method needs. Related work argues your place among competitors. Some papers merge the two under a `Background and Related Work` heading. Keep the two moves distinct even when they share a heading.
+Related work also differs from the background section ([Chapter 15](./15-background.md)). Background sets up the notation and formalism your method needs. Related work argues your place among competitors. Some papers merge the two under a `Background and Related Work` heading. Keep the two moves distinct even when they share a heading.
 
 ## Two structures that work
 
@@ -29,7 +29,7 @@ There are three valid placements:
 
 A related work section uses a small set of recurring rhetorical moves. Each subsection below names one move and gives a bank of phrasings.
 
-**Two kinds of entry.** Two moves, *positioning by contrast* and *crediting and situating*, appear almost verbatim in the abstracts and introductions of well-known papers. Those subsections give **real, quoted sentences with citations**, as the abstract and introduction phrasebooks do ([Chapter 11](./11-abstract.md), [Chapter 12](./12-introduction.md)). The other moves (*thread openers*, *naming the closest work*, *concurrent work*, *polite disagreement*, *grouping a literature*) are formulaic connecting sentences in the body of a paper. They vary too much to quote usefully. Those subsections give **adaptable templates**: phrasings with `[bracketed]` slots for you to fill. **The templates are not quotes and are not attributed to any paper.** Adapt them, then make them your own.
+**Two kinds of entry.** Two moves, *positioning by contrast* and *crediting and situating*, appear almost verbatim in the abstracts and introductions of well-known papers. Those subsections give **real, quoted sentences with citations**, as the abstract and introduction phrasebooks do ([Chapter 12](./12-abstract.md), [Chapter 13](./13-introduction.md)). The other moves (*thread openers*, *naming the closest work*, *concurrent work*, *polite disagreement*, *grouping a literature*) are formulaic connecting sentences in the body of a paper. They vary too much to quote usefully. Those subsections give **adaptable templates**: phrasings with `[bracketed]` slots for you to fill. **The templates are not quotes and are not attributed to any paper.** Adapt them, then make them your own.
 
 **Learn the patterns; do not fill them in mechanically.** A section stitched together from templates without thought reads as templated. Name the move, then write the sentence your paper needs. Each move shows two entries in the open; expand **Show more** for the rest.
 
@@ -209,4 +209,4 @@ Sometimes you must cite ten papers at once. Give the group a shared description 
 
 - ACL author guidelines on citation practice: [https://aclrollingreview.org/cfp](https://aclrollingreview.org/cfp).
 - The ACL Anthology FAQ on citation keys: [https://aclanthology.org/faq/](https://aclanthology.org/faq/).
-- The companion phrasebooks in [Chapter 11: The Abstract](./11-abstract.md) and [Chapter 12: The Introduction](./12-introduction.md). Your abstract and introduction compress the positioning sentence you draft here.
+- The companion phrasebooks in [Chapter 12: The Abstract](./12-abstract.md) and [Chapter 13: The Introduction](./13-introduction.md). Your abstract and introduction compress the positioning sentence you draft here.

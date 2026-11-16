@@ -1,6 +1,6 @@
 ---
-sidebar_position: 28
-title: "28. After acceptance"
+sidebar_position: 29
+title: "29. After acceptance"
 ---
 
 The email says *Accept*, or *Accept to Findings*, which is also a win ([Chapter 3](./03-paper-types.md)). Congratulations. The work is not done. Acceptance starts a short, deadline-driven last mile. You owe a camera-ready version with its own rules, a talk or poster, and some effort to get people to read what you wrote. This chapter covers that last mile. It is mostly logistics, but you can get logistics wrong, and the camera-ready deadline is as fixed as the submission one.
@@ -9,7 +9,7 @@ The email says *Accept*, or *Accept to Findings*, which is also a win ([Chapter 
 
 The final version is more than the submission with the author names pasted on. Several things change, and a few are easy to forget.
 
-- **The extra page.** Accepted papers get one more content page: "up to nine (9) pages of content" for a long paper (five for a short), plus unlimited acknowledgments and references ([ACLPUB](https://acl-org.github.io/ACLPUB/final-version.html)). The page is for the changes reviewers asked for. Do not pad it. Use it to honor what you promised in [the rebuttal](./25-rebuttal.md).
+- **The extra page.** Accepted papers get one more content page: "up to nine (9) pages of content" for a long paper (five for a short), plus unlimited acknowledgments and references ([ACLPUB](https://acl-org.github.io/ACLPUB/final-version.html)). The page is for the changes reviewers asked for. Do not pad it. Use it to honor what you promised in [the rebuttal](./26-rebuttal.md).
 - **De-anonymize.** Add the author names and affiliations under the title. Use full names: "do not abbreviate given names to initials." Turn every anonymized self-citation back into a normal one ("as we showed in Okeke 2024," not "(Anonymous, 2024)"). Restore the code and data links you withheld for review.
 - **Add the acknowledgments.** A new, *unnumbered* Acknowledgments section goes "immediately before the references". It does not count toward the page limit and was absent from the review version. Thank your funders with grant numbers, your compute providers, and the people who helped. Do not try to thank reviewers by guessing who they were.
 - **Sign the license.** You sign the ACL copyright/license agreement on behalf of all authors through the conference system. Authors retain most rights; it is routine.
@@ -28,7 +28,7 @@ Most accepted papers present as **posters**; a smaller set get **oral** or spotl
 \*ACL talks are short. ACL 2025 gave each presentation eight minutes plus three for questions ([ACL 2025 FAQ](https://2025.aclweb.org/faq/)). You cannot present the whole paper in eight minutes, so do not try. Tell the story:
 
 - **One arc.** The problem, why it matters, your one idea, the single result that supports it, and the takeaway. Cut everything else.
-- **Slides that read from the back row.** Big fonts, one point per slide, few words, colorblind-safe figures ([Chapter 18](./18-results.md) on figure craft applies here too). Describe each figure aloud for anyone who cannot see it well.
+- **Slides that read from the back row.** Big fonts, one point per slide, few words, colorblind-safe figures ([Chapter 19](./19-results.md) on figure craft applies here too). Describe each figure aloud for anyone who cannot see it well.
 - **Practice and time it.** Run it out loud until it fits with room to spare. Anticipate the obvious questions. "I don't know, good question" is a respectable answer.
 
 ## Making a poster that works
@@ -49,7 +49,7 @@ Get the paper read without overselling it:
 
 - **Put it where people look.** Post it to arXiv if you have not, and let the [ACL Anthology](https://aclanthology.org) page be the canonical link.
 - **Say it plainly.** A short, honest thread or post does more than hype: the problem, what you found, one figure, a link. The "we beat SOTA" reflex from the [jargon chapter](./05-jargon.md) reads as thin; let the result speak.
-- **Release what you promised,** and make it easy to use: a documented repository, a model card, a dataset card. Reusable artifacts are cited far more than unreusable ones ([Chapter 24](./24-references-and-appendices.md)).
+- **Release what you promised,** and make it easy to use: a documented repository, a model card, a dataset card. Reusable artifacts are cited far more than unreusable ones ([Chapter 25](./25-references-and-appendices.md)).
 - **Keep your record current.** Update your website and your Semantic Scholar / Google Scholar profile so the paper is findable under your name.
 
 ## Common mistakes
@@ -64,4 +64,4 @@ Get the paper read without overselling it:
 
 - The [ACLPUB final-version instructions](https://acl-org.github.io/ACLPUB/final-version.html) and the [\*ACL camera-ready FAQ](https://acl-org.github.io/pubdocs/camera-ready-faq.html): the authoritative checklist for the final version.
 - Your conference's own presenter and author guidelines (e.g. the [ACL 2025 FAQ](https://2025.aclweb.org/faq/)) for talk lengths, poster sizes, and upload deadlines, which change every year.
-- [The rebuttal](./25-rebuttal.md), for the promises the camera-ready must now keep.
+- [The rebuttal](./26-rebuttal.md), for the promises the camera-ready must now keep.
