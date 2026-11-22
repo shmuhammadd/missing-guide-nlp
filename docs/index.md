@@ -50,12 +50,14 @@ Pick the track that matches your situation.
 |---|---|
 | **Speed run** (deadline in 2 weeks, paper mostly drafted) | [12 Abstract](./chapters/12-abstract.md), [13 Introduction](./chapters/13-introduction.md), [19 Results](./chapters/19-results.md), [22 Limitations](./chapters/22-limitations.md), [31 Checklist](./chapters/31-checklist.md) |
 | **First paper** (you have 6–8 weeks) | All chapters, in order |
+| **Not in grad school yet** (applying to an NLP PhD or master's) | [0 Preparing for Graduate School](./chapters/00-grad-school.md), then [6 Framing](./chapters/06-framing.md) and [8 Writing Clearly](./chapters/08-writing-clearly.md) for your statement |
 | **First-timer to NLP** (deciding where to submit) | [1 Publication Landscape](./chapters/01-publication-landscape.md), [2 Understanding the Field](./chapters/02-understanding-the-field.md), [4 Contribution](./chapters/04-contribution.md), [6 Framing](./chapters/06-framing.md), [30 Best Papers](./chapters/30-best-papers.md) |
 | **Studying the craft** (no deadline, want to get better) | [2 Understanding the Field](./chapters/02-understanding-the-field.md), [4 Contribution](./chapters/04-contribution.md), [6 Framing](./chapters/06-framing.md), [30 Best Papers](./chapters/30-best-papers.md), then any chapter that scratches an itch |
 | **Reviewing**, not writing | [27 How to Review Well](./chapters/27-reviewing.md), [20 Analysis](./chapters/20-analysis.md), [22 Limitations](./chapters/22-limitations.md), [30 Best Papers](./chapters/30-best-papers.md) |
 
 ## Chapters
 
+0. [Preparing for Graduate School](./chapters/00-grad-school.md)
 1. [The NLP Publication Landscape](./chapters/01-publication-landscape.md)
 2. [Understanding the Field](./chapters/02-understanding-the-field.md)
 3. [What Kind of Paper Are You Writing?](./chapters/03-paper-types.md)

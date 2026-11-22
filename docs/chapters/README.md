@@ -10,6 +10,7 @@ One chapter per file. Read in order if you have time. Jump around if you are on 
 
 | # | Chapter | What it covers |
 |---|---|---|
+| 0 | [Preparing for Graduate School](./00-grad-school.md) | Before the first paper: what committees look for, statements, letters, choosing advisors, funding |
 | 1 | [The NLP Publication Landscape](./01-publication-landscape.md) | Where you'll submit: conferences, journals, workshops, ARR, shared tasks |
 | 2 | [Understanding the Field](./02-understanding-the-field.md) | Read widely first: the people, venues, methods and open problems; the four kinds of review paper and how to write each |
 | 3 | [What Kind of Paper Are You Writing?](./03-paper-types.md) | Long, short, Findings, resource, survey, position, demo, industry, shared task |

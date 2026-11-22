@@ -18,6 +18,7 @@ const sidebars = {
       collapsed: false,
       link: { type: 'doc', id: 'chapters/README' },
       items: [
+        'chapters/grad-school',
         'chapters/publication-landscape',
         'chapters/understanding-the-field',
         'chapters/paper-types',
