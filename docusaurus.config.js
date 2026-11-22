@@ -67,6 +67,12 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+      announcementBar: {
+        id: 'work-in-progress',
+        content:
+          'This guide is a work in progress and still contains errors. Found one? <a target="_blank" rel="noopener noreferrer" href="https://github.com/shmuhammadd/missing-guide-nlp/issues">Open an issue</a>.',
+        isCloseable: false,
+      },
       navbar: {
         title: 'The Missing NLP Paper Guide',
         logo: {
